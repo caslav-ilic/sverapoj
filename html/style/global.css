@@ -1,0 +1,484 @@
+/* ============= */
+/* Apricot style */
+/* ============= */
+
+@charset "UTF-8";
+
+body {
+    background-color: ivory;
+}
+
+a {
+    text-decoration: none;
+    color: maroon;
+}
+a.ext { /* external link */
+}
+a.email { /* email link */
+}
+
+p {
+    font-family: serif;
+}
+
+/* -------- */
+/* Concepts */
+/* -------- */
+
+/* concept body */
+.concept {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+
+    border-color: burlywood;
+    border-width: thin;
+    border-bottom-style: solid;
+}
+
+/* alphabetic concept separator */
+.concept-div {
+    background-color: papayawhip;
+
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+
+    border-color: burlywood;
+    border-width: thin;
+    border-bottom-style: solid;
+}
+
+/* starting letters for new concepts group */
+.concept-div-alpha {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/* environment name */
+.env {
+}
+
+/* meta-environment name */
+.env-meta {
+}
+
+/* line with terms */
+.terms {
+}
+
+/* term in pivotal language/environment */
+.term {
+    font-family: sans-serif;
+}
+
+/* title term of the concept */
+.term-tt {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/* term in another language */
+.term-ol {
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+/* term in another environment */
+.term-oe {
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+/* topic name */
+.topic {
+}
+
+/* grammar category name */
+.gr {
+    font-style: italic;
+}
+
+/* declension of a term */
+.decl {
+    font-family: sans-serif;
+}
+
+/* description enumerator */
+.desc-no {
+    font-family: sans-serif;
+    font-size: 75%;
+    vertical-align: top;
+}
+
+/* description body */
+.desc {
+    margin-left: 1.0em;
+    margin-bottom: 1.0em;
+}
+
+/* a paragraph in description */
+.desc-para {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+/* linked concept reference in descriptions, comments, etc. */
+.cref {
+}
+
+/* foreign language text in descriptions, comments, etc. */
+.frlng {
+}
+
+/* line with secondary terms */
+.terms-sec {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding-left: 1.0em;
+    text-indent: -1.0em;
+}
+
+/* header to group of comments */
+.comments-header {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+/* body of group of comments */
+.comments {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+/* comment body */
+.comment {
+    background-color: cornsilk;
+
+    margin-left: 1.0em;
+    margin-right: 1.0em;
+
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+/* label to a comment (above first paragraph) */
+.comment-label {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.comment-label:before {
+    content: "•";
+    margin-right: 0.25em;
+}
+
+/* term in comment label */
+.comment-term {
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+/* a paragraph in comment */
+.comment-para {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 1.0em;
+}
+
+/* line with links to details about the concept */
+.details {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding-left: 1.0em;
+    text-indent: -1.0em;
+}
+
+/* item in details line */
+.detail {
+}
+
+/* line with links to related concepts */
+.related {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding-left: 1.0em;
+    text-indent: -1.0em;
+}
+
+/* line with concept keys */
+.ckeys {
+    margin-bottom: 0.5em;
+}
+
+/* unique concept identifier */
+.ckey {
+    font-family: sans-serif;
+    font-variant: small-caps;
+}
+
+/* unique concept identifier in title role */
+.ckey-tt {
+    font-family: sans-serif;
+    font-variant: small-caps;
+    font-weight: bold
+}
+
+/* table with terms by environments */
+.terms-table {
+    border-collapse: collapse;
+}
+.terms-row {
+}
+.terms-cell-envs {
+    padding: 0.1em;
+    padding-bottom: 0.25em;
+    padding-right: 0.25em;
+    text-align: right;
+    width: 1em; /* to fit tight around contents */
+}
+.terms-cell-terms {
+    padding: 0.1em;
+    padding-bottom: 0.25em;
+    padding-left: 0.25em;
+}
+
+/* -------- */
+/* Top page */
+/* -------- */
+
+/* header body for top page */
+.tpage-header {
+    background-color: papayawhip;
+
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    margin-bottom: 1.0em;
+
+    border-color: burlywood;
+    border-bottom-style: solid;
+
+    font-family: sans-serif;
+}
+
+/* page title in top header */
+.tpage-title {
+    margin-top: 0.0em;
+    margin-bottom: 0.25em;
+
+    font-size: 120%;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* body of the top page */
+.tpage-body {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+/* header to contents on the top page */
+.tpage-content-header {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+/* line with a contents item on the top page */
+.tpage-content {
+    padding-left: 0.25em;
+}
+.tpage-content:before {
+    content: "•";
+    margin-right: 0.25em;
+}
+
+/* -------- */
+/* Subpages */
+/* -------- */
+
+/* header body for pages */
+.page-header {
+    background-color: papayawhip;
+
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    margin-bottom: 1.0em;
+
+    border-color: burlywood;
+    border-bottom-style: solid;
+
+    font-family: sans-serif;
+}
+
+/* title line in page header */
+.page-title {
+    margin-top: 0.0em;
+    margin-bottom: 0.25em;
+
+    font-size: 120%;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* subtitle line in page header */
+.page-subtitle {
+    margin-top: 0.0em;
+    margin-bottom: 0.0em;
+    padding-left: 0.25em;
+
+    font-size: 100%;
+    font-weight: normal;
+    font-style: normal;
+}
+.page-subtitle:before {
+    content: "•";
+    margin-right: 0.25em;
+}
+
+/* navigation line in page header */
+.page-navs {
+    font-family: sans-serif;
+    float: right;
+    text-align: right;
+}
+
+/* link to another page in page header */
+.page-nav {
+    margin-left: 0.5em;
+    vertical-align: inherit;
+}
+
+/* glossary name in page header */
+.page-gloss {
+    font-weight: bold;
+}
+
+/* environment name in page header */
+.page-env {
+}
+
+/* link to another alphabetical page in page header */
+.page-to-alpha {
+}
+.page-to-alpha-key { /* when by concept key */
+    font-variant: small-caps;
+}
+
+/* current page alphabetical mark in page header */
+.page-this-alpha {
+    font-weight: bold;
+}
+.page-this-alpha-key { /* when by concept key */
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+/* -------------- */
+/* Index of terms */
+/* -------------- */
+
+/* body of terms in given language in terms index */
+.index-lang-sect {
+    margin-bottom: 1.0em;
+}
+
+/* header to list of terms in given language in terms index */
+.index-lang-header {
+    background-color: papayawhip;
+
+    border-color: burlywood;
+    border-width: thin;
+    border-bottom-style: solid;
+
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/* alphabetical divide line in terms index */
+.index-alpha-div {
+    border-color: burlywood;
+    border-width: thin;
+    border-bottom-style: solid;
+
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-bottom: 0.5em;
+
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/* body of terms belonging to current alpabetical divide in terms index */
+.index-alpha-sect {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+/* table with terms in terms section in terms index */
+.index-term-table {
+    border-collapse: collapse;
+}
+.index-term-row {
+}
+.index-term-cell {
+    padding: 0.0em;
+}
+
+/* linked term in terms index */
+.index-term {
+}
+.index-term-refnum { /* when linked by number */
+    font-weight: bold;
+}
+
+/* ----------- */
+/* About-pages */
+/* ----------- */
+
+/* body of an entry */
+.about-entry {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+
+    border-color: burlywood;
+    border-width: thin;
+    border-bottom-style: solid;
+}
+
+/* header line for an entry */
+.about-header {
+}
+
+/* entry name in the header */
+.about-entry-name {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.about-entry-name-meta { /* for meta-entries, e.g. meta-environments */
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.about-entry-shname { /* short version of the name */
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+/* a paragraph in description of an entry */
+.about-desc-para {
+    margin-left: 1.0em;
+}
+
+/* affiliation line in editor's entry */
+.about-affiliation {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding-left: 1.0em;
+    text-indent: -1.0em;
+}
+
