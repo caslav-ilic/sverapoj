@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concepts>
+
+<concept id="gnu" topic="acrons">
+    <desc>Дефинишући пројекат <ref c="zzz">слободног софтвера</ref>, којег је 1983. започео <ref c="zzz">Ричард Столман</ref> с циљем развоја комплетног слободног <ref c="zzz">оперативног система</ref>. До данашњих дана, под његовом капом израђено је и одржава се мноштво системског и корисничког <ref c="software">софтвера</ref>, који чини кичму оперативног система <ref c="zzz">Гну-Линукс</ref>, али се користи и на многим другим системима.</desc>
+    <!-- @упути: richardstallman gnugpl freesoftware gnulinux operatingsystem -->
+
+    <term lang="en" gr="i">GNU</term>
+    <term env="gnm fed uk" gr="i">ГНУ</term>
+    <term env="fed" gr="i">GNU</term>
+    <term env="kde" gr="i">Гну</term>
+
+    <details root="wpsr" rel="ГНУ"/>
+</concept>
+
+<concept id="gnu_p" topic="acrons"
+         related="gnu">
+    <desc>Оно што потиче из пројекта <ref c="gnu">Гну</ref> или чини његов део.</desc>
+
+    <term lang="en" gr="p">GNU</term>
+    <term env="gnm fed uk" gr="p">ГНУ</term>
+    <term env="fed" gr="p">GNU</term>
+    <term env="kde" gr="pp">Гнуово</term>
+</concept>
+
+</concepts>

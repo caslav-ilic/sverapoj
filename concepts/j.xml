@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concepts>
+
+<concept id="java" topic="prog">
+    <!-- @види: csharp -->
+    <desc><ref c="zzz">Програмски језик</ref> и пратећа развојна платформа коју је 1996. представио и до данас одржава <ref c="zzz">Сан Мајкросистемс</ref>. Намењен развоју <ref c="zzz">платформски независних</ref> <ref c="application">програма</ref> по принципима <ref c="zzz">објектно оријентисаног</ref> <ref c="zzz">програмирања</ref>, уз уграђену подршку за <ref c="zzz">мрежна</ref> окружења и аутоматско <ref c="zzz">управљање меморијом</ref>. Спада у тип <ref c="zzz">полукомпилованих</ref> језика, захтевајући <ref c="zzz">виртуелну машину</ref> за извршавање на одредишном рачунару. Врло популаран у пословним и образовним круговима. Нема никакве везе са <ref c="zzz">јаваскриптом</ref>.</desc>
+    <!-- @упути: programminglanguage sunmicrosystems platformindependent objectoriented programming memorymanagement network halfcompiled virtualmachine javascript -->
+
+    <term lang="en" gr="i">Java</term>
+    <term env="fed ooo" gr="i">Java</term>
+    <term env="gnm moz ooo" gr="i">Јава</term>
+    <term env="kde ooo uk" gr="i">јава</term>
+
+    <details root="wpsr" rel="Јава_(програмски_језик)"/>
+</concept>
+
+<concept id="java_p" topic="prog" related="java">
+    <desc>Оно што је написано на програмском језику <ref c="java">јава</ref>, или подржава извршавање или развој <ref c="zzz">софтвера</ref> писаног ~јавом~.</desc>
+
+    <term lang="en" gr="p">Java</term>
+    <term env="fed" gr="p">Java</term>
+    <term env="gnm moz ooo" gr="p">Јава</term>
+    <term env="ooo" gr="pp">Јавино</term>
+    <term env="ooo uk" gr="p">јава</term>
+    <term env="kde" gr="p">јаванско</term>
+</concept>
+
+</concepts>

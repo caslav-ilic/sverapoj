@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concepts>
+
+<concept id="icon">
+    <desc>У <ref c="zzz">корисничком сучељу</ref>, графичка представа одређене радње коју <ref c="application">програм</ref> може извршити, а корисник покреће <ref c="zzz">кликом</ref> <ref c="zzz">миша</ref> на њу. Обично у виду слике омање величине, понекад праћене текстуалним описом испод или са стране.</desc>
+    <!-- @упути: userinterface click mouse -->
+
+    <term lang="en" gr="i">icon</term>
+    <term env="fed gnm kde ooo uk" gr="i">икона</term>
+    <term env="moz" gr="i">сличица</term>
+    <term env="gnm ooo" gr="i">иконица</term>
+
+    <details root="wpen" rel="Icon_(computing)"/>
+</concept>
+
+</concepts>

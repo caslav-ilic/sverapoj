@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar>
+
+<gramm id="i">
+    <name>именица</name>
+    <shortname>и.</shortname>
+</gramm>
+
+<gramm id="is">
+    <name>именичка синтагма</name>
+    <shortname>и.с.</shortname>
+</gramm>
+
+<gramm id="g">
+    <name>глагол</name>
+    <shortname>г.</shortname>
+</gramm>
+
+<gramm id="gt">
+    <name>глагол, трајни вид</name>
+    <shortname>гт.</shortname>
+</gramm>
+
+<gramm id="gs">
+    <name>глагол, свршени вид</name>
+    <shortname>гс.</shortname>
+</gramm>
+
+<gramm id="p">
+    <name>придев</name>
+    <shortname>п.</shortname>
+</gramm>
+
+<gramm id="pp">
+    <name>придев, присвојни</name>
+    <shortname>пп.</shortname>
+</gramm>
+
+<gramm id="pre">
+    <name>предлог</name>
+    <shortname>пре.</shortname>
+</gramm>
+
+<gramm id="pres">
+    <name>предлошка синтагма</name>
+    <shortname>пре.с.</shortname>
+</gramm>
+
+<gramm id="nommn">
+    <name>множина</name>
+    <shortname>мн.</shortname>
+</gramm>
+
+<gramm id="genjd">
+    <name>генитив</name>
+    <shortname>ген.</shortname>
+</gramm>
+
+<gramm id="genmn">
+    <name>генитив множине</name>
+    <shortname>ген.мн.</shortname>
+</gramm>
+
+<gramm id="mnem">
+    <name>са графичким мнемоником</name>
+    <shortname>мнем.</shortname>
+    <desc>У графичком корисничком ~сучељу~, многи командни текстови (нпр. ставке по менијима) могу бити активирани притиском неког модификаторског тастера и једног од слова у датом тексту. То слово назива се <em>~мнемоником~</em>, а овим „граматичким обликом“ дат је његов препоручени положај у тексту.</desc>
+</gramm>
+
+</grammar>

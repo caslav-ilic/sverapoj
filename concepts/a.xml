@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concepts>
+
+<concept id="applet">
+    <!-- @види: plugin -->
+    <desc>Парче <ref c="software">софтвера</ref> које се уграђује и извршава у окриљу каквог већег <ref c="application">програма</ref>, на чије се услуге ослања ради остваривања сопствене функционалности. На пример, овако може бити изведена <ref c="zzz">игра</ref> којој се приступа кроз <ref c="zzz">~веб читач|kde:веб прегледач~</ref>.</desc>
+    <!-- @упути: game, webbrowser -->
+
+    <term lang="en" gr="i">applet</term>
+    <term env="fed" gr="i">програмчић</term>
+    <term env="gnm ooo" gr="i">програмче</term>
+    <term env="kde moz uk" gr="i">аплет</term>
+
+    <details root="wpen" rel="Applet"/>
+</concept>
+
+<concept id="application">
+    <desc>Заокружено парче <ref c="software">софтвера</ref> намењено крајњим корисницима, за обављање одређеног практичног задатка: управљање <ref c="file">~датотекама|kde:фајловима~</ref>, писање текстова, слушање музике, обрада слика, крстарење <ref c="zzz">Интернетом</ref>, итд. Најчешће, али не обавезно, корисник њиме саобраћа путем <ref c="zzz">графичког сучеља</ref>.</desc>
+    <!-- @упути: game, command, program, gui, internet -->
+
+    <term lang="en" gr="i">application</term>
+    <term env="fed gnm kde moz ooo uk" gr="i">програм</term>
+    <term env="fed ooo" gr="i">апликација</term>
+
+    <details root="wpen" rel="Application_software"/>
+</concept>
+
+</concepts>
+
+

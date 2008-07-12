@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extroots>
+
+<extroot id="wpsr">
+    <name>Википедија</name>
+    <shortname>Вп.</shortname>
+    <rooturl>http://sr.wikipedia.org/sr-ec</rooturl>
+    <browseurl>http://sr.wikipedia.org</browseurl>
+    <desc>Чланци на Википедији, Слободној енциклопедији.</desc>
+</extroot>
+
+<extroot id="wpen">
+    <name>Википедија (енгл.)</name>
+    <shortname>Вп.ен.</shortname>
+    <rooturl>http://en.wikipedia.org/wiki</rooturl>
+    <browseurl>http://en.wikipedia.org</browseurl>
+    <desc>Чланци на Википедији, Слободној енциклопедији (на енглеском).</desc>
+</extroot>
+
+</extroots>

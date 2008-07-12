@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concepts>
+
+<concept id="paste"
+         related="clipboard">
+    <!-- @види: copy cut -->
+    <desc>Убацити умножак текста или другог садржаја из <ref c="clipboard">~fed gnm uk:списка исечака|kde:клипборда|moz:бележнице|ooo:оставе~</ref> у документ на коме се тренутно ради.</desc>
+
+    <term lang="en" gr="g">paste</term>
+    <term env="fed gnm moz ooo uk" gr="g">убацити</term>
+    <term env="kde" gr="g">налепити</term>
+    <term env="id" src="rmk" gr="g">унети</term>
+    <term env="id" src="rmk" gr="g">пренети</term>
+</concept>
+
+</concepts>

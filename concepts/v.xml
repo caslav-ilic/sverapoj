@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concepts>
+
+<concept id="view_menu" topic="stdui">
+    <desc>У <ref c="application">програмима</ref>, наслов <ref c="zzz">менија</ref> чијим ставкама корисник утиче на податке које програм пружа у датом тренутку, или на визуелну представу документа на којем тренутно ради.</desc>
+    <!-- @упути: menu -->
+
+    <term lang="en">View</term>
+    <eterm>
+        <nom>Приказ</nom>
+        <decl gr="mnem">~Приказ</decl>
+    </eterm>
+    <term env="gnm">Преглед</term>
+</concept>
+
+</concepts>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sources>
+
+<source id="rri">
+    <name>Речник рачунарских израза</name>
+    <shortname>РРИ</shortname>
+    <url>http://recnik.prevod.org</url>
+    <desc>Кооперативни речник рачунарских израза на Интернету, где посетиоци могу додавати своје предлоге превода и гласати за друге.</desc>
+</source>
+
+<source id="rmk">
+    <name>Речник Микрокњиге</name>
+    <shortname>РМк</shortname>
+    <url>http://www.mikroknjiga.co.yu/pub/rmk/</url>
+    <desc>Речник издавачке куће Микрокњига, који је настао и одржава се на основу издања ове куће, радом њених уредника, преводилаца, рецензената и лектора.</desc>
+</source>
+
+</sources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<languages>
+
+<language id="sr">
+    <name>српски</name>
+    <shortname>срп.</shortname>
+</language>
+
+<language id="en">
+    <name>енглески</name>
+    <shortname>енгл.</shortname>
+</language>
+
+</languages>

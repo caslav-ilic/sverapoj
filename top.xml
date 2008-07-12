@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossary SYSTEM "divergloss.dtd">
+<glossary id="sverapoj" lang="sr" env="pr"
+          xmlns:xi="http://www.w3.org/2001/XInclude">
+
+<metadata>
+    <title>Сверачунарски појмовник</title>
+    <ldesc>
+        <para>„Сверачунарски појмовник“ је зборник појмова које корисници рачунара̑ сусрећу у разноликим применама, од свакодневних до опскурних. За сваки појам дат је кратак опис и изрази који га именују у различитим рачунарским окружењима и литератури. Често се уз појмове наводи и веза ка спољашњем садржају који га подробније описује; уз изразе, понегде се упућује на расправе које су се око њих водиле.</para>
+        <para>Појмовник има неколику намену. После више година уходавања у превођење слободног софтвера на српски језик, дошао је тренутак да се напори ускладе и преко различитих преводилачких подухвата; на Појмовнику се почело радити како би учесници тих подухвата могли темељито да прате и усклађују коришћену терминологију. Појмовник даље може бити од користи корисницима локализованих рачунарских окружења, пружајући им на једном месту објашњења о изразима које сусрећу при раду на рачунару.</para>
+        <para>Појмовник непосредно уређују вишегодишњи преводиоци слободног и другог софтвера. О раду на Појмовнику договарају се путем јавне поштанске листе <link url="http://groups.google.com/group/sorta?hl=sr">Сорта</link>, отворене за приступ свима који желе да упливају у терминолошке воде локализације софтвера на српски језик.</para>
+    </ldesc>
+</metadata>
+
+<keydefs>
+    <xi:include href="about/languages.xml"/>
+    <xi:include href="about/environments.xml"/>
+    <xi:include href="about/editors.xml"/>
+    <xi:include href="about/sources.xml"/>
+    <xi:include href="about/topics.xml"/>
+    <xi:include href="about/grammar.xml"/>
+    <xi:include href="about/extroots.xml"/>
+</keydefs>
+
+<xi:include href="concepts/0.xml"/>
+<xi:include href="concepts/a.xml"/>
+<xi:include href="concepts/b.xml"/>
+<xi:include href="concepts/c.xml"/>
+<xi:include href="concepts/d.xml"/>
+<xi:include href="concepts/e.xml"/>
+<xi:include href="concepts/f.xml"/>
+<xi:include href="concepts/g.xml"/>
+<xi:include href="concepts/h.xml"/>
+<xi:include href="concepts/i.xml"/>
+<xi:include href="concepts/j.xml"/>
+<xi:include href="concepts/k.xml"/>
+<xi:include href="concepts/l.xml"/>
+<xi:include href="concepts/m.xml"/>
+<xi:include href="concepts/n.xml"/>
+<xi:include href="concepts/o.xml"/>
+<xi:include href="concepts/p.xml"/>
+<xi:include href="concepts/q.xml"/>
+<xi:include href="concepts/r.xml"/>
+<xi:include href="concepts/s.xml"/>
+<xi:include href="concepts/t.xml"/>
+<xi:include href="concepts/u.xml"/>
+<xi:include href="concepts/v.xml"/>
+<xi:include href="concepts/w.xml"/>
+<xi:include href="concepts/x.xml"/>
+<xi:include href="concepts/y.xml"/>
+<xi:include href="concepts/z.xml"/>
+
+</glossary>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concepts>
+
+<concept id="file"
+         related="directory">
+    <desc>Најмања организациона јединица података на <ref c="zzz">рачунару</ref>, заведених под извесним именом преко којег им се може приступати. Такође се може <ref c="zzz">преузети</ref> с неког другог ~рачунара~ у <ref c="zzz">мрежи</ref>, нпр. са <ref c="zzz">Интернета</ref>.</desc>
+    <!-- @упути: computer, download, network, internet -->
+
+    <term lang="en" gr="i">file</term>
+    <term gr="i">датотека</term>
+    <term env="kde" gr="i">фајл</term>
+
+    <details root="wpen" rel="Computer_file"/>
+</concept>
+
+</concepts>

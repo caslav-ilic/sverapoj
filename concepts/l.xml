@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concepts>
+
+<concept id="label">
+    <desc>Краћи текст који стоји уз неки објекат, одређујући његово име, положај или сврху. На пример, опис поља у <ref c="zzz">корисничком сучељу</ref>, или идентификатор реда у <ref c="zzz">изворном ко̑ду</ref>.</desc>
+    <!-- @упути: userinterface sourcecode -->
+
+    <term lang="en" gr="i">label</term>
+    <term gr="i">ознака</term>
+    <term env="kde" gr="i">етикета</term>
+</concept>
+
+</concepts>

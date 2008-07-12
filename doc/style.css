@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    margin: 1em 5% 1em 5%;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+}
+a:visited {
+    color: maroon;
+}
+
+div.toc {
+}
+
+h2, h3 {
+    font-family: sans-serif;
+    color: steelblue;
+}
+
+h2 {
+    border-bottom: 2px solid silver;
+}
+
+div.sect1 {
+    margin-top: 2em;
+}
+
+.literal {
+    color: navy;
+}
+
+.programlisting {
+    color: navy;
+    background-color: #f4f4f4;
+    padding: 0.5em;
+
+    border: thin solid silver;
+}
+
+.remark {
+}
+.remark:before {
+    content: "[[";
+}
+.remark:after {
+    content: "]]";
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concepts>
+
+<concept id="browser">
+    <!-- @види: webbrowser, filebrowser -->
+    <desc><ref c="application">Програм</ref> или део програма намењен кретању кроз одређени садржај, његово прегледање и избор по деловима, понекад и уз могућност тражења. На пример, <ref c="zzz">~fed gnm moz ooo unx:веб читачем|kde:веб прегледачем~</ref> се приступа странама на <ref c="zzz">Интернету</ref>, а <ref c="zzz">~прегледачем датотека|kde:прегледачем фајлова~</ref> се разгледа <ref c="zzz">~стабло фасцикли|moz unx:стабло директоријума~</ref> и бирају <ref c="file">~датотеке|kde:фајлови~</ref>.</desc>
+    <!-- @упути: webbrowser, internet, filebrowser, directorytree -->
+
+    <term lang="en" gr="i">browser</term>
+    <term env="fed gnm moz ooo" gr="i">читач</term>
+    <term env="fed gnm kde uk" gr="i">прегледач</term>
+    <term env="fed" gr="i">претраживач</term>
+    <term env="gnm" gr="i">разгледач</term>
+
+    <comment>Многа окружења не користе јединствену реч за овај појам, већ различите речи у оквиру синтагме према подпојму (нпр. „веб читач“, али „разгледач датотека“).</comment>
+</concept>
+
+</concepts>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concepts>
+
+<concept id="default">
+    <!-- @види: configuration -->
+    <desc>Таква вредност одређене <ref c="zzz">поставке</ref> у оквиру програма,  какву су аутори одредили као најпристалију потребама већине корисника, најпоузданију за исправан рад програма, најбољу за <ref c="zzz">безбедност</ref> <ref c="zzz">рачунара</ref>, итд. ~Поставке~ имају овакве вредности при првом покретању програма, и кориснику се обично пружа могућност да се у сваком тренутку врати на њих пошто је нешто својеручно мењао.</desc>
+    <!-- @упути: setting, computer, security -->
+
+    <term lang="en" gr="p">default</term>
+    <term gr="p">подразумевано</term>
+    <term env="moz" gr="p">изворно</term>
+
+    <details root="wpen" rel="Default_(computer_science)"/>
+</concept>
+
+<concept id="directory" related="file">
+    <!-- @види: directorytree -->
+    <desc>Ниво организације података изнад <ref c="file">~датотека|kde:фајлова~</ref>, на којем се више њих групише у одређену тематску целину, заведену под неким именом. Груписање може бити по типу података (нпр. збирка слика, текстова, музике), временско-просторном догађају (садржаји са путовања, извештај о пројекту), и слично. Такође, неколико оваквих група може бити обухваћено једном надгрупом, и тако даље, чиме се успоставља <ref c="zzz">~стабло фасцикли|moz unx:стабло директоријума~</ref>.</desc>
+    <!-- @упути: directorytree -->
+
+    <term lang="en" gr="i">folder</term>
+    <term lang="en" env="unx" gr="i">directory</term>
+    <term gr="i">фасцикла</term>
+    <term env="moz unx" gr="i">директоријум</term>
+    <term env="id" gr="i">омотница</term>
+
+    <details root="wpen" rel="Directory_(file_systems)"/>
+</concept>
+
+</concepts>

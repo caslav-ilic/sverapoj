@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concepts>
+
+<concept id="highlight"
+         related="syntaxhighlighting">
+    <desc>На неки начин из целине визуелно издвојити одређене делове текста, слике, или другог садржаја у документу, како би их корисник лако уочио. На пример, делове текста који су <ref c="zzz">поклопљени</ref> приликом тражења у <ref c="zzz">уређивачу</ref>.</desc>
+    <!-- @упути: match texteditor -->
+
+    <term lang="en" gr="g">highlight</term>
+    <term gr="g">истакнути</term>
+</concept>
+
+</concepts>

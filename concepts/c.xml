@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concepts>
+
+<concept id="clipboard">
+    <!-- @види: cut copy paste -->
+    <desc>Место на систему где се чувају одломци текста или другог садржаја, доспели ту <ref c="zzz">исецањима</ref> и <ref c="zzz">~gnm moz ooo:умножавањима|fed kde:копирањима~</ref> из разних докумената. Тако ускладиштен садржај потом се може <ref c="zzz">~fed gnm moz ooo:убацити|kde:налепити~</ref> у произвољни документ (под условом да овај прихвата тај тип садржаја).</desc>
+    <!-- @повежи: cut copy paste -->
+
+    <term lang="en" gr="i">clipboard</term>
+    <term env="fed gnm ooo uk" gr="i">списак исечака</term>
+    <term env="kde" gr="i">клипборд</term>
+    <term env="moz" gr="i">бележница</term>
+    <term env="ooo" gr="i">остава</term>
+
+    <details root="wpen" rel="Clipboard_(software)"/>
+</concept>
+
+</concepts>
