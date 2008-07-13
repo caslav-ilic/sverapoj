@@ -15,4 +15,16 @@
     <details root="wpen" rel="Clipboard_(software)"/>
 </concept>
 
+<concept id="computer">
+    <!-- @види: console2 -->
+    <desc>Електронска направа за општу обраду информација <ref c="zzz">кодираних</ref> у неком бројевном систему, обично <ref c="zzz">бинарном</ref>; ако је општост информација које направа обрађује умањена (нпр. претежно комуникационог или аудиовизуелног типа), онда се не сврстава овамо. Данас је обично модуларног склопа, са изменљивим унутрашњим и спољашњим компонентама. Унутрашње врше обраду у ужем смислу, док спољашње служе кориснику за управљање радом и унос података, и преглед резултата, у приступачном облику. У унутрашње компоненте спадају нпр. <ref c="zzz">процесор</ref>, <ref c="zzz">матична плоча</ref>, <ref c="zzz">графичка</ref> и <ref c="zzz">звучна карта</ref>, док су спољашње <ref c="zzz">монитор</ref>, <ref c="zzz">тастатура</ref>, <ref c="zzz">миш</ref>, <ref c="zzz">штампач</ref> и др.</desc>
+    <!-- @упути: encode binarysystem processor motherboard graphicscard soundcard monitor keyboard mouse printer -->
+
+    <term lang="en" gr="i">computer</term>
+    <term gr="i">рачунар</term>
+    <term env="id" gr="i">компјутер</term>
+
+    <details root="wpsr" rel="Рачунар"/>
+</concept>
+
 </concepts>
