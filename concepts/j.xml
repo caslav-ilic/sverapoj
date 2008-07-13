@@ -3,8 +3,8 @@
 
 <concept id="java" topic="prog">
     <!-- @види: csharp -->
-    <desc><ref c="zzz">Програмски језик</ref> и пратећа развојна платформа коју је 1996. представио и до данас одржава <ref c="zzz">Сан Мајкросистемс</ref>. Намењен развоју <ref c="zzz">платформски независних</ref> <ref c="application">програма</ref> по принципима <ref c="zzz">објектно оријентисаног</ref> <ref c="zzz">програмирања</ref>, уз уграђену подршку за <ref c="zzz">мрежна</ref> окружења и аутоматско <ref c="zzz">управљање меморијом</ref>. Спада у тип <ref c="zzz">полукомпилованих</ref> језика, захтевајући <ref c="zzz">виртуелну машину</ref> за извршавање на одредишном рачунару. Врло популаран у пословним и образовним круговима. Нема никакве везе са <ref c="zzz">јаваскриптом</ref>.</desc>
-    <!-- @упути: programminglanguage sunmicrosystems platformindependent objectoriented programming memorymanagement network halfcompiled virtualmachine javascript -->
+    <desc><ref c="zzz">Програмски језик</ref> и пратећа развојна платформа коју је 1996. представио и до данас одржава <ref c="zzz">Сан Мајкросистемс</ref>. Намењен развоју <ref c="zzz">платформски независних</ref> <ref c="application">програма</ref> по принципима <ref c="zzz">објектно оријентисаног</ref> <ref c="zzz">програмирања</ref>, уз уграђену подршку за <ref c="network">мрежна</ref> окружења и аутоматско <ref c="zzz">управљање меморијом</ref>. Спада у тип <ref c="zzz">полукомпилованих</ref> језика, захтевајући <ref c="zzz">виртуелну машину</ref> за извршавање на одредишном рачунару. Врло популаран у пословним и образовним круговима. Нема никакве везе са <ref c="zzz">јаваскриптом</ref>.</desc>
+    <!-- @упути: programminglanguage sunmicrosystems platformindependent objectoriented programming memorymanagement halfcompiled virtualmachine javascript -->
 
     <term lang="en" gr="i">Java</term>
     <term env="fed ooo" gr="i">Java</term>
