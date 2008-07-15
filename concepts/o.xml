@@ -10,6 +10,7 @@
     <term env="gnm fed ooo" gr="p">мрежно</term>
     <term env="gnm ooo moz uk" gr="pres">на мрежи</term>
     <term env="kde moz" gr="pres">на вези</term>
+    <term env="id" gr="p">онлајн</term>
 
     <details root="wpen" rel="Online"/>
 </concept>
