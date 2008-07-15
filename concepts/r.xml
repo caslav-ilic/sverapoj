@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
+<concept id="rename">
+    <desc>Променити назив неког објекта, нпр. <ref c="file">~датотеке|kde:фајла~</ref> или <ref c="directory">~фасцикле|moz unx:директоријума~</ref>. Једна од уобичајених радњи у <ref c="browser">прегледачима</ref>.</desc>
+
+    <term lang="en" gr="g">rename</term>
+    <term gr="g">преименовати</term>
+    <term env="ooo" gr="gs">променити име</term>
+</concept>
+
 </concepts>
