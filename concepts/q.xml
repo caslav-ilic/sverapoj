@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
+<concept id="quit">
+    <!-- @види: kill -->
+    <desc>Престати са радом у неком <ref c="application">програму</ref> на правилан начин, тако да се окончају све радње у току и <ref c="zzz">сачувају</ref> сви подаци. ~Програм~ тиме обично, али не обавезно, бива уклоњен из <ref c="zzz">радне меморије</ref>, ослобађујући простор за рад других програма.</desc>
+    <!-- @упути: save ram -->
+
+    <term lang="en" gr="g">quit</term>
+    <term lang="en" env="ooo" gr="g">exit</term>
+    <term env="fed gnm ooo uk" gr="g">изаћи</term>
+    <term env="moz" gr="i">крај</term>
+    <term env="kde" gr="g">напустити</term>
+</concept>
+
 </concepts>
