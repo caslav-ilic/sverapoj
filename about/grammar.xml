@@ -21,9 +21,14 @@
     <shortname>гт.</shortname>
 </gramm>
 
-<gramm id="gs">
+<gramm id="gv">
     <name>глагол, свршени вид</name>
     <shortname>гс.</shortname>
+</gramm>
+
+<gramm id="gs">
+    <name>глаголска синтагма</name>
+    <shortname>г.с.</shortname>
 </gramm>
 
 <gramm id="p">
