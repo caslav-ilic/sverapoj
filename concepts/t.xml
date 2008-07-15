@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
+<concept id="thumbnail">
+    <desc>Мала графичка представа одређеног садржаја, најчешће слика у галерији на <ref c="zzz">веб страни</ref> на <ref c="zzz">Интернету</ref> или локално у <ref c="zzz">прегледачу слика</ref>; такође може одсликавати садржај неких типова <ref c="file">~датотека|kde:фајлова~</ref> у <ref c="zzz">~прегледачу датотека|kde:прегледачу фајлова~</ref>, када је постављен на <ref c="zzz">приказ икона</ref>. Служи да омогући кориснику брзо уочавање занимљивог или налажење траженог садржаја, и то посебно кад је потребно незанемарљиво време да се он у целокупности прикаже (нпр. <ref c="zzz">преузме</ref> са Интернета).</desc>
+    <!-- @упути: webpage internet imagebrowser filebrowser iconview download -->
+
+    <term lang="en" gr="i">thumbnail</term>
+    <term env="fed kde ooo uk" gr="i">сличица</term>
+    <term env="gnm ooo" gr="i">умањени приказ</term>
+
+    <details root="wpen" rel="Thumbnail"/>
+</concept>
+
 </concepts>
