@@ -26,6 +26,7 @@
     <shortname>гс.</shortname>
 </gramm>
 
+<!-- Пример: rename -> променити име -->
 <gramm id="gs">
     <name>глаголска синтагма</name>
     <shortname>г.с.</shortname>
