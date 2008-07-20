@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
+<concept id="url" topic="acrons">
+    <desc><ref c="zzz">Ниска</ref> слова и других знакова којом се једнозначно одређује положај одређеног ресурса (<ref c="file">~датотеке|kde:фајла~</ref>, <ref c="zzz">веб сајта</ref>, мрежног <ref c="zzz">штампача</ref>, и сл.) на самом <ref c="computer">рачунару</ref>, или локалној или широј <ref c="network">мрежи</ref> којој припада. Почиње <ref c="zzz">подниском</ref> која одређује начин приступања ресурсу, нпр. <em>http://</em> за ~веб сајт~ или <em>file://</em> за ~датотеку|kde:фајл~ на локалном рачунару, после које следи <ref c="zzz">путања</ref> до ресурса.</desc>
+    <!-- @упути: string substring website printer path -->
+
+    <term lang="en" gr="i">URL</term>
+    <eterm gr="i">
+        <nom>УРЛ</nom>
+        <comment>Од <ol lang="en" wl="1">Uniform Resource Locator</ol>.</comment>
+    </eterm>
+    <term env="gnm moz ooo" gr="i">адреса</term>
+</concept>
+
 </concepts>
