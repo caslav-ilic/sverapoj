@@ -1,4 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
+<concept id="wizard">
+    <desc>Део <ref c="application">програма</ref> који пружа <ref c="zzz">предусретљиви</ref> начин извођења одређеног поступка, водећи корисника корак по корак, уз објашњења могућности које се могу изабрати и њихових последица. Обично у виду низа <ref c="zzz">дијалога</ref> са описом тренутног корака, за којим следе могући избори и прелазак на наредни корак. Изводи се или ради испомоћи новим корисницима, или за честе радње које ће многи корисници желити повремено да обаве, а иначе би биле доста напорније.</desc>
+    <!-- @упути: userfriendly dialog -->
+
+    <term lang="en" gr="i">wizard</term>
+    <term env="gnm" gr="i">помоћник</term>
+    <term env="gnm" gr="i">чаробњак</term>
+    <eterm env="kde" gr="i">
+        <nom>чаробњак</nom>
+        <decl gr="akujd">чаробњак</decl>
+    </eterm>
+    <eterm env="fed moz ooo uk" gr="i">
+        <nom>чаробњак</nom>
+        <decl gr="akujd">чаробњака</decl>
+    </eterm>
+    <eterm env="ooo" gr="i">
+        <nom>помоћник</nom>
+        <decl gr="akujd">помоћника</decl>
+    </eterm>
+</concept>
+
 </concepts>
