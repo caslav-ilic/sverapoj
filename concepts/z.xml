@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
+<concept id="zoom">
+    <!-- @види: zoomin zoomout -->
+    <desc>У <ref c="zzz">програмима</ref>, визуелно увећати <em>или</em> умањити документ који се прегледа или <ref c="zzz">уређује</ref>, како би се лакше уочили детаљи, или оценила целокупна појава. Обично изведено тако да корисник у сваком тренутку може задати величину <ref c="zzz">приказа</ref>, која се задржава док је корисник поново не промени. Најчешће на располагању у <ref c="zzz">обрађивачима текста</ref> и <ref c="zzz">слика</ref>, те у <ref c="zzz">~веб читачима|kde:веб прегледачима~</ref> и <ref c="zzz">приказивачима</ref> разног текстуално-графичког садржаја.</desc>
+    <!-- @упути: edit view textprocessor imageprocessor webbrowser viewer -->
+
+    <term lang="en" gr="g">zoom</term>
+    <term env="gnm moz ooo uk" gr="g">увећати</term>
+    <term env="kde ooo" gr="g">увеличати</term>
+    <term env="id" gr="g">зумирати</term>
+
+    <details root="wpen" rel="Page_zooming"/>
+</concept>
+
 </concepts>
