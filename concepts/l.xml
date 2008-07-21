@@ -10,4 +10,14 @@
     <term env="kde" gr="i">етикета</term>
 </concept>
 
+<concept id="little_endian" related="big_endian endianness">
+    <desc><ref c="endianness">Крајност</ref> при којој се вишебајтни бројеви записују тако што бајт највеће тежине стоји на најнижој адреси.</desc>
+
+    <term lang="en" gr="i">little endian</term>
+    <term env="id" gr="i">мала крајност</term>
+
+    <details root="wpen" rel="Endianness"/>
+    <origin>Први пут коришћено у преводу <ref c="gcc">ГНУовог преводиоца за језик це</ref>.</origin>
+</concept>
+
 </concepts>

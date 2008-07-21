@@ -23,4 +23,11 @@
     <term env="kde" gr="pp">Гнуово</term>
 </concept>
 
+<concept id="gcc" topics="acrons" related ="gnu">
+  <desc><ref c="gnu">ГНУов</ref> преводилац за језик це (C).</desc>
+
+  <term lang="en" gr="i">GCC</term>
+  <term env="id" lang="sr" gr="i">ГЦЦ</term>
+</concept>
+
 </concepts>
