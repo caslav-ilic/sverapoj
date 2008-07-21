@@ -17,6 +17,22 @@
     <details root="wpsr" rel="Софтвер"/>
 </concept>
 
+<concept id="string" topic="prog">
+    <!-- @види: character substring -->
+    <desc>Уређени <ref c="zzz">низ</ref> података <ref c="zzz">знаковног</ref> типа: слова, бројева, интерпункције и др. Користи се за представљање текста на природним језицима, <ref c="zzz">серијализовање</ref> података за упис у текстуалне <ref c="file">~датотеке|kde:фајлове~</ref>, комуникацију између <ref c="zzz">процеса</ref> на <ref c="computer">рачунару</ref>, односно између рачунара и <ref c="network">мреже</ref>. Некада граница између ових намена није оштра, нпр. <ref c="url">~УРЛ|gnm moz ooo:адресни~</ref> низови служе и за програмско дохватање ресурса, али и корисницима као назив неког места у ~мрежи~.</desc>
+    <!-- @упути: array character serialization process -->
+
+    <term lang="en" gr="i">string</term>
+    <term env="fed" gr="i">стринг</term>
+    <term env="fed gnm moz ooo" gr="i">низ знакова</term>
+    <term env="fed gnm kde ooo uk" gr="i">ниска</term>
+    <term env="gnm moz" gr="i">текст</term>
+    <term env="moz" gr="i">словни низ</term>
+    <term env="id" src="rmk" gr="i">знаковни низ</term>
+
+    <details root="wpsr" rel="Ниска"/>
+</concept>
+
 <concept id="syntaxhighlighting">
     <desc>Визуелно разликовање синтаксичких елемената у тексту са формалном структуром, попут <ref c="zzz">изворног ко̑да</ref>, <ref c="zzz">текста с обележавањем</ref>, <ref c="zzz">програмских конфигурација</ref>, итд. Обично присутно у <ref c="zzz">уређивачима текста</ref>, у виду придавања различитих боја и стилова <ref c="zzz">фонта</ref> елементима синтаксе, одређених типом <ref c="file">~датотеке|kde:фајла~</ref> ~која|kde:који~ се посматра.</desc>
     <!-- @упути: texteditor sourcecode markup configuration font -->
