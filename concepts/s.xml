@@ -12,7 +12,11 @@
         <nom>софтвер</nom>
         <comment>Градивна именица; множина „софтвери“ може се употребити само да означи неколико различитих <em>врста</em> софтвера (нпр. забавни, научни, уметнички), а никако за скуп појединачних <ref c="application">програма</ref>.</comment>
     </eterm>
-    <term env="id" gr="i">мекотворина</term>
+    <eterm lang="sr" env="id" gr="i">
+      <nom>мекотворина</nom>
+      <origin by="filmil@gmail.com">Овај се израз појављује у „Оксфордском речнику рачунарства‟.</origin>
+      <comment by="filmil@gmail.com">Нисам приметио да је ико други користио овај превод.</comment>
+    </eterm>
 
     <details root="wpsr" rel="Софтвер"/>
 </concept>
