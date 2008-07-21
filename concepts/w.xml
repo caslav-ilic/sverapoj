@@ -20,6 +20,8 @@
         <nom>помоћник</nom>
         <decl gr="akujd">помоћника</decl>
     </eterm>
+
+    <details root="wpen" rel="Wizard_(software)"/>
 </concept>
 
 </concepts>

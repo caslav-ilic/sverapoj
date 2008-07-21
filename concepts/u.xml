@@ -11,6 +11,8 @@
         <comment>Од <ol lang="en" wl="1">Uniform Resource Locator</ol>.</comment>
     </eterm>
     <term env="gnm moz ooo" gr="i">адреса</term>
+
+    <details root="wpen" rel="Uniform_Resource_Locator"/>
 </concept>
 
 </concepts>
