@@ -37,6 +37,11 @@
     <shortname>п.</shortname>
 </gramm>
 
+<gramm id="ps">
+    <name>придевска синтагма</name>
+    <shortname>п.с.</shortname>
+</gramm>
+
 <gramm id="pp">
     <name>придев, присвојни</name>
     <shortname>пп.</shortname>
