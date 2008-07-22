@@ -23,11 +23,12 @@
     <term env="kde" gr="pp">Гнуово</term>
 </concept>
 
-<concept id="gcc" topics="acrons" related ="gnu">
-  <desc><ref c="gnu">ГНУов</ref> преводилац за језик це (C).</desc>
+<concept id="gcc" related ="gnu">
+    <desc><ref c="gnu">ГНУ</ref> <ref c="zzz">преводилац</ref> за језик <ref c="zzz">Це (C)</ref>.</desc>
+    <!-- @упути: compiler c_lang -->
 
-  <term lang="en" gr="i">GCC</term>
-  <term env="id" lang="sr" gr="i">ГЦЦ</term>
+    <term lang="en" gr="i">GCC</term>
+    <term env="id" gr="i">ГЦЦ</term>
 </concept>
 
 </concepts>
