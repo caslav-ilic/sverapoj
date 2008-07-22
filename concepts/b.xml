@@ -15,4 +15,14 @@
     <comment>Многа окружења не користе јединствену реч за овај појам, већ различите речи у оквиру синтагме према подпојму (нпр. „веб читач“, али „разгледач датотека“).</comment>
 </concept>
 
+<concept id="bigendian" related="littleendian endianness">
+    <desc><ref c="endianness">Крајност</ref> при којој се <ref c="zzz">вишебајтни</ref> бројеви записују тако што <ref c="zzz">бајт</ref> <ref c="zzz">највеће тежине</ref> стоји на најнижој адреси.</desc>
+    <!-- @упути: multibyte byte mostsignificant -->
+    <term lang="en" gr="i">big endian</term>
+    <term env="id" gr="p">велике крајности</term>
+
+    <details root="wpen" rel="Endianness"/>
+    <origin>Први пут коришћено у преводу <ref c="gcc">ГЦЦа</ref>.</origin>
+</concept>
+
 </concepts>

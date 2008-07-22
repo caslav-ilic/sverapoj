@@ -10,4 +10,17 @@
     <term gr="i">уређивач</term>
 </concept>
 
+<concept id="endianness">
+    <desc>Начин уписивања <ref c="zzz">вишебајтних</ref> бројева у меморију рачунара која је организована као низ <ref c="zzz">бајтова</ref>.  Најчешће су у употреби <ref c="littleendian">мала</ref> и <ref c="bigendian">велика</ref> крајност.</desc>
+    <term lang="en" gr="i">endianness</term>
+    <eterm env="id" gr="i">
+        <nom>крајност</nom>
+	<origin>Први(?) пут употребљено у преводу <ref c="gcc">ГЦЦа</ref>.</origin>
+    </eterm>
+
+    <!-- @упути: byte -->
+
+    <details root="wpen" rel="Endianness"/>
+</concept>
+
 </concepts>
