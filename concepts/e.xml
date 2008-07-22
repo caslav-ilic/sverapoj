@@ -23,4 +23,16 @@
     <details root="wpen" rel="Endianness"/>
 </concept>
 
+<concept id="email">
+    <desc></desc>
+
+    <term lang="en" gr="i">email</term>
+    <term gr="i">електронска пошта</term>
+    <term gr="i">епошта</term>
+    <term gr="i">електронска пошта</term>
+    <term gr="i" by="filmil.gmail.com">ел.пошта</term>
+
+    <details root="wpsr" rel="Електронска_пошта"/>
+</concept>
+
 </concepts>

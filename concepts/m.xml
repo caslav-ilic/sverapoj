@@ -12,4 +12,16 @@
     <term env="kde moz ooo" gr="i">менаџер</term>
 </concept>
 
+<concept id="mailinglist">
+    <desc>Начин групне комуникације путем <ref c="email">електронске поште</ref>, при коме сви учесници у расправи поруке шаљу на једну исту електронску адресу.  Електронска пошта која стигне на ту адресу се затим аутоматски прослеђује свим учесницима у расправи.</desc>
+
+    <term lang="en" gr="is">mailing list</term>
+    <term gr="is">дописно друштво</term>
+    <term gr="is">поштанска листа</term>
+    <term gr="is">дописна листа</term>
+    <term gr="is">списак прималаца</term>
+
+    <details root="wpen" rel="Endianness"/>
+</concept>
+
 </concepts>
