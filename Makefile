@@ -6,7 +6,7 @@
 DGPROC:=dgproc.py
 SR_LOCALE:=sr_RS.UTF-8
 
-.PHONY: help html
+.PHONY: help html check
 
 help:
 	@echo    "Доступни циљеви:"
@@ -16,3 +16,6 @@ help:
 
 html: 
 	LC_ALL=$(SR_LOCALE) $(DGPROC) html top.xml -sbase:html
+
+check: 
+	$(DGPROC) top.xml
