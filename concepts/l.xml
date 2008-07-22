@@ -15,7 +15,7 @@
     <!-- @упути: multibyte byte mostsignificant -->
 
     <term lang="en" gr="i">little endian</term>
-    <term env="id" gr="p">мале крајности</term>
+    <term env="uk" gr="p">мале крајности</term>
 
     <details root="wpen" rel="Endianness" />
     <origin>Први пут коришћено у преводу <ref c="gcc">ГЦЦа</ref>.</origin>
