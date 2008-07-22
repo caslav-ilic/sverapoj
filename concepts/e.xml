@@ -27,10 +27,10 @@
     <desc></desc>
 
     <term lang="en" gr="i">email</term>
-    <term gr="i">електронска пошта</term>
-    <term gr="i">епошта</term>
-    <term gr="i">електронска пошта</term>
-    <term gr="i" by="filmil.gmail.com">ел.пошта</term>
+    <term env="id" gr="i">епошта</term>
+    <term env="uk" gr="i">електронска пошта</term>
+    <term env="id" gr="i" by="filmil.gmail.com">ел.пошта</term>
+    <term env="kde" gr="i">е-пошта</term>
 
     <details root="wpsr" rel="Електронска_пошта"/>
 </concept>

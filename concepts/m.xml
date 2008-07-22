@@ -13,15 +13,16 @@
 </concept>
 
 <concept id="mailinglist">
-    <desc>Начин групне комуникације путем <ref c="email">електронске поште</ref>, при коме сви учесници у расправи поруке шаљу на једну исту електронску адресу.  Електронска пошта која стигне на ту адресу се затим аутоматски прослеђује свим учесницима у расправи.</desc>
+    <desc>Начин групне комуникације путем <ref c="email">~електронске поште|kde:е-поште~</ref>, при коме сви учесници у расправи поруке шаљу на једну исту <ref c="zzz">~електронску адресу|kde:адресу е-поште~</ref>.  ~Електронска пошта|kde:Е-пошта~ која стигне на ту адресу се затим аутоматски прослеђује свим учесницима у расправи.</desc>
+    <!-- @упути: emailaddress -->
 
     <term lang="en" gr="is">mailing list</term>
-    <term gr="is">дописно друштво</term>
-    <term gr="is">поштанска листа</term>
-    <term gr="is">дописна листа</term>
-    <term gr="is">списак прималаца</term>
+    <term env="id" gr="is">дописно друштво</term>
+    <term env="kde uk" gr="is">поштанска листа</term>
+    <term env="id" gr="is">дописна листа</term>
+    <term env="id" gr="is">списак прималаца</term>
 
-    <details root="wpen" rel="Endianness"/>
+    <details root="wpen" rel="Mailing_lists"/>
 </concept>
 
 </concepts>
