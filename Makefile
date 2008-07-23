@@ -3,19 +3,32 @@
 # Идеално, комплетан појмовник, у свим форматима, треба да се добије
 # куцањем само једне наредбе у командној линији.
 
-DGPROC:=dgproc.py
-SR_LOCALE:=sr_RS.UTF-8
+# Подешавања команди и локалитета
+include Settings.inc
 
-.PHONY: help html check
+# ############################################################
+# Ако је све у реду, нећете морати да прегледате и мењате
+# команде испод овог коментара.
+# ############################################################
+
+.PHONY:  all check clean help html 
 
 help:
 	@echo    "Доступни циљеви:"
+	@echo -e "\tmake all\t\tизграђује све доступне формате"
+	@echo -e "\tmake check\t\tпровера исправности појмовника"
+	@echo -e "\tmake clean\t\tуклања генерисане датотеке"
 	@echo -e "\tmake help\t\tиспис ове помоћи"
 	@echo -e "\tmake html\t\tизградња појмовника у ХТМЛу"
 	@echo -e "\t\t\t\t(потребно је да је инсталиран dgproc.py)"
 
+all: html
+
 html: 
-	LC_ALL=$(SR_LOCALE) $(DGPROC) html top.xml -sbase:html
+	LC_ALL=$(SR_LOCALE) $(DGPROC) html $(TOP_XML) -sbase:$(HTML_TARGET)
 
 check: 
-	$(DGPROC) top.xml
+	$(DGPROC) $(TOP_XML)
+
+clean:
+	$(RM) $(HTML_TARGET) *~
