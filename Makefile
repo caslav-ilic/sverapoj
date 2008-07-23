@@ -22,7 +22,7 @@ help:
 	@echo -e "\tmake html\t\tизградња појмовника у ХТМЛу"
 	@echo -e "\t\t\t\t(потребно је да је инсталиран dgproc.py)"
 
-all: html
+all: check html
 
 html: 
 	LC_ALL=$(SR_LOCALE) $(DGPROC) html $(TOP_XML) -sbase:$(HTML_TARGET)
