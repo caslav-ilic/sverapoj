@@ -1,0 +1,8 @@
+# -*- Makefile -*-
+TARGET:=dvg-html-kde
+SIEVES:=html
+SIEVEFLAGS:=-sbase:$(TARGET) -senv:kde
+
+help:
+	@echo -e "\tmake dvg-html-kde\t\tизградња појмовника у ХТМЛу (за КДЕ)"
+	@echo -e "\t\t\t\t(потребно је да је инсталиран dgproc.py)"
