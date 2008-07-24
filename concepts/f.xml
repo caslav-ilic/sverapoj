@@ -13,4 +13,18 @@
     <details root="wpen" rel="Computer_file"/>
 </concept>
 
+<concept id="filesystem">
+    <!-- @види: journaling -->
+    <desc>Начин на који се <ref c="file">~датотеке|kde:фајлови~</ref> записују и распоређују на <ref c="zzz">складишном медијуму</ref>, попут <ref c="zzz">хард-диска</ref>. Програмски се изводи на ниском нивоу, као компонента <ref c="zzz">оперативног система</ref>, који обично подржава више различитих начина записа — како да би корисник могао да одабере најподеснији за своје потребе, тако и зато што различити ~складишни медијуми~ често прихватају различите начине записа.</desc>
+    <!-- @упути: storagemedia harddisk operatingsystem -->
+
+    <term lang="en" gr="is">file system</term>
+    <term lang="en" gr="i">filesystem</term>
+    <term env="fed gnm moz ooo uk" gr="is">систем датотека</term>
+    <term env="kde" gr="is">фајл систем</term>
+    <term env="id" gr="is">датотечни систем</term>
+
+    <details root="wpsr" rel="Датотечни_систем"/>
+</concept>
+
 </concepts>
