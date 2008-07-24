@@ -15,12 +15,12 @@
 
 <concept id="gnu_p" topic="acrons"
          related="gnu">
-    <desc>Оно што потиче из пројекта <ref c="gnu">Гну</ref> или чини његов део.</desc>
+    <desc>Који потиче из пројекта <ref c="gnu">Гну</ref> или чини његов део.</desc>
 
     <term lang="en" gr="p">GNU</term>
     <term env="gnm fed uk" gr="p">ГНУ</term>
     <term env="fed" gr="p">GNU</term>
-    <term env="kde" gr="pp">Гнуово</term>
+    <term env="kde" gr="pp">Гнуов</term>
 </concept>
 
 <concept id="gcc" topic="acrons"
