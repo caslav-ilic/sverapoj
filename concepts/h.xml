@@ -12,9 +12,7 @@
 
 <concept id="hardware"
          related="application software">
-    <!-- @види: game command program -->
     <desc>Збирни назив за апаратуру која чини <ref c="computer">рачунар</ref>.</desc>
-    <!-- @упути: operatingsystem driver game -->
 
     <term lang="en" gr="i">hardware</term>
     <eterm gr="i">
@@ -22,7 +20,7 @@
         <comment>Градивна именица; множина „хардвери“ може се употребити само да означи неколико различитих <em>врста</em> хардвера, а никако за скуп појединачних <ref c="zzz">уређаја</ref>, по аналогији са <ref c="software">софтвером</ref>.</comment>
     <!-- @упути: device -->
     </eterm>
-    <eterm lang="sr" env="id" gr="i">
+    <eterm env="id" gr="i">
       <nom>тврдотворина</nom>
       <origin by="filmil.gmail.com">Овај се израз појављује у „Оксфордском речнику рачунарства‟.</origin>
       <comment by="filmil.gmail.com">Нисам приметио да је ико други користио ову реч за превод.</comment>
