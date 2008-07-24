@@ -1,0 +1,8 @@
+# -*- Makefile -*-
+include Settings.common
+include $(INCLUDEMAKE)
+
+.PHONY: common
+
+common: $(TOP_XML) $(DEPS)
+	LC_ALL=$(SR_LOCALE) $(DGPROC) $(SIEVEFLAGS) $(SIEVES) $< 

@@ -4,14 +4,17 @@
 # куцањем само једне наредбе у командној линији.
 
 # Подешавања команди и локалитета
-include Settings.inc
+include Settings.common
 
 # ############################################################
 # Ако је све у реду, нећете морати да прегледате и мењате
 # команде испод овог коментара.
 # ############################################################
 
-.PHONY:  all check clean help html 
+.PHONY:  all check clean help process
+
+DVG_SETTINGS_FILES:=$(wildcard Settings.dvg-*)
+DVG_TARGETS:=$(patsubst Settings.%,%,$(DVG_SETTINGS_FILES))
 
 help:
 	@echo    "Доступни циљеви:"
@@ -19,16 +22,15 @@ help:
 	@echo -e "\tmake check\t\tпровера исправности појмовника"
 	@echo -e "\tmake clean\t\tуклања генерисане датотеке"
 	@echo -e "\tmake help\t\tиспис ове помоћи"
-	@echo -e "\tmake html\t\tизградња појмовника у ХТМЛу"
-	@echo -e "\t\t\t\t(потребно је да је инсталиран dgproc.py)"
+	@for a in $(DVG_SETTINGS_FILES); do make -s -f $$a help; done
 
-all: check html
-
-html: 
-	LC_ALL=$(SR_LOCALE) $(DGPROC) html $(TOP_XML) -sbase:$(HTML_TARGET)
+all: check $(DVG_TARGETS)
 
 check: 
 	$(DGPROC) $(TOP_XML)
 
 clean:
-	$(RM) $(HTML_TARGET) *~
+	$(RM) *~ $(DVG_TARGETS)
+
+dvg-%: $(TOP_XML) $(DEPS)
+	INCLUDEMAKE="Settings.$@" make -f Makefile.common common

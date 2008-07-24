@@ -1,0 +1,8 @@
+# -*- Makefile -*-
+TARGET:=dvg-html
+SIEVES:=html
+SIEVEFLAGS:=-sbase:$(TARGET)
+
+help:
+	@echo -e "\tmake dvg-html\t\tизградња појмовника у ХТМЛу"
+	@echo -e "\t\t\t\t(потребно је да је инсталиран dgproc.py)"
