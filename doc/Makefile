@@ -1,8 +1,11 @@
-#!/bin/sh
+# -*- Makefile -*-
+ALL_SOURCES:=$(wildcard *.docbook)
+ALL_TARGETS:=$(patsubst %.docbook,%.html,$(SOURCES))
 
-#date := $(shell date "+%-d. %B %Y.")
+all: $(ALL_TARGETS)
 
-all: sverapoj.html
+help:
+	@echo -e "\tmake doc\t\tправи документацију у директоријуму doc/"
 
 %.html: %.docbook
 	xmllint --valid $< >/dev/null
@@ -14,4 +17,5 @@ cat $< | sed "s/@date@/$$date/" | sed "s/@vcsrev@/$$vcsrev/" > $<.tmp
 	tidy -q --show-warnings no -utf8 -w 0 -m $@; test -z
 
 clean:
-	rm -f *.html
+	rm -f *.html *~
+
