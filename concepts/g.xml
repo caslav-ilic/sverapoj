@@ -25,11 +25,17 @@
 
 <concept id="gcc" topic="acrons"
          related="gnu">
-    <desc><ref c="gnu">~ГНУ|kde:Гнуов~</ref> <ref c="zzz">~преводилац|kde:компилатор~</ref> за језик <ref c="zzz">~Це|kde:Ц~</ref>.</desc>
-    <!-- @упути: compiler c_lang -->
+    <desc><ref c="gnu">~ГНУ|kde:Гнуова~</ref> збирка <ref c="zzz">~преводилаца|kde:компилатора̑~</ref>, која подржава више <ref c="zzz">програмских језика</ref>: <ref c="zzz">~Це|kde:Ц~</ref>, <ref c="zzz">~Це++|kde:Ц++~</ref>, <ref c="java">јава</ref>, <ref c="zzz">фортран</ref>, итд. Врло распрострањена, доступна је на више <ref c="computer">рачунарских</ref> платформи него иједан други <ref c="zzz">софтвер</ref> исте намене.</desc>
+    <!-- @упути: programminglanguage compiler c_lang cpp fortran -->
 
     <term lang="en" gr="i">GCC</term>
-    <term env="kde uk" gr="i">ГЦЦ</term>
+    <eterm env="kde uk" gr="i">
+        <nom>ГЦЦ</nom>
+        <comment>Од <ol lang="en" wl="1">GNU Compiler Collection</ol>.</comment>
+    </eterm>
+
+    <details root="wpsr" rel="ГЦЦ"/>
+    <comment>Како је први изведен био <ref c="zzz">~преводилац|kde:компилатор~</ref> <ref c="zzz">~Цеа|kde:Ц-а~</ref>, и заједно са оним за <ref c="zzz">~Це++|kde:Ц++~</ref> чини окосницу збирке, често се назив збирке користи у ужем смислу да означи баш њих.</comment>
 </concept>
 
 </concepts>
