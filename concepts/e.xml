@@ -23,14 +23,18 @@
     <details root="wpen" rel="Endianness"/>
 </concept>
 
-<concept id="email">
-    <desc></desc>
+<concept id="email"
+         related="mailinglist">
+    <!-- @види: emailmessage emailaddress emailclient attachment -->
+    <desc>Начин комуникације у оквиру <ref c="computer">рачунарских</ref> <ref c="network">мрежа</ref> где корисници једни другима шаљу (претежно) текстуалне поруке. Написана и <ref c="zzz">адресирана</ref>, порука се предаје наменском <ref c="zzz">серверу</ref>, одакле путује кроз мрежу до одредишта; испорука је обично брза, реда секунди или минута, али се никакав рок не гарантује. Прималац може бити једна или више одређених особа, или <ref c="mailinglist">поштанска листа</ref>. Корисници поруке пишу, шаљу, примају и читају посебним <ref c="application">програмом</ref> (<ref c="zzz">~клијентом електронске поште|kde:клијентом е-поште~</ref>), или кроз <ref c="zzz">~веб читач|kde:веб прегледач~</ref>.</desc>
+    <!-- @упути: server emailaddress emailclient webbrowser -->
 
     <term lang="en" gr="i">email</term>
     <term env="id" gr="i">епошта</term>
     <term env="uk" gr="i">електронска пошта</term>
     <term env="id" gr="i" by="filmil.gmail.com">ел.пошта</term>
     <term env="kde" gr="i">е-пошта</term>
+    <term env="id" gr="i">имејл</term>
 
     <details root="wpsr" rel="Електронска_пошта"/>
 </concept>
