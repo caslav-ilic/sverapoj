@@ -2,8 +2,7 @@
 <concepts>
 
 <concept id="paste"
-         related="clipboard copy">
-    <!-- @види: cut -->
+         related="clipboard copy cut">
     <desc>Убацити умножак текста или другог садржаја из <ref c="clipboard">~fed gnm uk:списка исечака|kde:клипборда|moz:бележнице|ooo:оставе~</ref> у документ на коме се тренутно ради.</desc>
 
     <term lang="en" gr="g">paste</term>

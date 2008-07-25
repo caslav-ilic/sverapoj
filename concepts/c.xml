@@ -28,8 +28,7 @@
 </concept>
 
 <concept id="copy"
-         related="clipboard paste">
-    <!-- @: cut -->
+         related="clipboard cut paste">
     <desc>Учинити да текст или други садржај из једног документа постане доступан кроз <ref c="clipboard">~fed gnm uk:списак исечака|kde:клипборд|moz:бележницу|ooo:оставу~</ref>.</desc>
 
     <term lang="en" gr="g">copy</term>
@@ -45,6 +44,14 @@
     <term lang="en" gr="g">copy</term>
     <term env="fed gnm moz ooo uk" gr="g">умножити</term>
     <term env="kde" gr="g">копирати</term>
+</concept>
+
+<concept id="cut"
+         related="clipboard copy paste">
+    <desc>Уклонити текст или други садржај из једног документа, али тако да привремено остане доступан кроз <ref c="clipboard">~fed gnm uk:списак исечака|kde:клипборд|moz:бележницу|ooo:оставу~</ref> (често само до наредног извршавања исте или сличне радње).</desc>
+
+    <term lang="en" gr="g">cut</term>
+    <term gr="g">исећи</term>
 </concept>
 
 </concepts>
