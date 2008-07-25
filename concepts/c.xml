@@ -27,4 +27,14 @@
     <details root="wpsr" rel="Рачунар"/>
 </concept>
 
+<concept id="copy"
+         related="clipboard paste">
+    <!-- @: cut -->
+    <desc>Учинити да текст или други садржај из једног документа постане доступан кроз <ref c="clipboard">~fed gnm uk:списак исечака|kde:клипборд|moz:бележницу|ooo:оставу~</ref>.</desc>
+
+    <term lang="en" gr="g">copy</term>
+    <term env="fed gnm moz ooo uk" gr="g">умножити</term>
+    <term env="kde" gr="g">копирати</term>
+</concept>
+
 </concepts>
