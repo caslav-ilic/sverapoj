@@ -37,4 +37,14 @@
     <term env="kde" gr="g">копирати</term>
 </concept>
 
+<concept id="copy_fs">
+    <!-- @види: move_fs delete_fs link_fs -->
+    <desc>Начинити истоветан примерак <ref c="file">~датотекe|kde:фајла~</ref> или <ref c="directory">фасцикле</ref> на некој другој локацији, у оквиру истог <ref c="filesystem">~система датотека|kde:фајл система~</ref>, или на засебном <ref c="zzz">складишном медијуму</ref>.</desc>
+    <!-- @упути: storagemedia -->
+
+    <term lang="en" gr="g">copy</term>
+    <term env="fed gnm moz ooo uk" gr="g">умножити</term>
+    <term env="kde" gr="g">копирати</term>
+</concept>
+
 </concepts>
