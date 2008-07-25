@@ -7,6 +7,11 @@
     <!-- @повежи: cut copy paste -->
 
     <term lang="en" gr="i">clipboard</term>
+    <eterm lang="en" env="id" gr="is">
+        <nom>kill ring</nom>
+        <comment>Користи се у <ref c="zzz">Емаксу</ref>.</comment>
+        <!-- @упути: emacs -->
+    </eterm>
     <term env="fed gnm ooo uk" gr="i">списак исечака</term>
     <term env="kde" gr="i">клипборд</term>
     <term env="moz" gr="i">бележница</term>
@@ -34,6 +39,8 @@
     <term lang="en" gr="g">copy</term>
     <term env="fed gnm moz ooo uk" gr="g">умножити</term>
     <term env="kde" gr="g">копирати</term>
+
+    <details root="wpen" rel="Cut,_copy,_and_paste"/>
 </concept>
 
 <concept id="copy_fs">
@@ -51,7 +58,14 @@
     <desc>Уклонити текст или други садржај из једног документа, али тако да привремено остане доступан кроз <ref c="clipboard">~fed gnm uk:списак исечака|kde:клипборд|moz:бележницу|ooo:оставу~</ref> (често само до наредног извршавања исте или сличне радње).</desc>
 
     <term lang="en" gr="g">cut</term>
+    <eterm lang="en" env="id" gr="g">
+        <nom>kill</nom>
+        <comment>Користи се у <ref c="zzz">Емаксу</ref>.</comment>
+        <!-- @упути: emacs -->
+    </eterm>
     <term gr="g">исећи</term>
+
+    <details root="wpen" rel="Cut,_copy,_and_paste"/>
 </concept>
 
 </concepts>

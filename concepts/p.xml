@@ -6,10 +6,17 @@
     <desc>Убацити умножак текста или другог садржаја из <ref c="clipboard">~fed gnm uk:списка исечака|kde:клипборда|moz:бележнице|ooo:оставе~</ref> у документ на коме се тренутно ради.</desc>
 
     <term lang="en" gr="g">paste</term>
+    <eterm lang="en" env="id" gr="g">
+        <nom>yank</nom>
+        <comment>Користи се у <ref c="zzz">Емаксу</ref>.</comment>
+        <!-- @упути: emacs -->
+    </eterm>
     <term env="fed gnm moz ooo uk" gr="g">убацити</term>
     <term env="kde" gr="g">налепити</term>
     <term env="id" src="rmk" gr="g">унети</term>
     <term env="id" src="rmk" gr="g">пренети</term>
+
+    <details root="wpen" rel="Cut,_copy,_and_paste"/>
 </concept>
 
 </concepts>
