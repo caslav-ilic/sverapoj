@@ -27,4 +27,16 @@
     <details root="wpen" rel="Directory_(file_systems)"/>
 </concept>
 
+<concept id="driver">
+    <desc><ref c="software">Софтвер</ref> ниског нивоа који <ref c="zzz">оперативном систему</ref> омогућава приступ и управљање одређеним <ref c="hardware">хардвером</ref>, нпр. <ref c="zzz">графичком картом</ref> или <ref c="zzz">штампачем</ref>. Мора се, бар по неким деловима, изводити понаособ за сваку комбинацију комада ~хардвера~ и ~оперативног система~, како би једно с другим могло функционисати.</desc>
+    <!-- @упути: operatingsystem graphicscard printer -->
+
+    <term lang="en" gr="i">driver</term>
+    <term env="fed gnm ooo" gr="i">управљачки програм</term>
+    <term env="kde moz ooo uk" gr="i">драјвер</term>
+    <term env="id" gr="i">везник</term>
+
+    <details root="wpsr" rel="Драјвер"/>
+</concept>
+
 </concepts>
