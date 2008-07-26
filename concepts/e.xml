@@ -39,4 +39,22 @@
     <details root="wpsr" rel="Електронска_пошта"/>
 </concept>
 
+<concept id="extension"
+         related="plugin">
+    <!-- @види: addon -->
+    <desc>Комад <ref c="software">софтвера</ref> који се по жељи корисника додаје у већи <ref c="application">програм</ref>, како би <em>допунио</em> или <em>изменио</em> могућности ~програма~. На пример, кориснику се може не допадати <ref c="default">подразумевани</ref> начин <ref c="zzz">преузимања</ref> <ref c="file">~датотека|kde:фајлова~</ref> у оквиру <ref c="zzz">~веб читача|kde:веб прегледача~</ref>, па га на овај начин заменити другим.</desc>
+    <!-- @упути: webbrowser download -->
+
+    <term lang="en" gr="i">plugin</term>
+    <term lang="en" env="moz" gr="i">extension</term>
+    <term lang="en" env="ooo" gr="i">addon</term>
+    <term lang="en" env="id" gr="i">add-on</term>
+    <term lang="en" env="id" gr="i">plug-in</term>
+    <term env="fed gnm ooo" gr="i">додатак</term>
+    <term env="moz uk" gr="i">проширење</term>
+    <term env="kde" gr="i">прикључак</term>
+
+    <details root="wpen" rel="Software_extension"/>
+</concept>
+
 </concepts>
