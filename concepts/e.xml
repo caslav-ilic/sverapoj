@@ -40,8 +40,7 @@
 </concept>
 
 <concept id="extension"
-         related="plugin">
-    <!-- @види: addon -->
+         related="addon plugin">
     <desc>Комад <ref c="software">софтвера</ref> који се по жељи корисника додаје у већи <ref c="application">програм</ref>, како би <em>допунио</em> или <em>изменио</em> могућности ~програма~. На пример, кориснику се може не допадати <ref c="default">подразумевани</ref> начин <ref c="zzz">преузимања</ref> <ref c="file">~датотека|kde:фајлова~</ref> у оквиру <ref c="zzz">~веб читача|kde:веб прегледача~</ref>, па га на овај начин заменити другим.</desc>
     <!-- @упути: webbrowser download -->
 

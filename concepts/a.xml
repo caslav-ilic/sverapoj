@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
+<concept id="addon">
+    <desc>Несамостални <ref c="software">софтвер</ref> или статични садржај који се додаје <ref c="application">програму</ref> ради допуне функционалности, измене понашања, преправки изгледа, итд. Обухвата <ref c="plugin" >прикључке</ref>, <ref c="extension" >проширења</ref>, <ref c="zzz">~теме икона|moz:теме сличица~</ref>, <ref c="zzz">~позадине|kde:тапети~</ref>, итд.</desc>
+    <!-- @упути: icontheme wallpaper -->
+
+    <term lang="en" gr="i">addon</term>
+    <term lang="en" env="id" gr="i">add-on</term>
+    <term gr="i">додатак</term>
+</concept>
+
 <concept id="applet"
          related="plugin">
     <desc>Парче <ref c="software">софтвера</ref> које се уграђује и извршава у окриљу каквог већег <ref c="application">програма</ref>, на чије се услуге ослања ради остваривања сопствене функционалности. На пример, овако може бити изведена <ref c="zzz">игра</ref> којој се приступа кроз <ref c="zzz">~веб читач|kde:веб прегледач~</ref>.</desc>
