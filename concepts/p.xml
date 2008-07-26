@@ -19,4 +19,17 @@
     <details root="wpen" rel="Cut,_copy,_and_paste"/>
 </concept>
 
+<concept id="plugin">
+    <!-- @види: addon extension -->
+    <desc>Комад <ref c="software">софтвера</ref> који се по жељи корисника додаје у већи <ref c="application">програм</ref>, ради проширења типова садржаја којима може да се рукује. На пример, у <ref c="zzz">~веб читачима|kde:веб прегледачима~</ref> за <ref c="zzz">пуштање</ref> одређеног типа видео материјала, или у графичким ~програмима~ за подршку одређеног формата слике.</desc>
+    <!-- @упути: webbrowser play -->
+
+    <term lang="en" gr="i">plugin</term>
+    <term lang="en" env="id">plug-in</term>
+    <term env="fed gnm moz ooo" gr="i">додатак</term>
+    <term env="kde moz uk" gr="i">прикључак</term>
+
+    <details root="wpen" rel="Plug-in_(computing)"/>
+</concept>
+
 </concepts>

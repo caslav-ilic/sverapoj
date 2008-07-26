@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
-<concept id="applet">
-    <!-- @види: plugin -->
+<concept id="applet"
+         related="plugin">
     <desc>Парче <ref c="software">софтвера</ref> које се уграђује и извршава у окриљу каквог већег <ref c="application">програма</ref>, на чије се услуге ослања ради остваривања сопствене функционалности. На пример, овако може бити изведена <ref c="zzz">игра</ref> којој се приступа кроз <ref c="zzz">~веб читач|kde:веб прегледач~</ref>.</desc>
     <!-- @упути: game, webbrowser -->
 
