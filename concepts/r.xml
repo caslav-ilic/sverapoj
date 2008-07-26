@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
+<concept id="reader"
+         related="browser viewer">
+    <!-- @види: okular kpdf evince -->
+    <desc><ref c="viewer">~Приказивач|fed gnm moz:Прегледач~</ref> текстуалног садржаја, често посебно прилагођен да учини читање са <ref c="zzz">монитора</ref> што мање заморним. Две изражене подгрупе: за читање текстуалних <ref c="file">~датотека|kde:фајлова~</ref> разних формата (нпр. <ref c="zzz">ПДФ-а</ref>), или информација које пристижу са <ref c="zzz">Интернета</ref> (нпр. <ref c="zzz">РСС</ref> <ref c="zzz">довода</ref>).</desc>
+    <!-- @упути: monitor pdf internet rss feed -->
+
+    <term lang="en" gr="i">viewer</term>
+    <term gr="i">читач</term>
+</concept>
+
 <concept id="rename">
     <desc>Променити назив неког објекта, нпр. <ref c="file">~датотеке|kde:фајла~</ref> или <ref c="directory">~фасцикле|moz unx:директоријума~</ref>. Једна од уобичајених радњи у <ref c="browser">прегледачима</ref>.</desc>
 

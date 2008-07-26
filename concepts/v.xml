@@ -14,8 +14,7 @@
 </concept>
 
 <concept id="viewer"
-         related="browser">
-    <!-- @види: reader -->
+         related="browser reader">
     <desc><ref c="application">Програм</ref> или део програма којим се разгледа визуелни садржај, нпр. текст, слике, или <ref c="zzz">3Д модели</ref>. Често чини саставни део <ref c="browser">~прегледача|moz ooo:читача~</ref>, а понекад се и не може направити јасна разлика између једног и другог.</desc>
     <!-- @упути: t3dmodel -->
 
