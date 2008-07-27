@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
+<concept id="character" topic="prog"
+         related="string">
+    <!-- @види: font -->
+    <desc>Јединични елемент текста на <ref c="computer">рачунару</ref>. Обично забележен бројевном вредношћу према одређеном <ref c="zzz">кодирању</ref>, на основу које се разрешава тачно графичко обличје при испису текста. Обухвата слове, бројеве, интерпункцију, разне симболе (нпр. новчаних валута), итд.</desc>
+    <!-- @упути: characterencoding -->
+
+    <term lang="en" gr="i">character</term>
+    <term gr="i">знак</term>
+    <term env="id" gr="i">карактер</term>
+
+    <details root="wpen" rel="Character_(computing)"/>
+</concept>
+
+<concept id="character2"
+         related="character">
+    <desc>Који се тиче <ref c="character">знакова</ref>, који је од њих састављен или њима намењен.</desc>
+
+    <term lang="en" gr="p">character</term>
+    <term env="kde" gr="p">знаковни</term>
+    <term env="id" gr="p">карактерски</term>
+
+    <details root="wpen" rel="Character_(computing)"/>
+</concept>
+
 <concept id="clipboard">
     <!-- @види: cut copy paste -->
     <desc>Место на систему где се чувају одломци текста или другог садржаја, доспели ту <ref c="zzz">исецањима</ref> и <ref c="zzz">~gnm moz ooo:умножавањима|fed kde:копирањима~</ref> из разних докумената. Тако ускладиштен садржај потом се може <ref c="zzz">~fed gnm moz ooo:убацити|kde:налепити~</ref> у произвољни документ (под условом да овај прихвата тај тип садржаја).</desc>
