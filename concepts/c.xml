@@ -19,7 +19,7 @@
     <desc>Који се тиче <ref c="character">знакова</ref>, који је од њих састављен или њима намењен.</desc>
 
     <term lang="en" gr="p">character</term>
-    <term env="kde" gr="p">знаковни</term>
+    <term gr="p">знаковни</term>
     <term env="id" gr="p">карактерски</term>
 
     <details root="wpen" rel="Character_(computing)"/>
