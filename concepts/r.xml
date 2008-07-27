@@ -7,7 +7,7 @@
     <desc><ref c="viewer">~Приказивач|fed gnm moz:Прегледач~</ref> текстуалног садржаја, често посебно прилагођен да учини читање са <ref c="zzz">монитора</ref> што мање заморним. Две изражене подгрупе: за читање текстуалних <ref c="file">~датотека|kde:фајлова~</ref> разних формата (нпр. <ref c="zzz">ПДФ-а</ref>), или информација које пристижу са <ref c="zzz">Интернета</ref> (нпр. <ref c="zzz">РСС</ref> <ref c="zzz">довода</ref>).</desc>
     <!-- @упути: monitor pdf internet rss feed -->
 
-    <term lang="en" gr="i">viewer</term>
+    <term lang="en" gr="i">reader</term>
     <term gr="i">читач</term>
 </concept>
 
