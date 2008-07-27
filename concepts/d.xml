@@ -27,6 +27,33 @@
     <details root="wpen" rel="Directory_(file_systems)"/>
 </concept>
 
+<concept id="download"
+         related="download2">
+    <!-- @види: upload -->
+    <desc>Од <ref c="file">~датотека|kde:фајлова~</ref> изворно смештених негде у <ref c="network">мрежи</ref> (посебно на <ref c="zzz">Интернету</ref>) начинити <ref c="zzz">копије</ref> на локалном <ref c="computer">рачунару</ref>. Традиционални ~мрежни~ извори су <ref c="zzz">сервери</ref> (нпр. <ref c="zzz">ФТП</ref>), а у новије време и <ref c="zzz">п2п</ref> мреже (попут <ref c="zzz">битторента</ref>).</desc>
+    <!-- @упути: internet copy2 server ftp p2p torrent -->
+
+    <term lang="en" gr="g">download</term>
+    <term gr="g">преузети</term>
+    <term env="moz" gr="g">примити</term>
+    <term env="id" gr="g">скинути</term>
+
+    <details root="wpen" rel="Uploading_and_downloading"/>
+</concept>
+
+<concept id="download2"
+         related="download">
+    <!-- @види: upload2 -->
+    <desc>Оно што се <ref c="download">~преузима|moz:прима~</ref>, или ток такве радње.</desc>
+
+    <term lang="en" gr="i">download</term>
+    <term gr="i">преузимање</term>
+    <term env="moz" gr="i">пријем</term>
+    <term env="id" gr="i">скидање</term>
+
+    <details root="wpen" rel="Uploading_and_downloading"/>
+</concept>
+
 <concept id="driver">
     <desc><ref c="software">Софтвер</ref> ниског нивоа који <ref c="zzz">оперативном систему</ref> омогућава приступ и управљање одређеним <ref c="hardware">хардвером</ref>, нпр. <ref c="zzz">графичком картом</ref> или <ref c="zzz">штампачем</ref>. Мора се, бар по неким деловима, изводити понаособ за сваку комбинацију комада ~хардвера~ и ~оперативног система~, како би једно с другим могло функционисати.</desc>
     <!-- @упути: operatingsystem graphicscard printer -->
