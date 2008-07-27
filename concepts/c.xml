@@ -7,7 +7,11 @@
     <!-- @упути: characterencoding -->
 
     <term lang="en" gr="i">character</term>
-    <term gr="i">знак</term>
+    <eterm gr="i">
+        <nom>знак</nom>
+        <decl gr="nommn">знакови</decl>
+        <comment>Множине ‘знакови’ и ‘знаци’ једнако су исправне.</comment>
+    </eterm>
     <term env="id" gr="i">карактер</term>
 
     <details root="wpen" rel="Character_(computing)"/>
