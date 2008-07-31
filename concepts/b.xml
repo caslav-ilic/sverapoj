@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
+<concept id="bold">
+    <!-- @види: italic oblique -->
+    <desc>Облик <ref c="font">фонта</ref> у којем су слова исцртана пунијим потезом у односу на основни за исту величину, тако да изгледају „црније“. У текућем тексту користи се за јако <ref c="zzz">истицање</ref> појединих речи, због њихове важности или да би их читалац лако уочио при брзом прегледању текста.</desc>
+    <!-- @упути: emphasis -->
+
+    <term lang="en" gr="p">bold</term>
+    <term env="gnm moz kde ooo uk" gr="p">подебљан</term>
+    <term env="gnm" gr="p">зацрњен</term>
+    <term env="gnm" gr="p">мастан</term>
+    <term env="moz" gr="p">полуцрн</term>
+
+    <details root="wpen" rel="Bold_type"/>
+</concept>
+
 <concept id="browser">
     <!-- @види: webbrowser, filebrowser -->
     <desc><ref c="application">Програм</ref> или део програма намењен кретању кроз одређени садржај, његово прегледање и избор по деловима, понекад и уз могућност тражења. На пример, <ref c="zzz">~fed gnm moz ooo unx uk:веб читачем|kde:веб прегледачем~</ref> се приступа странама на <ref c="zzz">Интернету</ref>, а <ref c="zzz">~прегледачем датотека|kde:прегледачем фајлова~</ref> се разгледа <ref c="zzz">~стабло фасцикли|moz unx:стабло директоријума~</ref> и бирају <ref c="file">~датотеке|kde:фајлови~</ref>.</desc>
