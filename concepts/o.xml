@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
+<concept id="oblique"
+         related="bold italic">
+    <desc>Облик <ref c="font">фонта</ref> у којем су слова нагнута удесно у односу на основна. Исте намене као и <ref c="italic">курзивни</ref> облик, често се уместо њега среће код <ref c="zzz">бесерифних</ref> фонтова.</desc>
+    <!-- @упути: sansserif -->
+
+    <term lang="en" gr="p">oblique</term>
+    <term lang="en" env="id" gr="p">slanted</term>
+    <term gr="p">искошен</term>
+
+    <details root="wpen" rel="Oblique_type"/>
+</concept>
+
 <concept id="online"
          related="online2 online3">
     <desc>Који је доступан на <ref c="zzz">удаљеном</ref> <ref c="computer">рачунару</ref> у мрежи, којем се може приступити преко мреже, који се може користити кроз мрежу. Најчешће, али не обавезно, мрежа на коју се мисли је <ref c="zzz">Интернет</ref>; на пример, продавница књига преко Интернета, карта града са тражењем улица, или вести које се редовно <ref c="zzz">ажурирају</ref>.</desc>
