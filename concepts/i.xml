@@ -13,4 +13,17 @@
     <details root="wpen" rel="Icon_(computing)"/>
 </concept>
 
+<concept id="italic"
+         related="bold">
+    <!-- @види: oblique -->
+    <desc>Облик <ref c="font">фонта</ref> такав да слова подражавају рукописна обличја, обично и понешто нагнута удесно. Њиме се <ref c="zzz">истичу</ref> речи и синтагме у тексту на које треба посебно обратити пажњу, лична имена од преносног значења, или делови који се наводе дословно (нпр. из страног језика).</desc>
+    <!-- @упути: emphasis -->
+
+    <term lang="en" gr="p">italic</term>
+    <term env="gnm kde ooo uk" gr="p">курзиван</term>
+    <term env="moz" gr="p">искошен</term>
+
+    <details root="wpen" rel="Italic_type"/>
+</concept>
+
 </concepts>
