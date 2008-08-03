@@ -2,13 +2,32 @@
 <concepts>
 
 <concept id="cell"
-         related="row">
-    <!-- @види: column -->
+         related="column row">
     <desc>Најнижи ниво поделе у <ref c="table">табели</ref>, који носи стварне податке. Обично су то бројеви, речи, или краћи текстови.</desc>
 
     <term lang="en" gr="i">cell</term>
     <term gr="i">ћелија</term>
     <term env="id" gr="i">поље</term>
+</concept>
+
+<concept id="column"
+         related="cell row">
+    <desc>Усправни низ <ref c="cell">ћелија</ref> у графичкој <ref c="table">табели</ref>.</desc>
+
+    <term lang="en" gr="i">column</term>
+    <term env="gnm pr" gr="i">колона</term>
+    <term env="gnm" gr="i">стубац</term>
+</concept>
+
+<concept id="column_page">
+    <desc>Усправни блок текста на <ref c="zzz">страни</ref> која је подељена у два или више таквих блокова. ~Стране~ се овако деле када би иначе текст био преширок за удобно читање, или где је важно густо сложити садржај и омогућити његов брз преглед (нпр. у дневним новинама).</desc>
+    <!-- @упути: page -->
+
+    <term lang="en" gr="i">column</term>
+    <term env="gnm pr" gr="i">колона</term>
+    <term env="gnm" gr="i">стубац</term>
+
+    <details root="wpen" rel="Column_(typography)"/>
 </concept>
 
 <concept id="character" topic="prog"
