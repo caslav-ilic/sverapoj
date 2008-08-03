@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
+<concept id="cell">
+    <!-- @види: row column header -->
+    <desc>Најнижи ниво поделе у <ref c="zzz">табели</ref>, који носи стварне податке. Обично су то бројеви, речи, или краћи текстови.</desc>
+    <!-- @упути: table -->
+
+    <term lang="en" gr="i">cell</term>
+    <term gr="i">ћелија</term>
+    <term env="id" gr="i">поље</term>
+</concept>
+
 <concept id="character" topic="prog"
          related="font string">
     <desc>Јединични елемент текста на <ref c="computer">рачунару</ref>. Обично забележен бројевном вредношћу према одређеном <ref c="zzz">кодирању</ref>, на основу које се разрешава тачно графичко обличје при испису текста. Обухвата слове, бројеве, интерпункцију, разне симболе (нпр. новчаних валута), итд.</desc>
