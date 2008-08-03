@@ -19,4 +19,27 @@
     <term env="ooo" gr="gs">променити име</term>
 </concept>
 
+<concept id="row"
+         related="cell">
+    <!-- @види: column -->
+    <desc>Водоравни низ <ref c="cell">ћелија</ref> у графичкој <ref c="table">табели</ref>.</desc>
+
+    <term lang="en" gr="i">row</term>
+    <term env="fed gnm moz ooo uk" gr="i">ред</term>
+    <term env="kde ooo" gr="i">врста</term>
+</concept>
+
+<concept id="row_db">
+    <desc>Највиши ниво поделе у апстрактним <ref c="table">табелама</ref> у <ref c="zzz">базама података</ref>, који садржи све податке о једном објекту који ~база~ прати. Често је један од тих података јединствени <ref c="zzz">идентифактор</ref> објекта.</desc>
+    <!-- @упути: database identifier -->
+
+    <term lang="en" gr="i">row</term>
+    <term lang="en" gr="i">record</term>
+    <term env="kde uk" gr="i">врста</term>
+    <term env="id" gr="i">ред</term>
+    <term env="id" gr="i">слог</term>
+
+    <details root="wpen" rel="Row_(database)"/>
+</concept>
+
 </concepts>

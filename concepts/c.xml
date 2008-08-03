@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
-<concept id="cell">
-    <!-- @види: row column -->
+<concept id="cell"
+         related="row">
+    <!-- @види: column -->
     <desc>Најнижи ниво поделе у <ref c="table">табели</ref>, који носи стварне податке. Обично су то бројеви, речи, или краћи текстови.</desc>
 
     <term lang="en" gr="i">cell</term>
