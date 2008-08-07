@@ -19,6 +19,19 @@
     <term env="gnm" gr="i">стубац</term>
 </concept>
 
+<concept id="chat">
+    <!-- @види: irc -->
+    <desc>Комуницирати са другим људима <ref c="online">~на мрежи|kde:на вези~</ref>, најчешће преко <ref c="zzz">Интернета</ref>, разменом кратких текстуалних порука у <ref c="zzz">стварном времену</ref>. Поруке могу носити различити протоколи, од првобитног <ref c="zzz">ИРЦ-а</ref> до новијих попут <ref c="zzz">џабера</ref>, а корисник их шаље и прима <ref c="zzz">брзим гласником</ref>.</desc>
+    <!-- @упути: internet realtime irc jabber instantmanager -->
+
+    <term lang="en" gr="g">chat</term>
+    <term env="fed gnm kde uk" gr="g">ћаскати</term>
+    <term env="fed gnm moz" gr="g">разговарати</term>
+    <term env="gnm" gr="g">чаврљати</term>
+
+    <details root="wpen" rel="Online_chat"/>
+</concept>
+
 <concept id="column_page">
     <desc>Усправни блок текста на <ref c="zzz">страни</ref> која је подељена у два или више таквих блокова. ~Стране~ се овако деле када би иначе текст био преширок за удобно читање, или где је важно густо сложити садржај и омогућити његов брз преглед (нпр. у дневним новинама).</desc>
     <!-- @упути: page -->
