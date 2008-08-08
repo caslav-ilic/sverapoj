@@ -19,6 +19,17 @@
     <details root="wpen" rel="Cut,_copy,_and_paste"/>
 </concept>
 
+<concept id="pattern">
+    <!-- @види: glob regularexpression -->
+    <desc><ref c="string">Ниска</ref> обичних и посебних <ref c="character">знакова</ref> помоћу које се <ref c="zzz">поклапају</ref> друге ~ниске~ и делови текста. Овакве ~ниске~ користе се, између осталог, за <ref c="zzz">претрагу</ref> и <ref c="zzz">издвајање</ref> текста, <ref c="zzz">бирање</ref> по имену појединих објеката из већег скупа (нпр. <ref c="file">~датотека|kde:фајлова~</ref>), проверу <ref c="zzz">ваљаности</ref> формалних ~ниски~ (нпр. адреса). Јављају се у различитим видовима, према саставу и функцији посебних ~знакова~ које могу садржати.</desc>
+    <!-- @упути: match search extract select valid -->
+
+    <term lang="en" gr="i">pattern</term>
+    <term env="fed gnm kde moz uk" gr="i">образац</term>
+    <term env="fed gnm ooo" gr="i">узорак</term>
+    <term env="gnm ooo" gr="i">шаблон</term>
+</concept>
+
 <concept id="plugin"
          related="addon extension">
     <desc>Комад <ref c="software">софтвера</ref> који се по жељи корисника додаје у већи <ref c="application">програм</ref>, ради проширења типова садржаја којима може да се рукује. На пример, у <ref c="zzz">~веб читачима|kde:веб прегледачима~</ref> за <ref c="zzz">пуштање</ref> одређеног типа видео материјала, или у графичким ~програмима~ за подршку одређеног формата слике.</desc>
