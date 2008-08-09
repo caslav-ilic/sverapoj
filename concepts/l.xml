@@ -24,4 +24,28 @@
     <details root="wpen" rel="Endianness" />
 </concept>
 
+<concept id="log"
+         related="log2">
+    <desc>Хронолошки списак догађаја, где је сваки заведен са временом и кратким описом онога што се догодило. То могу бити системске поруке при <ref c="zzz">подизању</ref> <ref c="computer">рачунара</ref>, међусобне поруке учесника у <ref c="chat">ћаскању</ref>, тренуци <ref c="zzz">пријављивања</ref> и <ref c="zzz">одјављивања</ref> корисника̑, и слично.</desc>
+    <!-- @упуит: startup login logout -->
+
+    <term lang="en" gr="i">log</term>
+    <term gr="i">дневник</term>
+    <term env="ooo" gr="i">евиденција</term>
+    <term env="id" gr="i">записник</term>
+
+    <details root="wpen" rel="Data_log"/>
+</concept>
+
+<concept id="log2"
+         related="log">
+    <desc>Пратити одвијање извесног процеса и заводити битне моменте у <ref c="log">~дневник|ooo:евиденцију~</ref> догађаја.</desc>
+
+    <term lang="en" gr="g">log</term>
+    <term env="gnm kde moz uk" gr="g">бележити</term>
+    <term env="fed ooo" gr="g">записивати</term>
+
+    <details root="wpen" rel="Data_log"/>
+</concept>
+
 </concepts>
