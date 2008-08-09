@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
+<concept id="widget">
+    <!-- @види: toolkit -->
+    <desc>Елемент <ref c="zzz">графичког сучеља</ref> помоћу којег корисник извршава одређену радњу у <ref c="application">програму</ref>. Ови елементи се разликују по изгледу, начину на који се користе и дејству које производе. У њих спадају: <ref c="zzz">дугмад</ref>, <ref c="zzz">кућице</ref>, <ref c="toolbar">~траке алатки|fed:палете са алатима|gnm ooo:палете алатки|moz:алатне траке~</ref>, <ref c="zzz">језичци</ref>, итд.</desc>
+    <!-- @упути: gui button checkbox toolbar tab -->
+
+    <term lang="en" gr="i">widget</term>
+    <term env="kde uk" gr="i">виџет</term>
+    <term env="fed gnm" gr="i">елемент</term>
+    <term env="fed" gr="i">графички елемент</term>
+    <term env="fed" gr="i">графички додатак</term>
+
+    <details root="wpen" rel="GUI_widget"/>
+</concept>
+
 <concept id="wildcard">
     <!-- @види: glob regularexpression -->
     <desc>Посебан <ref c="character">знак</ref> у <ref c="pattern">обрасцима</ref> за <ref c="zzz">поклапање</ref> текста, којим се задаје ~поклапање~ једног, ниједног, или више стварних ~знакова~ у тексту. Често се користе у ~обрасцима~ за избор <ref c="file">~датотека|kde:фајлова~</ref> по имену.</desc>
