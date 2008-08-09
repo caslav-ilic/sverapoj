@@ -12,8 +12,8 @@
 
 <concept id="checkbox">
     <!-- @види: radiobutton -->
-    <desc><ref c="widget">~Виџет|gnm:Елемент|fed:Графички додатак~</ref> за задавање одређене <ref c="zzz">поставке</ref> <ref c="application">програма</ref>, где корисник бира између логичког да-не, укљученог-искљученог. Обично у виду квадратића који може бити <ref c="zzz">попуњен</ref> или <ref c="zzz">празан</ref>.</desc>
-    <!-- @упути: setting check uncheck -->
+    <desc><ref c="widget">~Виџет|gnm:Елемент|fed:Графички додатак~</ref> за задавање одређене <ref c="setting">поставке</ref> <ref c="application">програма</ref>, где корисник бира између логичког да-не, укљученог-искљученог. Обично у виду квадратића који може бити <ref c="zzz">попуњен</ref> или <ref c="zzz">празан</ref>.</desc>
+    <!-- @упути: check uncheck -->
 
     <term lang="en" env="kde pr" gr="i">checkbox</term>
     <term lang="en" gr="i">check box</term>

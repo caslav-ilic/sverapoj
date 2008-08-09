@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
+<concept id="setting">
+    <!-- @види: configuration -->
+    <desc>Избор корисника који одређује нешто у вези са изгледом или понашањем <ref c="application">програма</ref>, и који се трајно памти док га корисник поново не измени. Најчешће има <ref c="default">подразумевану</ref> вредност, мада се понекад она тражи од корисника при првом покретању ~програма~.</desc>
+
+    <term lang="en" env="gnm moz pr" gr="i">setting</term>
+    <term lang="en" env="gnm moz" gr="i">preference</term>
+    <term env="fed gnm kde moz ooo uk" gr="i">поставка</term>
+    <term env="fed gnm moz ooo" gr="i">подешавање</term>
+
+    <comment>Нека окружења на српском намерно прате двојство енглеског израза, додељујући тачно један српски једном енглеском. Нпр. у <ref c="zzz">Гному</ref> је <ol lang="en">preference</ol> увек ‘поставка’, а <ol lang="en">setting</ol> ‘подешавање’.</comment>
+    <!-- @упути: gnome -->
+</concept>
+
 <concept id="shell">
     <!-- @види: commandline terminal console -->
     <desc><ref c="software">Софтверски</ref> слој који кориснику пружа <ref c="zzz">сучеље</ref> за комуникацију и управљање радним слојем, попут функција <ref c="zzz">оперативног система</ref> и <ref c="filesystem">~система датотека|kde:фајл система~</ref>. Обично се мисли на слој текстуалног типа, где корисник <ref c="zzz">тастатуром</ref> уноси <ref c="zzz">наредбе</ref> које треба извршити, али може бити и <ref c="zzz">графичког</ref> типа.</desc>
