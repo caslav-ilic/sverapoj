@@ -32,6 +32,41 @@
     <term env="gnm" gr="i">стубац</term>
 </concept>
 
+<concept id="configuration"
+         related="configurationfile configure">
+    <desc>Скуп <ref c="setting">поставки</ref> <ref c="application">програма</ref>, који корисник може да мења како би <ref c="zzz">прилагодио</ref> изглед и понашање ~програма~ сопственим потребама.</desc>
+    <!-- @упути: customize -->
+
+    <term lang="en" gr="i">configuration</term>
+    <term env="fed gnm moz ooo uk" gr="i">подешавање</term>
+    <term env="kde" gr="i">постава</term>
+    <term env="moz" gr="i">конфигурација</term>
+</concept>
+
+<concept id="configurationfile"
+         related="configuration configure">
+    <desc><ref c="file">~Датотека|kde:Фајл~</ref> ~која|kde:који~ садржи <ref c="configuration">~подешавање|kde:поставу~</ref> <ref c="application">програма</ref>, обично у формату <ref c="zzz">обичног текста</ref>. <ref c="zzz">Учитава</ref> се при покретању ~програма~, а понекад се може поново учитати усред извршавања.</desc>
+    <!-- @упути: plaintext load -->
+
+    <term lang="en" gr="is">configuration file</term>
+    <term env="kde" gr="is">поставни фајл</term>
+    <term env="fed gnm moz ooo uk" gr="is">датотека са подешавањима</term>
+    <term env="fed" gr="is">датотека подешавања</term>
+    <term env="fed" gr="is">конфигурациона датотека</term>
+    <term env="fed" gr="is">конфигурацијска датотека</term>
+
+    <details root="wpen" rel="Configuration_file"/>
+</concept>
+
+<concept id="configure"
+         related="configuration configurationfile">
+    <desc>Изменити <ref c="setting">поставке</ref> тако да одговарају одређеној намени.</desc>
+
+    <term lang="en" gr="g">configure</term>
+    <term gr="g">подесити</term>
+    <term env="id" gr="g">конфигурисати</term>
+</concept>
+
 <concept id="chat">
     <!-- @види: irc -->
     <desc>Комуницирати са другим људима <ref c="online">~на мрежи|kde:на вези~</ref>, најчешће преко <ref c="zzz">Интернета</ref>, разменом кратких текстуалних порука у <ref c="zzz">стварном времену</ref>. Поруке могу носити различити протоколи, од првобитног <ref c="zzz">ИРЦ-а</ref> до новијих попут <ref c="zzz">џабера</ref>, а корисник их шаље и прима <ref c="zzz">брзим гласником</ref>.</desc>
