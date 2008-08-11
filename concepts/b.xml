@@ -15,6 +15,19 @@
     <details root="wpen" rel="Bold_type"/>
 </concept>
 
+<concept id="bookmark">
+    <!-- @види: favorites -->
+    <desc>Запамћен приступ одређеном ресурсу, најчешће <ref c="zzz">веб страни</ref> на <ref c="zzz">Интернету</ref>, али и другим <ref c="zzz">удаљеним</ref> одредиштима у <ref c="network">мрежи</ref> и локалним на <ref c="computer">рачунару</ref> (нпр. некој <ref c="directory">~фасцикли|moz unx:директоријуму~</ref>). Састоји се најпре од <ref c="url">~УРЛ-а|gnm moz ooo:адресе~</ref> и описа ресурса, али може носити још детаља.</desc>
+    <!-- @упути: webpage internet remote -->
+
+    <term lang="en" gr="i">bookmark</term>
+    <term env="kde" gr="i">маркер</term>
+    <term env="fed gnm ooo uk" gr="i">обележивач</term>
+    <term env="moz" gr="i">забелешка</term>
+
+    <details root="wpen" rel="Internet_bookmark"/>
+</concept>
+
 <concept id="browser">
     <!-- @види: webbrowser, filebrowser -->
     <desc><ref c="application">Програм</ref> или део програма намењен кретању кроз одређени садржај, његово прегледање и избор по деловима, понекад и уз могућност тражења. На пример, <ref c="zzz">~fed gnm moz ooo unx uk:веб читачем|kde:веб прегледачем~</ref> се приступа странама на <ref c="zzz">Интернету</ref>, а <ref c="zzz">~прегледачем датотека|kde:прегледачем фајлова~</ref> се разгледа <ref c="zzz">~стабло фасцикли|moz unx:стабло директоријума~</ref> и бирају <ref c="file">~датотеке|kde:фајлови~</ref>.</desc>
