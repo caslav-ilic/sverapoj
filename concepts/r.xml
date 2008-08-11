@@ -19,6 +19,21 @@
     <term env="ooo" gr="gs">променити име</term>
 </concept>
 
+<concept id="reset">
+    <!-- @види: restart reload -->
+    <desc>Из тренутног стања пребацити објекат у неко почетно, <ref c="default">подразумевано</ref>, чисто од временом накупљеног историјата радњи или грешака. Може се учинити над делом садржаја неког документа (нпр. стиловима у тексту), <ref c="application">програмима</ref> и њиховим <ref c="configuration">~подешавањем|kde:поставама~</ref>, или пак целим <ref c="zzz">оперативним системом</ref> уз поновно покретање <ref c="computer">рачунара</ref>.</desc>
+    <!-- @упути: operatingsystem -->
+
+    <term lang="en" gr="g">reset</term>
+    <term env="fed gnm moz ooo" gr="g">вратити</term>
+    <term env="fed gnm ooo" gr="gs">поново поставити</term>
+    <term env="fed" gr="gs">повратити</term>
+    <term env="moz" gr="gs">обновити</term>
+    <term env="gnm kde ooo uk" gr="g">ресетовати</term>
+
+    <details root="wpen" rel="Reset_(computing)"/>
+</concept>
+
 <concept id="row"
          related="cell column">
     <desc>Водоравни низ <ref c="cell">ћелија</ref> у графичкој <ref c="table">табели</ref>.</desc>
