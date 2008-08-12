@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
+<concept id="cache">
+    <desc>Простор на <ref c="zzz">складишном медијуму</ref>, обично <ref c="zzz">хард-диску</ref>, где се одлажу <ref c="zzz">копије</ref> података којима је бар једном приступљено, како би се при следећем приступу могли испоручити одатле уместо са стварног изворишта. Овакво складиштење примењује се када је приступ извору спор, нпр. <ref c="zzz">веб странама</ref> преко <ref c="network">мреже</ref>; праћено је механизмом који утврђује да ли је ~копија~ довољно ажурна, или се мора поново посегнути за извором.</desc>
+    <!-- @упути: storagemedia harddisk copy2 webpage -->
+
+    <term lang="en" gr="i">cache</term>
+    <term env="fed kde moz ooo uk" gr="i">кеш</term>
+    <term env="gnm ooo" gr="i">остава</term>
+
+    <details root="wpen" rel="Cache"/>
+</concept>
+
 <concept id="cell"
          related="column row">
     <desc>Најнижи ниво поделе у <ref c="table">табели</ref>, који носи стварне податке. Обично су то бројеви, речи, или краћи текстови.</desc>
