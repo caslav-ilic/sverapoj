@@ -1,6 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
+<concept id="header">
+    <!-- @види: footer -->
+    <desc>Горњи део стране с текстом, нпр. у књизи или на <ref c="zzz">веб страни</ref>, који садржи податке за оријентацију, попут наслова тренутног поглавља, одељка, или броја стране.</desc>
+    <!-- @упути: webpage -->
+
+    <term lang="en" gr="i">header</term>
+    <term gr="i">заглавље</term>
+
+    <details root="wpen" rel="Page_header"/>
+</concept>
+
+<concept id="header2">
+    <desc>Почетни део електронског документа који не припада главном садржају, већ носи разне <ref c="zzz">метаподатке</ref> о њему. Тачан састав података зависи од типа садржаја, а међу чешћима су: име аутора, датум настанка, изворна локација, назив <ref c="application">програма</ref> којим је документ створен, итд. Посебно често се налази код докумената намењених преносу кроз <ref c="network">мрежу</ref>, као што су поруке <ref c="email">~е-поште|moz:ел. поште~</ref>.</desc>
+    <!-- @упути: metadata -->
+
+    <term lang="en" gr="i">header</term>
+    <term gr="i">заглавље</term>
+
+    <details root="wpen" rel="Header_(information_technology)"/>
+</concept>
+
+<concept id="header3" topic="prog"
+         related="headerfile">
+    <desc>Део <ref c="zzz">ко̑да</ref> који ~декларише~ објекте, као што су <ref c="zzz">функције</ref> и <ref c="zzz">класе</ref>, у <ref c="zzz">програмским језицима</ref> који праве разлику између <ref c="zzz">декларације</ref> и <ref c="zzz">дефиниције</ref> објекта (нпр. <ref c="zzz">~Цe|kde:Ц~</ref>).</desc>
+    <!-- @упути: programminglanguage declaration definition code c_lang -->
+
+    <term lang="en" gr="i">header</term>
+    <term gr="i">заглавље</term>
+</concept>
+
+<concept id="header4">
+    <desc><ref c="row">~Ред|kde:Врста~</ref> у <ref c="table">табели</ref> ~који|kde:која~ даје називе ~колона~, односно <ref c="column">колона</ref> која даје називе ~редова|kde:врста~. Обично испред осталих, тј. ~највиши ред|kde:највиша врста~ односно ~најлевља колона~.</desc>
+
+    <term lang="en" gr="i">header</term>
+    <term gr="i">заглавље</term>
+</concept>
+
+<concept id="headerfile" topic="prog"
+         related="header3">
+    <!-- @види: implementationfile -->
+    <desc><ref c="file">~Датотека|kde:Фајл~</ref> ~која|kde:који~ садржи <ref c="zzz">декларације</ref> у <ref c="zzz">програмском ко̑ду</ref>. Посебном директивом се <ref c="zzz">укључује</ref> у друге ~датотеке|kde:фајлове~ у којима су те ~декларације~ потребне.</desc>
+    <!-- @упути: declaration code include -->
+
+    <term lang="en" gr="is">header file</term>
+    <term env="fed gnm uk" gr="is">датотека заглавља</term>
+    <term env="kde" gr="is">фајл заглавља</term>
+    <term env="id" gr="is">заглавна датотека</term>
+    <term env="id" gr="is">заглавни фајл</term>
+
+    <details root="wpen" rel="Header_file"/>
+</concept>
+
 <concept id="highlight"
          related="syntaxhighlighting">
     <desc>На неки начин из целине визуелно издвојити одређене делове текста, слике, или другог садржаја у документу, како би их корисник лако уочио. На пример, делове текста који су <ref c="zzz">поклопљени</ref> приликом тражења у <ref c="zzz">уређивачу</ref>.</desc>
