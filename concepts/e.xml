@@ -31,9 +31,9 @@
 
     <term lang="en" gr="i">email</term>
     <term env="id" gr="i">епошта</term>
-    <term env="uk" gr="i">електронска пошта</term>
-    <term env="id" gr="i" by="filmil.gmail.com">ел.пошта</term>
-    <term env="kde" gr="i">е-пошта</term>
+    <term env="id" gr="i">електронска пошта</term>
+    <term env="moz" gr="i" by="filmil.gmail.com">ел. пошта</term>
+    <term gr="i">е-пошта</term>
     <term env="id" gr="i">имејл</term>
 
     <details root="wpsr" rel="Електронска_пошта"/>
