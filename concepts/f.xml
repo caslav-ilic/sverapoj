@@ -41,4 +41,16 @@
     <details root="wpen" rel="Typeface"/>
 </concept>
 
+<concept id="footer"
+         related="header">
+    <desc>Доњи део стране с текстом, нпр. у књизи или на <ref c="zzz">веб страни</ref>, у којем се дају <ref c="zzz">фусноте</ref>, а често и број стране. Понекад садржи и опште податке о тексту, нпр. име аутора или датум последње измене.</desc>
+    <!-- @упути: webpage footnote -->
+
+    <term lang="en" gr="i">footer</term>
+    <term gr="i">подножје</term>
+    <term env="moz" gr="i">фуснота</term>
+
+    <details root="wpen" rel="Page_footer"/>
+</concept>
+
 </concepts>

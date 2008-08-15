@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
-<concept id="header">
-    <!-- @види: footer -->
+<concept id="header"
+         related="footer">
     <desc>Горњи део стране с текстом, нпр. у књизи или на <ref c="zzz">веб страни</ref>, који садржи податке за оријентацију, попут наслова тренутног поглавља, одељка, или броја стране.</desc>
     <!-- @упути: webpage -->
 
