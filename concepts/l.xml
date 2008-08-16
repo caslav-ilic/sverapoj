@@ -26,8 +26,8 @@
 
 <concept id="log"
          related="log2">
-    <desc>Хронолошки списак догађаја, где је сваки заведен са временом и кратким описом онога што се догодило. То могу бити системске поруке при <ref c="zzz">подизању</ref> <ref c="computer">рачунара</ref>, међусобне поруке учесника у <ref c="chat">ћаскању</ref>, тренуци <ref c="zzz">пријављивања</ref> и <ref c="zzz">одјављивања</ref> корисника̑, и слично.</desc>
-    <!-- @упуит: startup login logout -->
+    <desc>Хронолошки списак догађаја, где је сваки заведен са временом и кратким описом онога што се догодило. То могу бити системске поруке при <ref c="zzz">подизању</ref> <ref c="computer">рачунара</ref>, међусобне поруке учесника у <ref c="chat">ћаскању</ref>, тренуци <ref c="login">пријављивања</ref> и <ref c="logout">одјављивања</ref> корисника̑, и слично.</desc>
+    <!-- @упути: startup -->
 
     <term lang="en" gr="i">log</term>
     <term gr="i">дневник</term>
@@ -46,6 +46,53 @@
     <term env="fed ooo" gr="g">записивати</term>
 
     <details root="wpen" rel="Data_log"/>
+</concept>
+
+<concept id="login"
+         related="logout">
+    <!-- @види: account session -->
+    <desc>Представити се <ref c="zzz">вишекорисничком</ref> <ref c="zzz">оперативном систему</ref> као одређени корисник, задавањем <ref c="zzz">корисничког имена</ref> и личне <ref c="zzz">лозинке</ref>, после чега се може отпочети с радом на <ref c="computer">рачунару</ref>. Уместо ~лозинком~, идентитет се може утврђивати и на неки други начин, нпр. <ref c="zzz">криптографским</ref> <ref c="zzz">кључем</ref> или <ref c="zzz">смарткартицом</ref>.</desc>
+    <!-- @упути: multiuser operatingsystem username password cryptography key2 smartcard -->
+
+    <term lang="en" gr="gs">log in</term>
+    <term lang="en" env="id" gr="gs">log on</term>
+    <term lang="en" env="id" gr="gs">sign in</term>
+    <term gr="g">пријавити (се)</term>
+
+    <details root="wpen" rel="Logging_(computer_security)"/>
+</concept>
+
+<concept id="login2"
+         related="login">
+    <!-- @види: displaymanager -->
+    <desc>Који се односи на <ref c="login">пријављивање</ref>, нпр. путем којег се корисници пријављују, или којим се управља ~пријављеним~ корисницима.</desc>
+
+    <term lang="en" gr="p">login</term>
+    <term lang="en" env="id" gr="p">logon</term>
+    <term gr="p">пријавни</term>
+</concept>
+
+<concept id="logout"
+         related="login">
+    <!-- @види: account session -->
+    <desc>Окончати текућу радну <ref c="zzz">сесију</ref> под <ref c="zzz">вишекорисничким</ref> <ref c="zzz">оперативним системом</ref>, било при физичком напуштању или гашењу локалног <ref c="computer">рачунара</ref>, било при прекиду <ref c="zzz">везе</ref> са <ref c="zzz">удаљеним</ref>.</desc>
+    <!-- @упути: session multiuser operatingsystem connection remote -->
+
+    <term lang="en" gr="gs">log out</term>
+    <term lang="en" env="id" gr="gs">log off</term>
+    <term lang="en" env="id" gr="gs">sign off</term>
+    <term gr="g">одјавити (се)</term>
+
+    <details root="wpen" rel="Logging_(computer_security)"/>
+</concept>
+
+<concept id="logout2"
+         related="logout">
+    <desc>Који се односи на <ref c="logout">одјављивање</ref>, нпр. помоћу којег се корисници одјављују.</desc>
+
+    <term lang="en" gr="p">logout</term>
+    <term lang="en" env="id" gr="p">logoff</term>
+    <term gr="p">одјавни</term>
 </concept>
 
 </concepts>
