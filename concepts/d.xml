@@ -27,6 +27,21 @@
     <details root="wpen" rel="Directory_(file_systems)"/>
 </concept>
 
+<concept id="displaymanager"
+         related="login">
+    <!-- @види: account session -->
+    <desc>Графички <ref c="application">програм</ref> за <ref c="login">пријављивање</ref>, који кориснику тражи да унесе <ref c="zzz">корисничко име</ref> и <ref c="zzz">лозинку</ref> како би га пропустио на <ref c="zzz">радну површ</ref>.</desc>
+    <!-- @упути: username password desktop -->
+
+    <term lang="en" env="fed kde" gr="is">login manager</term>
+    <term lang="en" env="fed gnm" gr="is">display manager</term>
+    <term env="fed" gr="is">управник приказом</term>
+    <term env="fed gnm uk" gr="is">управник пријаве</term>
+    <term env="kde" gr="is">менаџер пријављивања</term>
+
+    <details root="wpen" rel="X_display_manager"/>
+</concept>
+
 <concept id="download"
          related="download2">
     <!-- @види: upload -->

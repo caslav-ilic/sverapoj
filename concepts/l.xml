@@ -63,8 +63,7 @@
 </concept>
 
 <concept id="login2"
-         related="login">
-    <!-- @види: displaymanager -->
+         related="login displaymanager">
     <desc>Који се односи на <ref c="login">пријављивање</ref>, нпр. путем којег се корисници пријављују, или којим се управља ~пријављеним~ корисницима.</desc>
 
     <term lang="en" gr="p">login</term>
