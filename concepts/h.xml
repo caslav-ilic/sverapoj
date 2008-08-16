@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
+<concept id="hardware"
+         related="application software">
+    <desc>Збирни назив за апаратуру која чини <ref c="computer">рачунар</ref>.</desc>
+
+    <term lang="en" gr="i">hardware</term>
+    <eterm gr="i">
+        <nom>хардвер</nom>
+        <comment>Градивна именица; множина „хардвери“ може се употребити само да означи неколико различитих <em>врста</em> хардвера, а никако за скуп појединачних <ref c="zzz">уређаја</ref>, по аналогији са <ref c="software">софтвером</ref>.</comment>
+    <!-- @упути: device -->
+    </eterm>
+    <eterm env="id" gr="i">
+      <nom>тврдотворина</nom>
+      <origin by="filmil.gmail.com">Овај се израз појављује у „Оксфордском речнику рачунарства‟.</origin>
+      <comment by="filmil.gmail.com">Нисам приметио да је ико други користио ову реч за превод.</comment>
+    </eterm>
+
+    <details root="wpsr" rel="Хардвер"/>
+</concept>
+
 <concept id="header"
          related="footer">
     <desc>Горњи део стране с текстом, нпр. у књизи или на <ref c="zzz">веб страни</ref>, који садржи податке за оријентацију, попут наслова тренутног поглавља, одељка, или броја стране.</desc>
@@ -61,25 +80,5 @@
     <term lang="en" gr="g">highlight</term>
     <term gr="g">истакнути</term>
 </concept>
-
-<concept id="hardware"
-         related="application software">
-    <desc>Збирни назив за апаратуру која чини <ref c="computer">рачунар</ref>.</desc>
-
-    <term lang="en" gr="i">hardware</term>
-    <eterm gr="i">
-        <nom>хардвер</nom>
-        <comment>Градивна именица; множина „хардвери“ може се употребити само да означи неколико различитих <em>врста</em> хардвера, а никако за скуп појединачних <ref c="zzz">уређаја</ref>, по аналогији са <ref c="software">софтвером</ref>.</comment>
-    <!-- @упути: device -->
-    </eterm>
-    <eterm env="id" gr="i">
-      <nom>тврдотворина</nom>
-      <origin by="filmil.gmail.com">Овај се израз појављује у „Оксфордском речнику рачунарства‟.</origin>
-      <comment by="filmil.gmail.com">Нисам приметио да је ико други користио ову реч за превод.</comment>
-    </eterm>
-
-    <details root="wpsr" rel="Хардвер"/>
-</concept>
-
 
 </concepts>
