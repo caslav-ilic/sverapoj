@@ -28,7 +28,7 @@
 </concept>
 
 <concept id="displaymanager"
-         related="login">
+         related="login loginscreen">
     <!-- @види: account session -->
     <desc>Графички <ref c="application">програм</ref> за <ref c="login">пријављивање</ref>, који кориснику тражи да унесе <ref c="zzz">корисничко име</ref> и <ref c="zzz">лозинку</ref> како би га пропустио на <ref c="zzz">радну површ</ref>.</desc>
     <!-- @упути: username password desktop -->

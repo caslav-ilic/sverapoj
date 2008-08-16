@@ -94,4 +94,13 @@
     <term gr="p">одјавни</term>
 </concept>
 
+<concept id="loginscreen"
+         related="displaymanager login">
+    <desc>Графичко <ref c="zzz">сучеље</ref> које корисницима представља <ref c="displaymanager">~управник пријавом|kde:менаџер пријављивања~</ref>, где се уносе подаци о <ref c="zzz">налогу</ref> потребни за <ref c="login">пријављивање</ref> на систем.</desc>
+    <!-- @упути: userinterface account -->
+
+    <term lang="en" gr="is">login screen</term>
+    <term gr="is">пријавни екран</term>
+</concept>
+
 </concepts>
