@@ -13,6 +13,30 @@
     <details root="wpen" rel="Default_(computer_science)"/>
 </concept>
 
+<concept id="desktop">
+    <!-- @види: virtualdesktop wallpaper -->
+    <desc>Корени елемент графичког <ref c="zzz">сучеља</ref> који обухвата све остале, прекривајући цео екран <ref c="zzz">монитора</ref>. На њему се налазе <ref c="zzz">прозори</ref> <ref c="application">програма̑</ref> у раду, разне <ref c="icon">~иконе|moz:сличице~</ref> (нпр. за покретање ~програмȃ~, <ref c="zzz">корпа за смеће</ref>, често коришћени документи), <ref c="zzz">панели</ref>, и <ref c="applet">~аплети|fed:програмчићи|gnm ooo:програмчад~</ref> која исцртавају разне ствари (нпр. казаљке сата, оптерећење система, временску прогнозу).</desc>
+    <!-- @упути: userinterface monitor window trashcan panel -->
+
+    <term lang="en" gr="i">desktop</term>
+    <term env="gnm" gr="is">радна површ</term>
+    <term env="fed gnm moz ooo uk" gr="is">радна површина</term>
+    <term env="kde" gr="i">површ</term>
+
+    <details root="wpen" rel="Desktop_metaphor"/>
+</concept>
+
+<concept id="desktop2">
+    <desc>Графичко <ref c="computer">рачунарско</ref> окружење засновано на метафори <ref c="desktop">~радне површине|kde:површи~</ref>, које се одликује високом <ref c="zzz">предусретљивошћу</ref> како би било приступачно најширем кругу корисника.</desc>
+    <!-- @упути: userfriendly -->
+
+    <term lang="en" gr="i">desktop</term>
+    <term env="fed gnm ooo uk" gr="is">радно окружење</term>
+    <term env="kde" gr="is">радна површ</term>
+
+    <details root="wpen" rel="Desktop_environment"/>
+</concept>
+
 <concept id="directory" related="file">
     <!-- @види: directorytree -->
     <desc>Ниво организације података изнад <ref c="file">~датотека|kde:фајлова~</ref>, на којем се више њих групише у одређену тематску целину, заведену под неким именом. Груписање може бити по типу података (нпр. збирка слика, текстова, музике), временско-просторном догађају (садржаји са путовања, извештај о пројекту), и слично. Такође, неколико оваквих група може бити обухваћено једном надгрупом, и тако даље, чиме се успоставља <ref c="zzz">~стабло фасцикли|moz unx:стабло директоријума~</ref>.</desc>
@@ -30,8 +54,8 @@
 <concept id="displaymanager"
          related="login loginscreen">
     <!-- @види: account session -->
-    <desc>Графички <ref c="application">програм</ref> за <ref c="login">пријављивање</ref>, који кориснику тражи да унесе <ref c="zzz">корисничко име</ref> и <ref c="zzz">лозинку</ref> како би га пропустио на <ref c="zzz">радну површ</ref>.</desc>
-    <!-- @упути: username password desktop -->
+    <desc>Графички <ref c="application">програм</ref> за <ref c="login">пријављивање</ref>, који кориснику тражи да унесе <ref c="zzz">корисничко име</ref> и <ref c="zzz">лозинку</ref> како би га пропустио на <ref c="desktop">~радну површину|kde:површ~</ref>.</desc>
+    <!-- @упути: username password -->
 
     <term lang="en" env="fed kde" gr="is">login manager</term>
     <term lang="en" env="fed gnm" gr="is">display manager</term>

@@ -3,8 +3,8 @@
 
 <concept id="konqueror" topic="apps">
     <!-- @види: firefox epiphany safari dolphin nautilus thunar -->
-    <desc><ref c="default">Подразумевани</ref> <ref c="zzz">~веб читач|kde:веб прегледач~</ref> који стиже уз <ref c="zzz">окружење радне површи</ref> <ref c="zzz">КДЕ</ref>, а закључно са верзијом 3 ~КДЕ-а~ и његов подразумевани <ref c="zzz">~менаџер датотека|kde:менаџер фајлова~</ref> (улога коју од ~КДЕ-а~ 4 преузима <ref c="zzz">Делфин</ref>). Језгро ~К-освајача~ за <ref c="zzz">израду</ref> <ref c="zzz">ХТМЛ-а</ref> користе, у понешто прерађеном облику, многи комерцијални <ref c="application">програми</ref>, попут <ref c="zzz">Епловог</ref> ~веб читача|kde:веб прегледача~ <ref c="zzz">Сафарија</ref>.</desc>
-    <!-- @упути: kde filemanager webbrowser desktop desktopenvironment webpage rendering html apple -->
+    <desc><ref c="default">Подразумевани</ref> <ref c="zzz">~веб читач|kde:веб прегледач~</ref> који стиже уз <ref c="desktop2">~радно окружење|kde:радну површ~</ref> <ref c="zzz">КДЕ</ref>, а закључно са верзијом 3 ~КДЕ-а~ и његов подразумевани <ref c="zzz">~менаџер датотека|kde:менаџер фајлова~</ref> (улога коју од ~КДЕ-а~ 4 преузима <ref c="zzz">Делфин</ref>). Језгро ~К-освајача~ за <ref c="zzz">израду</ref> <ref c="zzz">ХТМЛ-а</ref> користе, у понешто прерађеном облику, многи комерцијални <ref c="application">програми</ref>, попут <ref c="zzz">Епловог</ref> ~веб читача|kde:веб прегледача~ <ref c="zzz">Сафарија</ref>.</desc>
+    <!-- @упути: kde filemanager webbrowser webpage rendering html apple -->
 
     <term lang="en" gr="i">Konqueror</term>
     <term env="kde uk" gr="i">К-освајач</term>
