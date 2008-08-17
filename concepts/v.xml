@@ -23,4 +23,15 @@
     <term env="kde uk" gr="i">приказивач</term>
 </concept>
 
+<concept id="virtualdesktop">
+    <desc><ref c="desktop">~Радна површина|kde:Површ~</ref> са које се корисник у сваком тренутку може пребацити на неку другу, и назад, при чему свака од њих садржи сопствени скуп <ref c="zzz">прозора</ref>, може имати различит <ref c="zzz">тапет</ref>, и друге карактеристичне елементе. Користе се за бољу организацију рада, када се жели избећи претрпавање једне разнородним садржајем.</desc>
+    <!-- @упути: window wallpaper -->
+
+    <term lang="en" gr="is">virtual desktop</term>
+    <term env="fed uk" gr="is">виртуелна радна површина</term>
+    <term env="kde" gr="is">виртуелна површ</term>
+
+    <details root="wpen" rel="Virtual_desktop"/>
+</concept>
+
 </concepts>
