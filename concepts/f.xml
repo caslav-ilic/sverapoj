@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
+<concept id="feature">
+    <!-- @види: bug -->
+    <desc>Заокружена и јасно одређена особина коју <ref c="application">програм</ref> поседује, радња коју може извести, или захтев који испуњава.</desc>
+
+    <term lang="en" gr="i">feature</term>
+    <term env="fed gnm kde ooo uk" gr="i">могућност</term>
+    <term env="fed" gr="i">особина</term>
+    <term env="ooo" gr="i">додатак</term>
+</concept>
+
 <concept id="file"
          related="directory">
     <desc>Најмања организациона јединица података на <ref c="computer">рачунару</ref>, заведених под извесним именом преко којег им се може приступати. Такође се може <ref c="download">~преузети|moz:примити~</ref> с неког другог ~рачунара~ у <ref c="network">мрежи</ref>, нпр. са <ref c="zzz">Интернета</ref>.</desc>
