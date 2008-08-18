@@ -47,4 +47,16 @@
     <term env="kde uk" gr="pres">на вези</term>
 </concept>
 
+<concept id="overwrite">
+    <!-- @види: delete -->
+    <desc>Преко извесног садржаја, нпр. текста или <ref c="file">~датотеке|kde:фајла~</ref>, нанети нови тако да претходни буде изгубљен.</desc>
+    <!-- @упути:  -->
+
+    <term lang="en" gr="g">overwrite</term>
+    <term env="fed kde" gr="g">пребрисати</term>
+    <term env="fed gnm moz ooo uk" gr="g">преписати</term>
+    <term env="fed gnm" gr="g">преснимити</term>
+    <term env="ooo" gr="g">заменити</term>
+</concept>
+
 </concepts>
