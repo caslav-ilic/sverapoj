@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
+<concept id="wallpaper">
+    <desc>Слика која се поставља на <ref c="desktop">~радну површину|kde:површ~</ref>, тако да увек стоји иза свог осталог садржаја (нпр. иза свих <ref c="zzz">прозора</ref>), и обично прекрива цео екран. Нема непосредну употребну вредност, већ служи да улепша атмосферу током рада; често су то призори из природе или дигитално-уметнички радови.</desc>
+    <!-- @упути: window -->
+
+    <term lang="en" gr="i">wallpaper</term>
+    <term env="gnm" gr="i">позадина</term>
+    <term env="kde uk" gr="i">тапет</term>
+
+    <details root="wpen" rel="Computer_wallpaper"/>
+</concept>
+
 <concept id="widget">
     <!-- @види: toolkit -->
     <desc>Елемент <ref c="zzz">графичког сучеља</ref> помоћу којег корисник извршава одређену радњу у <ref c="application">програму</ref>. Ови елементи се разликују по изгледу, начину на који се користе и дејству које производе. У њих спадају: <ref c="zzz">дугмад</ref>, <ref c="checkbox">~кућице|gnm ooo:поља за потврду~</ref>, <ref c="toolbar">~траке алатки|fed:палете са алатима|gnm ooo:палете алатки|moz:алатне траке~</ref>, <ref c="tab">~језичци|gnm:листови~</ref>, итд.</desc>
