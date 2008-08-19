@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
+<concept id="parse" topic="prog"
+         related="parser">
+    <desc>Поделити улазни <ref c="zzz">ток</ref> <ref c="character">знакова</ref> у <ref c="zzz">токене</ref> и од њих саставити <ref c="zzz">синтаксно стабло</ref>.</desc>
+    <!-- @упути: stream token syntaxtree -->
+
+    <term lang="en" gr="g">parse</term>
+    <term env="fed gnm kde ooo uk" gr="g">рашчланити</term>
+    <term env="gnm" gr="g">обрадити</term>
+    <term env="moz" gr="g">раставити</term>
+    <term env="id" gr="g">парсирати</term>
+</concept>
+
+<concept id="parser" topic="prog">
+    <desc>Компонента <ref c="application">програма</ref> за обраду података која <ref c="parse">~рашлањује|moz:раставља~</ref> улазне податке, оверава њихову синтаксну исправност, и слаже у облик погодан за даљу обраду. На пример, код <ref c="zzz">~преводиоца|kde:компилатора~</ref> или <ref c="zzz">интерпретатора</ref> прва фаза обраде <ref c="zzz">изворног ко̑да</ref>.</desc>
+    <!-- @упути: compiler interpreter sourcecode -->
+
+    <term lang="en" gr="i">parser</term>
+    <term env="fed gnm kde ooo uk" gr="i">рашчлањивач</term>
+    <term env="gnm" gr="is">програм за обраду</term>
+    <term env="gnm" gr="i">обрађивач</term>
+    <term env="moz" gr="i">растављач</term>
+    <term env="id" gr="i">парсер</term>
+    <term env="id" gr="is">синтаксни анализатор</term>
+
+    <details root="wpsr" rel="Парсер"/>
+</concept>
+
 <concept id="paste"
          related="clipboard copy cut">
     <desc>Убацити умножак текста или другог садржаја из <ref c="clipboard">~fed gnm uk:списка исечака|kde:клипборда|moz:бележнице|ooo:оставе~</ref> у документ на коме се тренутно ради.</desc>
