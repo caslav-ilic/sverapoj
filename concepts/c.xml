@@ -43,6 +43,15 @@
     <term env="gnm" gr="i">стубац</term>
 </concept>
 
+<concept id="command">
+    <desc>Утврђени исказ којим се <ref c="computer">рачунар</ref> покреће на извршавање одређене радње. Корисник га може издати нпр. путем <ref c="icon">~иконе|moz:сличице~</ref> или ставке <ref c="zzz">менија</ref> у графичком <ref c="zzz">сучељу</ref>, или уносом текста у <ref c="zzz">командној линији</ref> <ref c="shell">~љуске|kde:шкољке~</ref>. Секундарно га ~рачунар~ може проследити другом рачунару, када су повезани у <ref c="network">мрежу</ref>.</desc>
+    <!-- @упути: menu userinterface commandline -->
+
+    <term lang="en" gr="i">command</term>
+    <term env="fed gnm kde ooo uk" gr="i">наредба</term>
+    <term env="fed gnm moz ooo" gr="i">команда</term>
+</concept>
+
 <concept id="configuration"
          related="configurationfile configure">
     <desc>Скуп <ref c="setting">поставки</ref> <ref c="application">програма</ref>, који корисник може да мења како би <ref c="zzz">прилагодио</ref> изглед и понашање ~програма~ сопственим потребама.</desc>
