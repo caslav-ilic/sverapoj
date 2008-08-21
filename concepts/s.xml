@@ -14,8 +14,9 @@
     <!-- @упути: gnome -->
 </concept>
 
-<concept id="shell">
-    <!-- @види: commandline terminal console -->
+<concept id="shell"
+         related="commandline">
+    <!-- @види: terminal console -->
     <desc><ref c="software">Софтверски</ref> слој који кориснику пружа <ref c="zzz">сучеље</ref> за комуникацију и управљање радним слојем, попут функција <ref c="zzz">оперативног система</ref> и <ref c="filesystem">~система датотека|kde:фајл система~</ref>. Обично се мисли на слој текстуалног типа, где корисник <ref c="zzz">тастатуром</ref> уноси <ref c="zzz">наредбе</ref> које треба извршити, али може бити и <ref c="zzz">графичког</ref> типа.</desc>
     <!-- @упути: userinterface operatingsystem keyboard gui mouse -->
 

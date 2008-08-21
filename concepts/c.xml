@@ -44,12 +44,24 @@
 </concept>
 
 <concept id="command">
-    <desc>Утврђени исказ којим се <ref c="computer">рачунар</ref> покреће на извршавање одређене радње. Корисник га може издати нпр. путем <ref c="icon">~иконе|moz:сличице~</ref> или ставке <ref c="zzz">менија</ref> у графичком <ref c="zzz">сучељу</ref>, или уносом текста у <ref c="zzz">командној линији</ref> <ref c="shell">~љуске|kde:шкољке~</ref>. Секундарно га ~рачунар~ може проследити другом рачунару, када су повезани у <ref c="network">мрежу</ref>.</desc>
-    <!-- @упути: menu userinterface commandline -->
+    <desc>Утврђени исказ којим се <ref c="computer">рачунар</ref> покреће на извршавање одређене радње. Корисник га може издати нпр. путем <ref c="icon">~иконе|moz:сличице~</ref> или ставке <ref c="zzz">менија</ref> у графичком <ref c="zzz">сучељу</ref>, или уносом текста у <ref c="commandline">командној линији</ref> <ref c="shell">~љуске|kde:шкољке~</ref>. Секундарно га ~рачунар~ може проследити другом рачунару, када су повезани у <ref c="network">мрежу</ref>.</desc>
+    <!-- @упути: menu userinterface -->
 
     <term lang="en" gr="i">command</term>
     <term env="fed gnm kde ooo uk" gr="i">наредба</term>
     <term env="fed gnm moz ooo" gr="i">команда</term>
+</concept>
+
+<concept id="commandline"
+         related="shell">
+    <desc>Текстуално <ref c="zzz">корисничко сучеље</ref> у којем се <ref c="zzz">тастатуром</ref> поименце уносе <ref c="command">наредбе</ref>, из ограниченог скупа доступних, праћене <ref c="zzz">опцијама</ref> и <ref c="zzz">аргументима</ref> који уже одређују жељено дејство и задају објекте над којима се оно извршава. Пошто се ~наредба~ изда, корисник посматра <ref c="zzz">излазне</ref> резултате (нпр. испис у <ref c="shell">~љусци|kde:шкољци~</ref>) до окончања радње, после чега уноси следећу ~наредбу~.</desc>
+    <!-- @упути: userinterface keyboard option argument output -->
+
+    <term lang="en" gr="is">command line</term>
+    <term env="gnm pr" gr="is">командна линија</term>
+    <term env="gnm" gr="is">линија наредби</term>
+
+    <details root="wpen" rel="Command_line_interface"/>
 </concept>
 
 <concept id="configuration"
