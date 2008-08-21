@@ -12,6 +12,21 @@
     <details root="wpen" rel="Computer_wallpaper"/>
 </concept>
 
+<concept id="whitespace">
+    <!-- @види: space tab2 newline -->
+    <desc><ref c="zzz">Знак</ref> који у испису текста нема сопствене визуелне представе, већ уводи празан простор између других, видљивих знакова (нпр. између две речи), или одређује начин <ref c="zzz">прелома текста</ref>.</desc>
+    <!-- @упути: wordwrap -->
+
+    <term lang="en" gr="i">whitespace</term>
+    <term env="gnm kde uk" gr="i">празнина</term>
+    <term env="gnm" gr="i">белина</term>
+    <term env="fed moz" gr="i">размак</term>
+    <term env="ooo" gr="is">бело место</term>
+    <term env="ooo" gr="is">бланко знак</term>
+
+    <details root="wpen" rel="Whitespace_(computer_science)"/>
+</concept>
+
 <concept id="widget">
     <!-- @види: toolkit -->
     <desc>Елемент <ref c="zzz">графичког сучеља</ref> помоћу којег корисник извршава одређену радњу у <ref c="application">програму</ref>. Ови елементи се разликују по изгледу, начину на који се користе и дејству које производе. У њих спадају: <ref c="zzz">дугмад</ref>, <ref c="checkbox">~кућице|gnm ooo:поља за потврду~</ref>, <ref c="toolbar">~траке алатки|fed:палете са алатима|gnm ooo:палете алатки|moz:алатне траке~</ref>, <ref c="tab">~језичци|gnm:листови~</ref>, итд.</desc>
