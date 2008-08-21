@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
+<concept id="bitmap"
+         related="bitmap2">
+    <!-- @види: bitdepth vectorimage -->
+    <desc>Дигитална представа слике као скупа појединачних <ref c="zzz">пиксела</ref>. Сваки ~пиксел~ чини утврђени број <ref c="zzz">битова</ref>, од којег зависи највећи могући број боја на слици. По запису оваква слика може бити <ref c="zzz">сирова</ref> или <ref c="zzz">компресована</ref>, а по верности представе <ref c="zzz">без губитака</ref> или <ref c="zzz">са губицима</ref>.</desc>
+    <!-- @упути: pixel bit lossless lossy -->
+
+    <term lang="en" gr="i">bitmap</term>
+    <term lang="en" gr="i">pixmap</term>
+    <term env="kde ooo uk" gr="i">битмапа</term>
+    <term env="gnm" gr="i">слика</term>
+    <term env="ooo" gr="i">бит мапа</term>
+    <term env="id" gr="i">пиксмапа</term>
+
+    <details root="wpen" rel="Bitmap"/>
+</concept>
+
+<concept id="bitmap2"
+         related="bitmap">
+    <!-- @види: vector2 -->
+    <desc>Који је представљен као скуп <ref c="zzz">пиксела</ref>, нпр. слика, <ref c="font">фонт</ref> или <ref c="icon">~икона|moz:сличица~</ref>.</desc>
+    <!-- @упути: pixel -->
+
+    <term lang="en" gr="p">bitmap</term>
+    <term env="kde" gr="p">битмапски</term>
+    <term env="fed ooo uk" gr="i">битмапирани</term>
+    <term env="fed" gr="i">битмап</term>
+</concept>
+
 <concept id="bold"
          related="italic oblique">
     <desc>Облик <ref c="font">фонта</ref> у којем су слова исцртана пунијим потезом у односу на основни за исту величину, тако да изгледају „црније“. У текућем тексту користи се за јако <ref c="zzz">истицање</ref> појединих речи, због њихове важности или да би их читалац лако уочио при брзом прегледању текста.</desc>

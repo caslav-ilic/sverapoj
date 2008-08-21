@@ -40,8 +40,8 @@
 <concept id="font"
          related="character">
     <!-- @види: glyph truetype type1 fontwork -->
-    <desc>Стилски јединствен скуп графичких обличја којима се визуелно представљају <ref c="character">знакови</ref> у тексту. Разликују се по подршци <ref c="zzz">писама</ref>, нпр. неки садрже само латинична слова, други само источноазијске идеографе, итд. Према посматраној карактеристици могу се поделити на: <ref c="zzz">пропорционалне</ref> и <ref c="zzz">једноширинске</ref>, <ref c="zzz">битмапске</ref> и <ref c="zzz">векторске</ref>, <ref c="zzz">серифне</ref> и <ref c="zzz">бесерифне</ref>, итд.</desc>
-    <!-- @упути: script2 proportional_font monospace bitmap vector serif sansserif -->
+    <desc>Стилски јединствен скуп графичких обличја којима се визуелно представљају <ref c="character">знакови</ref> у тексту. Разликују се по подршци <ref c="zzz">писама</ref>, нпр. неки садрже само латинична слова, други само источноазијске идеографе, итд. Према посматраној карактеристици могу се поделити на: <ref c="zzz">пропорционалне</ref> и <ref c="zzz">једноширинске</ref>, <ref c="bitmap2">~битмапиране|kde:битмапске~</ref> и <ref c="zzz">векторске</ref>, <ref c="zzz">серифне</ref> и <ref c="zzz">бесерифне</ref>, итд.</desc>
+    <!-- @упути: script2 proportional_font monospace vector serif sansserif -->
 
     <term lang="en" gr="i">font</term>
     <term env="fed gnm moz kde ooo uk" gr="i">фонт</term>
