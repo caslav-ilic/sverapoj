@@ -61,6 +61,21 @@
     <details root="wpsr" rel="Софтвер"/>
 </concept>
 
+<concept id="statusbar">
+    <desc>Део графичког <ref c="zzz">сучеља</ref> који садржи показатеље изборног понашања <ref c="application">програма</ref>, наводи податке о документу на коме се ради, и где се издају поруке обавештења за корисника. Обично у виду дугуљастог водоравног потеза при дну <ref c="zzz">прозора</ref>.</desc>
+    <!-- @упути: userinterface window -->
+
+    <term lang="en" env="gnm kde moz ooo uk" gr="is">status bar</term>
+    <term lang="en" env="fed gnm kde" gr="i">statusbar</term>
+    <term lang="en" env="id" gr="i">status line</term>
+    <term env="gnm" gr="is">линија са стањем</term>
+    <term env="gnm ooo" gr="is">статусна линија</term>
+    <term env="kde" gr="is">трака стања</term>
+    <term env="moz ooo" gr="is">статусна трака</term>
+
+    <details root="wpen" rel="Status_bar"/>
+</concept>
+
 <concept id="string" topic="prog">
     <!-- @види: character substring -->
     <desc>Уређени <ref c="zzz">низ</ref> података <ref c="character2">знаковног</ref> типа: слова, бројева, интерпункције и др. Користи се за представљање текста на природним језицима, <ref c="zzz">серијализовање</ref> података за упис у текстуалне <ref c="file">~датотеке|kde:фајлове~</ref>, комуникацију између <ref c="zzz">процеса</ref> на <ref c="computer">рачунару</ref>, односно између рачунара и <ref c="network">мреже</ref>. Некада граница између ових намена није оштра, нпр. <ref c="url">~УРЛ|gnm moz ooo:адресни~</ref> низови служе и за програмско дохватање ресурса, али и корисницима као назив неког места у ~мрежи~.</desc>
