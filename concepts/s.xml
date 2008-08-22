@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
+<concept id="separator">
+    <!-- @види: delimiter commaseparated  -->
+    <desc>Утврђени <ref c="character">знак</ref> (или више њих) који текст дели на појединичне <ref c="string">ниске</ref>. Често потребан при запису података као текстуалних <ref c="zzz">спискова</ref> или <ref c="table">табела</ref>, како би <ref c="application">програми</ref> којима су <ref c="zzz">улаз</ref> могли правилно да их <ref c="parse">рашлане</ref>.</desc>
+    <!-- @упити: list input -->
+
+    <term lang="en" gr="i">separator</term>
+    <term lang="en" gr="i">delimiter</term>
+    <term env="fed gnm ooo" gr="i">разделник</term>
+    <term env="fed gnm ooo" gr="i">раздвојник</term>
+    <term env="gnm kde moz ooo uk" gr="i">раздвајач</term>
+    <term env="gnm ooo" gr="i">одвајач</term>
+    <term env="moz ooo" gr="i">сепаратор</term>
+
+    <details root="wpen" rel="Delimiter"/>
+</concept>
+
 <concept id="setting"
          related="configuration">
     <desc>Избор корисника који одређује нешто у вези са изгледом или понашањем <ref c="application">програма</ref>, и који се трајно памти док га корисник поново не измени. Најчешће има <ref c="default">подразумевану</ref> вредност, мада се понекад она тражи од корисника при првом покретању ~програма~.</desc>
