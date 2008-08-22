@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
-<concept id="separator">
-    <!-- @види: delimiter commaseparated  -->
+<concept id="separator"
+         related="delimiter">
+    <!-- @види: commaseparated  -->
     <desc>Утврђени <ref c="character">знак</ref> (или више њих) који текст дели на појединичне <ref c="string">ниске</ref>. Често потребан при запису података као текстуалних <ref c="zzz">спискова</ref> или <ref c="table">табела</ref>, како би <ref c="application">програми</ref> којима су <ref c="zzz">улаз</ref> могли правилно да их <ref c="parse">рашлане</ref>.</desc>
     <!-- @упити: list input -->
 
