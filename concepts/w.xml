@@ -12,8 +12,9 @@
     <details root="wpen" rel="Computer_wallpaper"/>
 </concept>
 
-<concept id="whitespace">
-    <!-- @види: space tab2 newline -->
+<concept id="whitespace"
+         related="space">
+    <!-- @види: tab2 newline -->
     <desc><ref c="zzz">Знак</ref> који у испису текста нема сопствене визуелне представе, већ уводи празан простор између других, видљивих знакова (нпр. између две речи), или одређује начин <ref c="zzz">прелома текста</ref>.</desc>
     <!-- @упути: wordwrap -->
 

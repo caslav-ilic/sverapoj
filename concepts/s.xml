@@ -78,6 +78,16 @@
     <details root="wpsr" rel="Софтвер"/>
 </concept>
 
+<concept id="space">
+    <!-- @види: tab2 -->
+    <desc>Основни <ref c="character">знак</ref> за раздвајање речи у тексту, који између њих визуелно оставља празан простор приближне ширине од пола до једног просечног слова. Најчешће употребљаван међу <ref c="whitespace">~празнинама|ooo:бланко знаковима~</ref>.</desc>
+
+    <term lang="en" gr="i">space</term>
+    <term gr="i">размак</term>
+
+    <details root="wpen" rel="Space_(punctuation)"/>
+</concept>
+
 <concept id="statusbar">
     <desc>Део графичког <ref c="zzz">сучеља</ref> који садржи показатеље изборног понашања <ref c="application">програма</ref>, наводи податке о документу на коме се ради, и где се издају поруке обавештења за корисника. Обично у виду дугуљастог водоравног потеза при дну <ref c="zzz">прозора</ref>.</desc>
     <!-- @упути: userinterface window -->
