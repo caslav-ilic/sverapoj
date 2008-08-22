@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
+<concept id="passphrase">
+    <desc>Подужа <ref c="password">лозинка</ref>, која се састоји од више речи. Уводи се у случајевима када је потребна већа <ref c="zzz">безбедност</ref> него што је пружа обична ~лозинка~, нпр. за заштиту <ref c="zzz">приватног кључа</ref> за <ref c="zzz">шифровање</ref>.</desc>
+    <!-- @упути: security privatekey encrypt -->
+
+    <term lang="en" gr="i">passphrase</term>
+    <term gr="i">лозинка</term>
+
+    <details root="wpen" rel="Passphrase"/>
+</concept>
+
+<concept id="password"
+         related="passphrase">
+    <desc>Тајна <ref c="string">ниска</ref> коју зна само њен власник, и која му служи као потврда да је то заиста он. Уписује је при приступу одређеним местима, нпр. <ref c="login">пријављивању</ref> на систем, или при <ref c="zzz">шифровању</ref> података. Обично је у питању једна реч, мада у ширем смислу — ради појачане <ref c="zzz">безбедности</ref> може садржати наизменично велика и мала слова, знаке интерпункције и бројеве.</desc>
+    <!-- @упути: encrypt security -->
+
+    <term lang="en" gr="i">password</term>
+    <term gr="i">лозинка</term>
+    <term env="id" gr="i">шифра</term>
+
+    <details root="wpen" rel="Password"/>
+</concept>
+
 <concept id="parse" topic="prog"
          related="parser">
     <desc>Поделити улазни <ref c="zzz">ток</ref> <ref c="character">знакова</ref> у <ref c="zzz">токене</ref> и од њих саставити <ref c="zzz">синтаксно стабло</ref>.</desc>
