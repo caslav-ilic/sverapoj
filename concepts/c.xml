@@ -120,10 +120,9 @@
     <term lang="en" gr="i">chooser</term>
     <term lang="en" gr="i">selector</term>
     <term env="fed gnm ooo" gr="i">избирач</term>
-    <term env="gnm" gr="i">избор</term>
+    <term env="gnm moz" gr="i">избор</term>
     <term env="gnm moz" gr="i">изборник</term>
     <term env="gnm kde uk" gr="i">бирач</term>
-    <term env="moz" gr="is">избор</term>
 </concept>
 
 <concept id="column_page">
