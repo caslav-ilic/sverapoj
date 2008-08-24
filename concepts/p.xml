@@ -92,4 +92,40 @@
     <details root="wpen" rel="Plug-in_(computing)"/>
 </concept>
 
+<concept id="pointer"
+         related="cursor">
+    <!-- @види: busypointer -->
+    <desc>Екрански представник улазног уређаја попут <ref c="zzz">миша</ref> или <ref c="zzz">трекбола</ref>, којим корисник <ref c="zzz">кликће</ref> на елементе <ref c="zzz">сучеља</ref> (најчешће графичког) ради извршавања радњи у <ref c="application">програмима</ref>. Обично у виду стрелице или шаке са упереним прстом, а уме и да мења облик према дешавањима у ~програму~ (нпр. док се изводи дужа радња).</desc>
+    <!-- @упути: mouse trackball click userinterface -->
+
+    <term lang="en" gr="i">cursor</term>
+    <term lang="en" gr="i">pointer</term>
+    <term env="fed" gr="i">миш</term>
+    <term env="fed" gr="i">курсор</term>
+    <term env="gnm" gr="i">курзор</term>
+    <term env="gnm kde ooo moz uk" gr="i">показивач</term>
+
+    <details root="wpsr" rel="Курсор"/>
+</concept>
+
+<concept id="pointer2" topic="prog">
+    <!-- @види: reference2 garbagecollection -->
+    <desc><ref c="zzz">Променљива</ref> која садржи <ref c="zzz">адресу меморије</ref> на којој је <ref c="zzz">ускладиштен</ref> податак или <ref c="zzz">низ</ref> података одређеног <ref c="zzz">типа</ref>. У неким <ref c="zzz">програмским језицима</ref> под непосредном контролом <ref c="zzz">програмера</ref>, док их други језици користе аутоматски у позадини.</desc>
+    <!-- @упути: variable memoryaddress store array type2 progamminglanguage programmer -->
+
+    <term lang="en" gr="i">pointer</term>
+    <term gr="i">показивач</term>
+    <term env="id" gr="i">поинтер</term>
+
+    <details root="wpsr" rel="Показивач_(програмирање)"/>
+</concept>
+
+<concept id="pointer3">
+    <desc>Објекат чија је главна намена да укаже на неки други објекат, односно чијим се праћењем тај други објекат може сагледати или <ref c="zzz">дохватити</ref>.</desc>
+    <!-- @упути: fetch -->
+
+    <term lang="en" gr="i">pointer</term>
+    <term gr="i">показивач</term>
+</concept>
+
 </concepts>
