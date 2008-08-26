@@ -63,4 +63,17 @@
     <details root="wpen" rel="Page_footer"/>
 </concept>
 
+<concept id="form">
+    <desc>Уређени скуп поља за унос текстуалних података, с кратким описом податка покрај сваког поља. У папирном облику нпр. за уписе или анкете, а у електронском нпр. на <ref c="zzz">веб странама</ref>, за регистрацију на <ref c="zzz">форуме</ref> или <ref c="online">~|fed:мрежну~</ref> куповину <ref c="online">~на мрежи|kde moz:на вези~</ref>.</desc>
+    <!-- @упути: webpage forum -->
+
+    <term lang="en" gr="i">form</term>
+    <term env="fed" gr="i">форма</term>
+    <term env="gnm ooo" gr="i">образац</term>
+    <term env="kde moz uk" gr="i">формулар</term>
+
+    <details root="wpen" rel="Form_(web)"/>
+    <details root="wpen" rel="Form_(document)"/>
+</concept>
+
 </concepts>
