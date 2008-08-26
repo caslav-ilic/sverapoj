@@ -10,6 +10,22 @@
     <term gr="i">уређивач</term>
 </concept>
 
+<concept id="encoding">
+    <!-- @види: unicode -->
+    <desc>Скуп парова <ref c="character">знак</ref>-број који сваком слову, броју, знаку интерпункције, итд. придружују тачно један број, ради ефикасног бележења на <ref c="computer">рачунару</ref> и преноса текста кроз <ref c="network">мреже</ref>. Раније, једним таквим скупом обично је било обухваћено само једно или неколико писама (нпр. западноевропске латинице, средњоевропске латинице, ћирилице) с пратећом интерпункцијом и симболима, а умело је да постоји и неколико различитих скупова за једно те исто писмо. Данас се све више користе обимни скупови парова који покривају сва светска писма, што олакшава међународну размену текстуалних података.</desc>
+
+    <term lang="en" gr="i">encoding</term>
+    <term lang="en" gr="i">charset</term>
+    <term lang="en" gr="is">character set</term>
+    <term env="fed gnm moz ooo" gr="is">скуп знакова</term>
+    <term env="gnm" gr="i">запис</term>
+    <term env="fed gnm kde moz ooo uk" gr="i">кодирање</term>
+    <term env="gnm" gr="is">кодна страна</term>
+    <term env="gnm" gr="is">кодни распоред</term>
+
+    <details root="wpen" rel="Character_encoding"/>
+</concept>
+
 <concept id="endianness">
     <desc>Начин уписивања <ref c="zzz">вишебајтних</ref> бројева у <ref c="zzz">меморију</ref> <ref c="computer">рачунара</ref> која је организована као низ <ref c="zzz">бајтова</ref>.  Најчешће су у употреби <ref c="littleendian">мала</ref> и <ref c="bigendian">велика</ref> крајност.</desc>
     <!-- @упути: multibyte ram byte -->
