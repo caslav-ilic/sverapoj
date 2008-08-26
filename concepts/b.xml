@@ -11,6 +11,7 @@
     <term env="fed gnm moz ooo" gr="is">резервна копија</term>
     <term env="moz" gr="is">резервни умножак</term>
     <term env="moz" gr="i">архива</term>
+    <term env="id" gr="i">бекап</term>
 </concept>
 
 <concept id="backup2">
@@ -20,6 +21,7 @@
     <term env="fed moz kde uk" gr="gs">направити резерву</term>
     <term env="gnm" gr="gs">израдити резерву</term>
     <term env="moz" gr="g">архивирати</term>
+    <term env="id" gr="g">бекаповати</term>
 </concept>
 
 <concept id="bigendian"
