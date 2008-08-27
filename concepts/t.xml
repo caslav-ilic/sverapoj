@@ -67,4 +67,17 @@
     <comment>Често се изоставља ‘алат/алатка’ из синтагме када је намена ближе одређена, нпр. <ol lang="en" wl="1">project toolbar</ol> (-> ‘трака алатки пројекта’) -> ‘трака пројекта’.</comment>
 </concept>
 
+<concept id="tooltip">
+    <!-- @види: whatsthis -->
+    <desc>Сажети опис намене <ref c="widget">~виџета|gnm:елемента|fed:графичког додатка~</ref>, у виду уоквиреног правоугаоника текста, који се појави када корисник над ~виџетом|gnm:елементом|fed:графичким додатком~ накратко задржи <ref c="pointer">~показивач|fed:курсор~</ref> <ref c="zzz">миша</ref>, и нестане чим се ~показивач~ помери. Некада уместо статичног описа даје преглед стања или напретка радње, нпр. над <ref c="icon">~иконама|moz:сличицама~</ref> у <ref c="systemtray">~системској касети|gnm:обавештајној зони~</ref>.</desc>
+    <!-- @упути: mouse -->
+
+    <term lang="en" gr="i">tooltip</term>
+    <term env="gnm kde moz uk" gr="i">облачић</term>
+    <term env="id" gr="i">балонче</term>
+    <term env="id" gr="i">савет</term>
+
+    <details root="wpen" rel="Tooltip"/>
+</concept>
+
 </concepts>

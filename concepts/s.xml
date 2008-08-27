@@ -98,7 +98,7 @@
     <term env="gnm" gr="is">линија са стањем</term>
     <term env="gnm ooo" gr="is">статусна линија</term>
     <term env="kde" gr="is">трака стања</term>
-    <term env="moz ooo" gr="is">статусна трака</term>
+    <term env="moz ooo uk" gr="is">статусна трака</term>
 
     <details root="wpen" rel="Status_bar"/>
 </concept>
