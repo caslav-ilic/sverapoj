@@ -47,8 +47,8 @@
 
 <concept id="shortcut">
     <!-- @види: gesture -->
-    <desc>Комбинација два или више <ref c="zzz">тастера</ref> на <ref c="zzz">тастатури</ref>, некад укључујући и дугмад <ref c="zzz">миша</ref>, притиском на коју се изводи одређена радња у <ref c="application">програму</ref>. Посебно корисне за честе радње, корисник их најчешће може <ref c="zzz">прилагодити</ref> свом укусу.</desc>
-    <!-- @упути: key keyboard mouse customize -->
+    <desc>Комбинација два или више <ref c="zzz">тастера</ref> на <ref c="zzz">тастатури</ref>, некад укључујући и дугмад <ref c="zzz">миша</ref>, притиском на коју се изводи одређена радња у <ref c="application">програму</ref>. Посебно корисне за честе радње, корисник их најчешће може <ref c="customize">прилагодити</ref> свом укусу.</desc>
+    <!-- @упути: key keyboard mouse -->
 
     <term lang="en" gr="i">shortcut</term>
     <term lang="en" env="id" gr="i">keybinding</term>

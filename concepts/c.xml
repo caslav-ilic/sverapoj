@@ -66,8 +66,7 @@
 
 <concept id="configuration"
          related="configurationfile configure">
-    <desc>Скуп <ref c="setting">поставки</ref> <ref c="application">програма</ref>, који корисник може да мења како би <ref c="zzz">прилагодио</ref> изглед и понашање ~програма~ сопственим потребама.</desc>
-    <!-- @упути: customize -->
+    <desc>Скуп <ref c="setting">поставки</ref> <ref c="application">програма</ref>, који корисник може да мења како би <ref c="customize">прилагодио</ref> изглед и понашање ~програма~ сопственим потребама.</desc>
 
     <term lang="en" gr="i">configuration</term>
     <term env="fed gnm moz ooo uk" gr="i">подешавање</term>
@@ -240,6 +239,24 @@
     <term env="ooo" gr="i">показивач</term>
 
     <details root="wpsr" rel="Курсор"/>
+</concept>
+
+<concept id="custom">
+    <desc>Такав избор који ће захтевати још накнадних одређивања да би био употпуњен, за разлику од обичних, предодређених избора. Омогућава кориснику да предмет избора боље <ref c="customize">прилагоди</ref> сопственим потребама, а по цену већег ангажовања.</desc>
+
+    <term lang="en" gr="p">custom</term>
+    <term env="fed gnm moz ooo" gr="p">прилагођен</term>
+    <term env="gnm moz" gr="p">произвољан</term>
+    <term env="gnm" gr="pres">по избору</term>
+    <term env="gnm kde moz ooo uk" gr="p">посебан</term>
+</concept>
+
+<concept id="customize"
+         related="custom">
+    <desc>Учинити да нешто — нпр. понашање <ref c="application">програма</ref>, изглед <ref c="desktop">~радне површине|kde:површи~</ref> — више одговара личним функционалним потребама или естетским склоностима.</desc>
+
+    <term lang="en" gr="g">customize</term>
+    <term gr="g">прилагодити</term>
 </concept>
 
 </concepts>
