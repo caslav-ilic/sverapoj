@@ -35,6 +35,55 @@
     <details root="wpen" rel="Application_software"/>
 </concept>
 
+<concept id="authenticate">
+    <desc>Извршити <ref c="authentication">~аутентификацију|gnm ooo:пријаву~</ref>, обично за добијање извесних <ref c="authorization">овлашћења</ref>.</desc>
+
+    <term lang="en" gr="g">authenticate</term>
+    <term env="fed gnm kde uk" gr="g">аутентификовати</term>
+    <term env="gnm ooo" gr="g">пријавити се</term>
+    <term env="gnm" gr="gs">потврдити идентитет</term>
+    <term env="gnm" gr="g">идентификовати</term>
+
+    <details root="wpen" rel="Authentication"/>
+</concept>
+
+<concept id="authentication"
+         related="authenticate authorization">
+    <desc>Поступак утврђивања идентитета корисника или <ref c="computer">рачунара</ref> у <ref c="network">мрежи</ref>, ради омогућавања приступа неком месту или ресурсу. Спроводи се, на пример, приликом <ref c="login">пријављивања</ref> корисника на локални или <ref c="zzz">удаљени</ref> <ref c="zzz">налог</ref>, или пред размену података личне природе (<ref c="email">~е-пошта|moz:ел. пошта~</ref> и сл.) између локалног ~рачунара~ и <ref c="zzz">сервера</ref>.</desc>
+    <!-- @упути: remote account server -->
+
+    <term lang="en" gr="i">authentication</term>
+    <term env="fed gnm kde moz uk" gr="i">аутентификација</term>
+    <term env="gnm ooo" gr="i">пријава</term>
+    <term env="gnm" gr="i">идентификација</term>
+    <term env="moz" gr="i">аутентикација</term>
+    <term env="ooo" gr="i">пријављивање</term>
+
+    <details root="wpen" rel="Authentication"/>
+</concept>
+
+<concept id="authorize">
+    <desc>Издати тражено <ref c="authorization">овлашћење</ref> по успешно спроведеној <ref c="authentication">~аутентификацији|gnm ooo:пријави~</ref>.</desc>
+
+    <term lang="en" gr="g">authorize</term>
+    <term env="fed gnm kde uk" gr="g">овластити</term>
+    <term env="fed gnm moz" gr="g">ауторизовати</term>
+
+    <details root="wpen" rel="Authorization"/>
+</concept>
+
+<concept id="authorization"
+         related="authentication authorize">
+    <desc>Дозвола кориснику или <ref c="computer">рачунару</ref> да приступи одређеним ресурсима, чијем издавању најчешће претходи неки вид <ref c="authentication">~аутентификације|gnm ooo:пријаве~</ref>. Може се разликовати по степену приступа (нпр. могу ли се ресурси <ref c="zzz">уређивати</ref> или само <ref c="zzz">прегледати</ref>) и обично је ограниченог трајања (нпр. до тренутка <ref c="logout">одјављивања</ref> корисника са свог <ref c="zzz">налога</ref>).</desc>
+    <!-- @упути: browse edit account -->
+
+    <term lang="en" gr="i">authorization</term>
+    <term env="fed gnm kde moz uk" gr="i">овлашћење</term>
+    <term env="fed gnm" gr="i">ауторизација</term>
+
+    <details root="wpen" rel="Authorization"/>
+</concept>
+
 </concepts>
 
 

@@ -59,7 +59,7 @@
 </concept>
 
 <concept id="login"
-         related="logout">
+         related="authentication logout">
     <!-- @види: account session -->
     <desc>Представити се <ref c="zzz">вишекорисничком</ref> <ref c="zzz">оперативном систему</ref> као одређени корисник, задавањем <ref c="zzz">корисничког имена</ref> и личне <ref c="password">лозинке</ref>, после чега се може отпочети с радом на <ref c="computer">рачунару</ref>. Уместо ~лозинком~, идентитет се може утврђивати и на неки други начин, нпр. <ref c="zzz">криптографским</ref> <ref c="zzz">кључем</ref> или <ref c="zzz">смарткартицом</ref>.</desc>
     <!-- @упути: multiuser operatingsystem username cryptography key2 smartcard -->
