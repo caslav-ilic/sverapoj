@@ -24,6 +24,20 @@
     <details root="wpen" rel="Table_(information)"/>
 </concept>
 
+<concept id="taskbar"
+         related="systemtray">
+    <desc>Подручје на <ref c="zzz">панелу</ref> где су побројани сви <ref c="zzz">прозори</ref> на <ref c="desktop">~радној површини|kde:површи~</ref>, било да су тренутно видљиви, <ref c="zzz">минимизовани</ref> или другачије скривени од погледа. Сваки ~прозор~ је обично представљен правоугаоним <ref c="zzz">дугметом</ref> које садржи његов наслов, <ref c="zzz">кликом</ref> на које корисник може извршити неке радње над ~прозором~, нпр. затворити га или учинити видљивим. ~Прозори~ који припадају истом <ref c="application">програму</ref> понекад бивају груписани под истим ~дугметом~.</desc>
+    <!-- @упути: panel window minimize button click -->
+
+    <term lang="en" env="kde uk" gr="i">taskbar</term>
+    <term lang="en" env="gnm" gr="is">window list</term>
+    <term lang="sr" env="kde uk" gr="is">трака задатака</term>
+    <term lang="sr" env="gnm" gr="is">списак прозора</term>
+
+    <details root="wpen" rel="Taskbar"/>
+    <details root="glen" rel="users/user-guide/latest/windowlist.html.en"/>
+</concept>
+
 <concept id="template">
     <desc>Темељни објекат који дефинише основни изглед, структуру или функцију нечега, на основу којег се изводе конкретни примерци таквих објеката. На пример, празан текстуални документ, али који садржи стилове <ref c="zzz">пасуса</ref>, <ref c="zzz">распореде</ref> <ref c="zzz">страна</ref>, избор <ref c="font">фонтова</ref>, итд., прилагођене одређеној намени, тако да корисник може почети да уноси текст без потребе да брине о претходним техничким детаљима.</desc>
     <!-- @упути: paragraph layout page -->
