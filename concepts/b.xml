@@ -93,6 +93,16 @@
     <details root="wpen" rel="Internet_bookmark"/>
 </concept>
 
+<concept id="border">
+    <!-- @види: frame -->
+    <desc>Спољашњи делови, границе раванског објекта, попут <ref c="zzz">стране</ref> папира, <ref c="table">табеле</ref> или <ref c="zzz">прозора</ref> на <ref c="desktop">~радној површини|kde:површи~</ref>. Могу бити истакнути разним <ref c="zzz">попунама</ref>, јасно издвајајући објекат из околине, или невидљиви када се објекат жели складно уклопити у целину.</desc>
+    <!-- @упути: page window fill -->
+
+    <term lang="en" gr="i">border</term>
+    <term env="gnm moz pr">ивица</term>
+    <term env="gnm moz">оквир</term>
+</concept>
+
 <concept id="browser">
     <!-- @види: webbrowser, filebrowser -->
     <desc><ref c="application">Програм</ref> или део програма намењен кретању кроз одређени садржај, његово прегледање и избор по деловима, понекад и уз могућност тражења. На пример, <ref c="zzz">~fed gnm moz ooo unx uk:веб читачем|kde:веб прегледачем~</ref> се приступа странама на <ref c="zzz">Интернету</ref>, а <ref c="zzz">~прегледачем датотека|kde:прегледачем фајлова~</ref> се разгледа <ref c="zzz">~стабло фасцикли|moz unx:стабло директоријума~</ref> и бирају <ref c="file">~датотеке|kde:фајлови~</ref>.</desc>
