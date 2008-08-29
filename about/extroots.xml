@@ -17,4 +17,12 @@
     <desc>Чланци на Википедији, Слободној енциклопедији (на енглеском).</desc>
 </extroot>
 
+<extroot id="glen">
+    <name>Гномова библиотека документације (енгл.)</name>
+    <shortname>Гн.биб.ен.</shortname>
+    <rooturl>http://library.gnome.org</rooturl>
+    <browseurl>http://library.gnome.org</browseurl>
+    <desc>Средишње налазиште Гномове документације, како за кориснике, тако и за администраторе и програмере (на енглеском).</desc>
+</extroot>
+
 </extroots>
