@@ -13,7 +13,7 @@
 <concept id="applet"
          related="plugin">
     <desc>Парче <ref c="software">софтвера</ref> које се уграђује и извршава у окриљу каквог већег <ref c="application">програма</ref>, на чије се услуге ослања ради остваривања сопствене функционалности. На пример, овако може бити изведена <ref c="zzz">игра</ref> којој се приступа кроз <ref c="zzz">~веб читач|kde:веб прегледач~</ref>.</desc>
-    <!-- @упути: game, webbrowser -->
+    <!-- @упути: game webbrowser -->
 
     <term lang="en" gr="i">applet</term>
     <term env="fed" gr="i">програмчић</term>
@@ -74,8 +74,8 @@
 
 <concept id="authorization"
          related="authentication authorize">
-    <desc>Дозвола кориснику или <ref c="computer">рачунару</ref> да приступи одређеним ресурсима, чијем издавању најчешће претходи неки вид <ref c="authentication">~аутентификације|gnm ooo:пријаве~</ref>. Може се разликовати по степену приступа (нпр. могу ли се ресурси <ref c="zzz">уређивати</ref> или само <ref c="zzz">прегледати</ref>) и обично је ограниченог трајања (нпр. до тренутка <ref c="logout">одјављивања</ref> корисника са свог <ref c="zzz">налога</ref>).</desc>
-    <!-- @упути: browse edit account -->
+    <desc>Дозвола кориснику или <ref c="computer">рачунару</ref> да приступи одређеним ресурсима, чијем издавању најчешће претходи неки вид <ref c="authentication">~аутентификације|gnm ooo:пријаве~</ref>. Може се разликовати по степену приступа (нпр. могу ли се ресурси <ref c="zzz">уређивати</ref> или само <ref c="browse">~прегледати|gnm ooo:разгледати~</ref>) и обично је ограниченог трајања (нпр. до тренутка <ref c="logout">одјављивања</ref> корисника са свог <ref c="zzz">налога</ref>).</desc>
+    <!-- @упути: edit account -->
 
     <term lang="en" gr="i">authorization</term>
     <term env="fed gnm kde moz uk" gr="i">овлашћење</term>
