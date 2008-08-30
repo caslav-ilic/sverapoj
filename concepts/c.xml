@@ -161,6 +161,32 @@
     <details root="wpen" rel="Character_(computing)"/>
 </concept>
 
+<concept id="click">
+    <!-- @види: leftclick rightclick middleclick doubleclick tripleclick pointandclick -->
+    <desc>Притиснути једно од <ref c="zzz">дугмади</ref> <ref c="zzz">миша</ref> или сличног уређаја, ради активирања <ref c="widget">~виџета|gnm:елемента|fed:графичког додатка~</ref> изнад којег се налази <ref c="pointer">~показивач|fed:курсор~</ref>, или неке друге радње. Тачан учинак најчешће зависи од дугмета које је употребљено, а понекад и од тога да ли је оно притиснуто више од једанпут у кратком временском периоду (нпр. с пола секунде размака).</desc>
+    <!-- @упути: button2 mouse -->
+
+    <term lang="en" gr="g">click</term>
+    <term env="fed gnm moz ooo" gr="g">притиснути</term>
+    <eterm env="fed gnm kde ooo uk" gr="g">
+        <nom>кликнути</nom>
+        <comment by="ilic">Преко енглеског, према ономатопеји звука какав се обично чује када се притисне <ref c="zzz">дугме</ref> на <ref c="zzz">мишу</ref>. Некад са предлогом, ‘кликнути на’, некад без предлога.</comment>
+        <!-- @упути: button2 mouse -->
+    </eterm>
+
+    <details root="wpen" rel="Point-and-click"/>
+</concept>
+
+<concept id="click2">
+    <desc>Поступак или тренутак <ref c="click">~кликтања|moz:притискања~</ref> <ref c="zzz">мишем</ref>.</desc>
+    <!-- @упути: mouse -->
+
+    <term lang="en" gr="g">click</term>
+    <term env="fed gnm ooo" gr="g">притисак</term>
+    <term env="fed gnm kde ooo" gr="g">клик</term>
+    <term env="id" gr="g">кликтај</term>
+</concept>
+
 <concept id="clipboard">
     <desc>Место на систему где се чувају одломци текста или другог садржаја, доспели ту <ref c="cut">исецањима</ref> и <ref c="copy">~gnm moz ooo:умножавањима|fed kde:копирањима~</ref> из разних докумената. Тако ускладиштен садржај потом се може <ref c="paste">~fed gnm moz ooo:убацити|kde:налепити~</ref> у произвољни документ (под условом да овај прихвата тај тип садржаја).</desc>
 
