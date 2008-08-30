@@ -103,10 +103,33 @@
     <term env="gnm moz">оквир</term>
 </concept>
 
+<concept id="browse"
+         related="browser">
+    <!-- @види: search -->
+    <desc>Пролазити кроз скуп објеката оквирно представљених једним истакнутим <ref c="zzz">својством</ref> (нпр. именом, насловом, <ref c="icon">~иконом|moz:сличицом~</ref>), с намером да се неки међу њима <ref c="zzz">изабере</ref> за детаљније разматрање или обраду.</desc>
+    <!-- @упути: property select -->
+
+    <term lang="en" gr="g">browse</term>
+    <term env="fed gnm ooo" gr="g">разгледати</term>
+    <term env="fed gnm kde moz uk" gr="g">прегледати</term>
+</concept>
+
+<concept id="browse_button"
+         related="browse">
+    <desc>Текст на <ref c="zzz">дугмету</ref> којим се отвара <ref c="zzz">дијалог</ref> са <ref c="zzz">~стаблом фасцикли|moz unx:стаблом директоријума~</ref>, у циљу <ref c="zzz">избора</ref> ~једне одређене|kde:једног одређеног~ <ref c="file">~датотеке|kde:фајла~</ref> или <ref c="directory">~фасцикле|moz:директоријума~</ref>.</desc>
+    <!-- @упути: button dialog select directorytree -->
+
+    <term lang="en" gr="g">Browse</term>
+    <term env="fed gnm ooo uk" gr="g">Разгледај</term>
+    <term env="kde moz ooo" gr="g">Прегледај</term>
+    <term env="moz" gr="g">Преглед</term>
+    <term env="ooo" gr="g">Претражи</term>
+</concept>
+
 <concept id="browser">
-    <!-- @види: webbrowser, filebrowser -->
+    <!-- @види: webbrowser filebrowser -->
     <desc><ref c="application">Програм</ref> или део програма намењен кретању кроз одређени садржај, његово прегледање и избор по деловима, понекад и уз могућност тражења. На пример, <ref c="zzz">~fed gnm moz ooo unx uk:веб читачем|kde:веб прегледачем~</ref> се приступа странама на <ref c="zzz">Интернету</ref>, а <ref c="zzz">~прегледачем датотека|kde:прегледачем фајлова~</ref> се разгледа <ref c="zzz">~стабло фасцикли|moz unx:стабло директоријума~</ref> и бирају <ref c="file">~датотеке|kde:фајлови~</ref>.</desc>
-    <!-- @упути: webbrowser, internet, filebrowser, directorytree -->
+    <!-- @упути: webbrowser internet filebrowser directorytree -->
 
     <term lang="en" gr="i">browser</term>
     <term env="fed gnm moz ooo" gr="i">читач</term>
