@@ -187,6 +187,19 @@
     <term env="id" gr="g">кликтај</term>
 </concept>
 
+<concept id="client">
+    <!-- @види: node peer emailclient thinclient -->
+    <desc><ref c="computer">Рачунар</ref>, односно <ref c="application">програм</ref>, који у <ref c="network">мрежи</ref> саобраћа са <ref c="server">серверима</ref>, ради доставе података кориснику и од корисника. Најчешће је ово ~рачунар~ за којим корисник непосредно ради, и на њему програм за писање и читање <ref c="email">~е-поште|moz:ел. поште~</ref>, <ref c="download">~преузимање|moz:пријем~</ref> <ref c="file">~датотека|kde:фајлова~</ref> и сл.</desc>
+
+    <term lang="en" gr="i">client</term>
+    <eterm gr="i">
+        <nom>клијент</nom>
+        <decl gr="akujd">клијент</decl>
+    </eterm>
+
+    <details root="wpsr" rel="Клијент_(информационе_технологије)"/>
+</concept>
+
 <concept id="clipboard">
     <desc>Место на систему где се чувају одломци текста или другог садржаја, доспели ту <ref c="cut">исецањима</ref> и <ref c="copy">~gnm moz ooo:умножавањима|fed kde:копирањима~</ref> из разних докумената. Тако ускладиштен садржај потом се може <ref c="paste">~fed gnm moz ooo:убацити|kde:налепити~</ref> у произвољни документ (под условом да овај прихвата тај тип садржаја).</desc>
 
@@ -250,6 +263,16 @@
     <term gr="g">исећи</term>
 
     <details root="wpen" rel="Cut,_copy,_and_paste"/>
+</concept>
+
+<concept id="create">
+    <desc>Учинити да настане нови објекат, нпр. <ref c="file">~датотека|kde:фајл~</ref> или <ref c="directory">~фасцикла|moz unx:директоријум~</ref>, некад као подлога за даљи рад, а некад са готовим садржајем.</desc>
+
+    <term lang="en" gr="g">create</term>
+    <term lang="en" gr="g">make</term>
+    <term env="fed gnm kde moz ooo uk" gr="g">направити</term>
+    <term env="fed gnm kde" gr="g">створити</term>
+    <term env="id" gr="g">креирати</term>
 </concept>
 
 <concept id="cursor"
