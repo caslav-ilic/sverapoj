@@ -18,12 +18,23 @@
     <details root="wpen" rel="Delimiter"/>
 </concept>
 
+<concept id="server">
+    <!-- @види: host client -->
+    <desc>Комбинација <ref c="computer">рачунара</ref> и наменског <ref c="software">софтвера</ref> у <ref c="network">мрежи</ref> чији је задатак да прима и обрађује <ref c="zzz">захтеве</ref> од других ~рачунара~, и на основу њих <ref c="zzz">складишти</ref>, шаље и <ref c="zzz">прослеђује</ref> тражене податке. У зависности од степена важности и оптерећења, овакви ~рачунари~ могу бити грађени од посебног, уместо потрошачког, <ref c="hardware">хардвера</ref>. Један физички ~рачунар~ може опслуживати неколико разнородних типова ~захтева~ и података, нпр. руковати <ref c="email">~е-поштом|moz:ел. поштом~</ref> и одашиљати <ref c="zzz">веб стране</ref>.</desc>
+    <!-- @упути: request store forward webpage -->
+
+    <term lang="en" gr="i">server</term>
+    <term gr="i">сервер</term>
+
+    <details root="wpsr" rel="Сервер"/>
+</concept>
+
 <concept id="setting"
          related="configuration">
     <desc>Избор корисника који одређује нешто у вези са изгледом или понашањем <ref c="application">програма</ref>, и који се трајно памти док га корисник поново не измени. Најчешће има <ref c="default">подразумевану</ref> вредност, мада се понекад она тражи од корисника при првом покретању ~програма~.</desc>
 
-    <term lang="en" env="gnm moz pr" gr="i">setting</term>
-    <term lang="en" env="gnm moz" gr="i">preference</term>
+    <term lang="en" gr="i">setting</term>
+    <term lang="en" gr="i">preference</term>
     <term env="fed gnm kde moz ooo uk" gr="i">поставка</term>
     <term env="fed gnm moz ooo" gr="i">подешавање</term>
 

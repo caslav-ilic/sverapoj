@@ -79,8 +79,8 @@
 <concept id="download"
          related="download2">
     <!-- @види: upload -->
-    <desc>Од <ref c="file">~датотека|kde:фајлова~</ref> изворно смештених негде у <ref c="network">мрежи</ref> (посебно на <ref c="zzz">Интернету</ref>) начинити <ref c="zzz">копије</ref> на локалном <ref c="computer">рачунару</ref>. Традиционални ~мрежни~ извори су <ref c="zzz">сервери</ref> (нпр. <ref c="zzz">ФТП</ref>), а у новије време и <ref c="zzz">п2п</ref> мреже (попут <ref c="zzz">битторента</ref>).</desc>
-    <!-- @упути: internet copy2 server ftp p2p torrent -->
+    <desc>Од <ref c="file">~датотека|kde:фајлова~</ref> изворно смештених негде у <ref c="network">мрежи</ref> (посебно на <ref c="zzz">Интернету</ref>) начинити <ref c="zzz">копије</ref> на локалном <ref c="computer">рачунару</ref>. Традиционални ~мрежни~ извори су <ref c="server">сервери</ref> (нпр. <ref c="zzz">ФТП</ref>), а у новије време и <ref c="zzz">п2п</ref> мреже (попут <ref c="zzz">битторента</ref>).</desc>
+    <!-- @упути: internet copy2 ftp p2p torrent -->
 
     <term lang="en" gr="g">download</term>
     <term gr="g">преузети</term>
