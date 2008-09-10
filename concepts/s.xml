@@ -20,7 +20,7 @@
 
 <concept id="server"
          related="client">
-    <!-- @види: host -->
+    <!-- @види: host port -->
     <desc>Комбинација <ref c="computer">рачунара</ref> и наменског <ref c="software">софтвера</ref> у <ref c="network">мрежи</ref> чији је задатак да прима и обрађује <ref c="zzz">захтеве</ref> од других ~рачунара~, и на основу њих <ref c="zzz">складишти</ref>, шаље и <ref c="zzz">прослеђује</ref> тражене податке. У зависности од степена важности и оптерећења, овакви ~рачунари~ могу бити грађени од посебног, уместо потрошачког, <ref c="hardware">хардвера</ref>. Један физички ~рачунар~ може опслуживати неколико разнородних типова ~захтева~ и података, нпр. руковати <ref c="email">~е-поштом|moz:ел. поштом~</ref> и одашиљати <ref c="zzz">веб стране</ref>.</desc>
     <!-- @упути: request store forward webpage -->
 
@@ -28,6 +28,16 @@
     <term gr="i">сервер</term>
 
     <details root="wpsr" rel="Сервер"/>
+</concept>
+
+<concept id="service"
+         related="daemon">
+    <desc>Дежурни систем који прихвата захтеве и податке од корисника, обрађује их, и прослеђује назад резултате. Може бити изведен као самостални <ref c="zzz">програм</ref> или саставни део већег ~програма~ на локалном <ref c="computer">рачунару</ref>, или <ref c="zzz">протокол</ref> за саобраћање кроз <ref c="network">мрежу</ref>.</desc>
+    <!-- @упути: program protocol -->
+
+    <term lang="en" gr="i">service</term>
+    <term env="fed gnm kde ooo uk" gr="i">сервис</term>
+    <term env="gnm moz" gr="i">услуга</term>
 </concept>
 
 <concept id="setting"

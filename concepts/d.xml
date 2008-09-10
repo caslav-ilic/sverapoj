@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
+<concept id="daemon"
+         related="service">
+    <desc><ref c="zzz">Програм</ref> који непрекидно ради у позадини, изван погледа и без непосредног општења с корисником, обављајући неки задатак ниског нивоа од важности за удобан рад на <ref c="computer">рачунару</ref>: надзирање активности делова <ref c="hardware">хардвера</ref>, обрада <ref c="network">мрежних</ref> активности, извршавање унапред планираних радњи, обавештавање о стању напајања, итд. Обично се покреће аутоматски при <ref c="zzz">подизању</ref> <ref c="zzz">оперативног система</ref>, али се може покренути и касније, на захтев корисника или под одређеним стицајем околности.</desc>
+    <!-- @упути: program boot operatingsystem -->
+
+    <term lang="en" env="unx pr" gr="i">daemon</term>
+    <term lang="en" gr="i">service</term>
+    <eterm env="fed kde uk" gr="i">
+        <nom>демон</nom>
+        <decl gr="akujd">демон</decl>
+    </eterm>
+    <term env="fed" gr="is">системска услуга</term>
+    <term env="fed gnm" gr="i">услуга</term>
+    <term env="gnm" gr="i">сервис</term>
+
+    <details root="wpen" rel="Daemon_(computer_software)"/>
+    <details root="wpen" rel="Windows_service"/>
+</concept>
+
 <concept id="default"
          related="configuration">
     <desc>Таква вредност одређене <ref c="setting">поставке</ref> у <ref c="application">програму</ref>, какву су аутори одредили као најпристалију потребама већине корисника, најпоузданију за исправан рад програма, најбољу за <ref c="zzz">безбедност</ref> <ref c="computer">рачунара</ref>, итд. ~Поставке~ имају овакве вредности при првом покретању програма, и кориснику се обично пружа могућност да се у сваком тренутку врати на њих пошто је нешто својеручно мењао.</desc>
