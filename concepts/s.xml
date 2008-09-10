@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
+<concept id="scrollbar">
+    <!-- @види: scroll -->
+    <desc><ref c="widget">~Виџет|gnm:Елемент|fed:Графички додатак~</ref> за показивање положаја и кретање кроз документ превише велики да би цео стао на екран. Дугуљастог облика, садржи <ref c="zzz">клизач</ref> који показује текући положај у документу, и који корисник може померати <ref c="zzz">мишем</ref> ради кретања кроз документ. Може бити усправне или водоравне оријентације, према томе да ли је садржај виши или шири од екрана, или и једно и друго.</desc>
+    <!-- @упути: slider mouse -->
+
+    <term lang="en" gr="i">scrollbar</term>
+    <term env="gnm moz ooo" gr="i">клизач</term>
+    <term env="gnm ooo" gr="is">трака за померање</term>
+    <term env="kde uk" gr="is">клизачка трака</term>
+
+    <details root="wpen" rel="Scrollbar"/>
+</concept>
+
 <concept id="separator"
          related="delimiter">
     <!-- @види: commaseparated  -->
