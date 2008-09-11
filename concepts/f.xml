@@ -23,6 +23,22 @@
     <details root="wpen" rel="Computer_file"/>
 </concept>
 
+<concept id="filemanager"
+         related="konqueror">
+    <!-- @види: dolphin krusader nautilus thunar -->
+    <desc><ref c="application">Програм</ref> помоћу којег се <ref c="file">~датотеке|kde:фајлови~</ref> и <ref c="directory">~фасцикле|moz unx:директоријуми~</ref> могу отварати, <ref c="zzz">премештати</ref>, <ref c="copy_fs">~умножавати|kde:копирати~</ref>, итд. Поред локалним, често уме да рукује и <ref c="zzz">удаљеним</ref> <ref c="filesystem">~системима датотека|kde:фајл системима~</ref>. Према начину приказа и извођења радњи над ~датотекама|kde:фајловима~, деле се на: <ref c="zzz">двопанелске</ref>, <ref c="zzz">навигационе</ref>, <ref c="zzz">просторне</ref>, <ref c="zzz">тродимензионалне</ref>, итд.</desc>
+    <!-- @упути: remote move_fs twopanel_fm navigational_fm spatial_fm t3d_fm -->
+
+    <term lang="en" gr="is">file manager</term>
+    <term env="fed gnm" gr="is">управљач датотекама</term>
+    <term env="fed gnm" gr="is">управљач датотека</term>
+    <term env="fed gnm uk" gr="is">управник датотекама</term>
+    <term env="gnm" gr="is">управник датотека</term>
+    <term env="kde" gr="is">менаџер фајлова</term>
+
+    <details root="wpen" rel="File_manager"/>
+</concept>
+
 <concept id="filesystem">
     <!-- @види: journaling -->
     <desc>Начин на који се <ref c="file">~датотеке|kde:фајлови~</ref> записују и распоређују на <ref c="zzz">складишном медијуму</ref>, попут <ref c="zzz">хард-диска</ref>. Програмски се изводи на ниском нивоу, као компонента <ref c="zzz">оперативног система</ref>, који обично подржава више различитих начина записа — како да би корисник могао да одабере најподеснији за своје потребе, тако и зато што различити ~складишни медијуми~ често прихватају различите начине записа.</desc>

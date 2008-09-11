@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
-<concept id="manager">
-    <!-- @види: filemanager windowmanager packagemanager downloadmanager -->
+<concept id="manager"
+         related="filemanager">
+    <!-- @види: windowmanager packagemanager downloadmanager -->
     <desc><ref c="application">Програм</ref> или део програма који служи за руковање објектима једног одређеног типа, што могу бити: <ref c="file">~датотеке|kde:фајлови~</ref>, слике, <ref c="zzz">прозори</ref>, <ref c="zzz">пакети</ref>, итд. Под руковањем се подразумева <ref c="zzz">копирање</ref>, <ref c="zzz">премештање</ref>, <ref c="zzz">брисање</ref>, <ref c="zzz">преименовање</ref>, <ref c="zzz">инсталирање</ref>, <ref c="zzz">деинсталирање</ref>, итд., али обично не и мењање самог садржаја објеката.</desc>
     <!-- @упути: package window copy2 move delete install rename deinstall -->
 
