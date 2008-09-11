@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
-<concept id="editor">
-    <!-- @види: texteditor processor -->
+<concept id="editor"
+         related="texteditor">
+    <!-- @види: processor -->
     <desc><ref c="application">Програм</ref> или део програма којим се ручно саставља и мења неки тип садржаја (нпр. текст, <ref c="zzz">метаподаци</ref> или <ref c="zzz">нивои игре</ref>). Притом су обично радње које омогућава над садржајем једноставне, а резултати под непосредном контролом корисника; како се поступци усложњавају и уводи аутоматска обрада, почиње се говорити о <ref c="zzz">обрађивачима</ref> садржаја.</desc>
     <!-- @упути: metadata gamelevel processor -->
 

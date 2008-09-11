@@ -51,6 +51,17 @@
     <details root="wpen" rel="Template"/>
 </concept>
 
+<concept id="texteditor">
+    <!-- @види: wordprocessor emacs vim kwrite kate gedit -->
+    <desc><ref c="application">Програм</ref> којим се <ref c="zzz">уређује</ref> <ref c="zzz">обичан текст</ref>, односно <ref c="file">~датотеке|kde:фајлови~</ref> тог типа. Поред основних захвата, попут <ref c="copy">~умножавања|kde:копирања~</ref> и <ref c="paste">~убацивања|kde:налепљивања~</ref>, <ref c="zzz">претраге</ref> и <ref c="zzz">замењивања</ref>, <ref c="zzz">опозивања</ref> радњи, често пружају додатну подршку за поједине текстуалне формате, као што је <ref c="zzz">увлачење</ref> и <ref c="zzz">прелом</ref> <ref c="line">редова</ref>, <ref c="syntaxhighlighting">~истицање синтаксе|moz:бојење синтаксе~</ref>, <ref c="zzz">коментарисање</ref>, итд. Некад су специјализовани за одређену класу текста, нпр. <ref c="zzz">изворни ко̑д</ref> или <ref c="xml">~XML|kde moz:ИксМЛ~</ref> <ref c="zzz">обележавања</ref>.</desc>
+    <!-- @упути: edit plaintext undo search replace indent wrap comment sourcecode markup -->
+
+    <term lang="en" gr="is">text editor</term>
+    <term gr="is">уређивач текста</term>
+
+    <details root="wpen" rel="Text_editor"/>
+</concept>
+
 <concept id="thumbnail">
     <desc>Мала графичка представа одређеног садржаја, најчешће слика у галерији на <ref c="zzz">веб страни</ref> на <ref c="zzz">Интернету</ref> или локално у <ref c="zzz">прегледачу слика</ref>; такође може одсликавати садржај неких типова <ref c="file">~датотека|kde:фајлова~</ref> у <ref c="zzz">~прегледачу датотека|kde:прегледачу фајлова~</ref>, када је постављен на <ref c="zzz">приказ икона</ref>. Служи да омогући кориснику брзо уочавање занимљивог или налажење траженог садржаја, и то посебно кад је потребно незанемарљиво време да се он у целокупности прикаже (нпр. <ref c="download">~преузме|moz:прими~</ref> са Интернета).</desc>
     <!-- @упути: webpage internet imagebrowser filebrowser iconview -->

@@ -12,8 +12,8 @@
 
 <concept id="line">
     <!-- @види: paragraph -->
-    <desc>Непрекинути водоравни сегмент текста на штампаној <ref c="zzz">страни</ref> или екрану <ref c="zzz">монитора</ref> (нпр. у <ref c="zzz">уређивачу текста</ref>). Често се користи као јединица количине текстуалних података, посебно <ref c="zzz">изворног ко̑да</ref>.</desc>
-    <!-- @упути: page monitor texteditor sourcecode -->
+    <desc>Непрекинути водоравни сегмент текста на штампаној <ref c="zzz">страни</ref> или екрану <ref c="zzz">монитора</ref> (нпр. у <ref c="texteditor">уређивачу текста</ref>). Често се користи као јединица количине текстуалних података, посебно <ref c="zzz">изворног ко̑да</ref>.</desc>
+    <!-- @упути: page monitor sourcecode -->
 
     <term lang="en" gr="i">line</term>
     <term env="fed gnm kde moz ooo uk" gr="i">ред</term>
