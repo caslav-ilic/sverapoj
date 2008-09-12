@@ -21,6 +21,18 @@
     <term env="id" gr="i">поље</term>
 </concept>
 
+<concept id="certificate">
+    <!-- @види: certificateauthority ca_cert smime digitalsignature -->
+    <desc>Електронски документ којим се утврђује идентитет учесника у неком поступку. Често се користи за <ref c="authentication">~аутентификацију|ooo:пријаву~</ref> приликом приступа <ref c="zzz">веб странама</ref>, нпр. онима које служе за <ref c="online">~|fed:мрежна~</ref> плаћања <ref c="online">~на мрежи|kde:на вези|fed:~</ref> путем банковних картица и рачуна. Може бити трајно или орочено важећи, као и превремено <ref c="zzz">опозван</ref> у случају да му се наруши <ref c="zzz">веродостојност</ref>.</desc>
+    <!-- @упути: website revoke authenticity -->
+
+    <term lang="en" gr="i">certificate</term>
+    <term env="fed pr" gr="i">сертификат</term>
+    <term env="fed" gr="i">потврда</term>
+
+    <details root="wpen" rel="Public_key_certificate"/>
+</concept>
+
 <concept id="checkbox">
     <!-- @види: radiobutton -->
     <desc><ref c="widget">~Виџет|gnm:Елемент|fed:Графички додатак~</ref> за задавање одређене <ref c="setting">поставке</ref> <ref c="application">програма</ref>, где корисник бира између логичког да-не, укљученог-искљученог. Обично у виду квадратића који може бити <ref c="zzz">попуњен</ref> или <ref c="zzz">празан</ref>.</desc>
