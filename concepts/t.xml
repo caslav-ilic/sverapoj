@@ -3,8 +3,8 @@
 
 <concept id="tab">
     <!-- @види: tabbar -->
-    <desc><ref c="widget">~Виџет|gnm:Елемент|fed:Графички додатак~</ref> за пребацивање између отворених докумената у <ref c="application">програму</ref> (нпр. <ref c="zzz">веб страна</ref> у  <ref c="zzz">~веб читачу|kde:веб прегледачу~</ref>), као и за груписање других <ref c="widget">~виџета|gnm:елемената|fed:графичких додатака~</ref> у логичке целине (нпр. сродних <ref c="setting">поставки</ref> у <ref c="zzz">дијалогу за подешавање</ref>).</desc>
-    <!-- @упути: webpage webbrowser configurationdialog -->
+    <desc><ref c="widget">~Виџет|gnm:Елемент|fed:Графички додатак~</ref> за пребацивање између отворених докумената у <ref c="application">програму</ref> (нпр. <ref c="zzz">веб страна</ref> у  <ref c="webbrowser">~веб читачу|kde:веб прегледачу~</ref>), као и за груписање других <ref c="widget">~виџета|gnm:елемената|fed:графичких додатака~</ref> у логичке целине (нпр. сродних <ref c="setting">поставки</ref> у <ref c="zzz">дијалогу за подешавање</ref>).</desc>
+    <!-- @упути: webpage configurationdialog -->
 
     <term lang="en" gr="i">tab</term>
     <term env="gnm pr" gr="i">језичак</term>

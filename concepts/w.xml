@@ -12,6 +12,24 @@
     <details root="wpen" rel="Computer_wallpaper"/>
 </concept>
 
+<concept id="webbrowser"
+         related="konqueror">
+    <!-- @упути: firefox epiphany opera -->
+    <desc><ref c="application">Програм</ref> помоћу којег се <ref c="browse">~прегледају|gnm ooo:разгледају~</ref> <ref c="zzz">веб стране</ref>, односно чита на њима дат текст и гледају слике, а уз <ref c="plugin">~прикључке|fed gnm ooo:додатке~</ref> и пуштају видео и аудио записи, извршавају ситније обраде и играју <ref c="zzz">игре</ref>. Омогућава кретање кроз ~веб стране~ на <ref c="zzz">Интернету</ref> путем <ref c="click">~кликтања|moz:притискања~</ref> на <ref c="zzz">везе</ref> на њима, памти посећене, и пружа кориснику разне начине да се лако наврати на њих.</desc>
+    <!-- @види: webpage game internet link -->
+
+    <term lang="en" gr="is">web browser</term>
+    <term env="fed gnm moz ooo uk" gr="is">веб читач</term>
+    <term env="fed gnm" gr="is">читач веба</term>
+    <term env="fed kde moz" gr="is">веб прегледач</term>
+    <term env="gnm" gr="is">веб прегледник</term>
+    <term env="gnm" gr="is">прегледник интернета</term>
+    <term env="ooo" gr="is">интернет прегледник</term>
+    <term env="id" gr="is">веб браузер</term>
+
+    <details root="wpsr" rel="Браузер"/>
+</concept>
+
 <concept id="whitespace"
          related="space">
     <!-- @види: tab2 newline -->
