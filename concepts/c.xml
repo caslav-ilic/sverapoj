@@ -52,7 +52,7 @@
     <!-- @упути: algorithm key2 decrypt -->
 
     <term lang="en" gr="i">cipher</term>
-    <term env="uk" gr="i">шифра</term>
+    <term env="gnm moz uk" gr="i">шифра</term>
     <eterm env="kde" gr="i">
         <nom>шифрар</nom>
         <comment by="ilic">Уместо ‘шифре’, јер се ова често поистовећује с ‘лозинком’ у народској употреби.</comment>
