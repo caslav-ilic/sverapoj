@@ -34,6 +34,21 @@
     <details root="wpen" rel="Check_box"/>
 </concept>
 
+<concept id="cipher">
+    <!-- @види: gpg -->
+    <desc><ref c="zzz">Алгоритам</ref> за <ref c="encrypt">шифровање</ref> података. Постоје две главне врсте: симетрични, који користе исти <ref c="zzz">кључ</ref> и за ~шифровање~ и за <ref c="zzz">дешифровање</ref>, и асиметрични, где се ~кључеви~ разликују. Ови други су широко коришћени при комуникацији, јер не захтевају размену (тајних) кључева.</desc>
+    <!-- @упути: algorithm key2 decrypt -->
+
+    <term lang="en" gr="i">cipher</term>
+    <term env="uk" gr="i">шифра</term>
+    <eterm env="kde" gr="i">
+        <nom>шифрар</nom>
+        <comment by="ilic">Уместо ‘шифре’, јер се ова често поистовећује с ‘лозинком’ у народској употреби.</comment>
+    </eterm>
+
+    <details root="wpsr" rel="Шифра"/>
+</concept>
+
 <concept id="column"
          related="cell row">
     <desc>Усправни низ <ref c="cell">ћелија</ref> у графичкој <ref c="table">табели</ref>.</desc>

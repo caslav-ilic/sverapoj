@@ -27,6 +27,27 @@
     <details root="wpen" rel="Character_encoding"/>
 </concept>
 
+<concept id="encrypt"
+         related="cipher passphrase">
+    <!-- @види: decrypt -->
+    <desc>Претворити податке из облика свима читљивог у облик који могу прочитати само они који поседују одговарајући <ref c="zzz">кључ</ref>, односно знају уговорену <ref c="password">лозинку</ref>. Примењује се за чување и пренос личних и поверљивих података, како их нежељена лица не би могла разумети чак и ако их се домогну. Може се спровести над <ref c="file">~датотекама|kde:фајловима~</ref>, <ref c="zzz">~порукама е-поште|moz:порукама ел. поште~</ref>, разговором у <ref c="zzz">стварном времену</ref> (нпр. <ref c="chat">ћаскање</ref>), итд.</desc>
+    <!-- @упути: key2 emailmessage realtime -->
+
+    <term lang="en" gr="g">encrypt</term>
+    <term gr="g">шифровати</term>
+
+    <details root="wpen" rel="Encryption"/>
+</concept>
+
+<concept id="encryption2">
+    <!-- @види: key2 -->
+    <desc>Који је намењен <ref c="encrypt">шифровању</ref> података, уређај, <ref c="software">софтвер</ref> или <ref c="zzz">алгоритам</ref> којим се оно изводи.</desc>
+    <!-- @упути: algorithm -->
+
+    <term lang="en" gr="p">encryption</term>
+    <term gr="p">шифрарски</term>
+</concept>
+
 <concept id="endianness">
     <desc>Начин уписивања <ref c="zzz">вишебајтних</ref> бројева у <ref c="zzz">меморију</ref> <ref c="computer">рачунара</ref> која је организована као низ <ref c="zzz">бајтова</ref>.  Најчешће су у употреби <ref c="littleendian">мала</ref> и <ref c="bigendian">велика</ref> крајност.</desc>
     <!-- @упути: multibyte ram byte -->
