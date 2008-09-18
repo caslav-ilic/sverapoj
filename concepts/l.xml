@@ -59,8 +59,8 @@
 </concept>
 
 <concept id="login"
-         related="authentication logout">
-    <!-- @види: account session -->
+         related="account authentication logout">
+    <!-- @види: session -->
     <desc>Представити се <ref c="zzz">вишекорисничком</ref> <ref c="zzz">оперативном систему</ref> као одређени корисник, задавањем <ref c="zzz">корисничког имена</ref> и личне <ref c="password">лозинке</ref>, после чега се може отпочети с радом на <ref c="computer">рачунару</ref>. Уместо ~лозинком~, идентитет се може утврђивати и на неки други начин, нпр. <ref c="zzz">криптографским</ref> <ref c="zzz">кључем</ref> или <ref c="zzz">смарткартицом</ref>.</desc>
     <!-- @упути: multiuser operatingsystem username cryptography key2 smartcard -->
 
@@ -82,8 +82,8 @@
 </concept>
 
 <concept id="logout"
-         related="login">
-    <!-- @види: account session -->
+         related="account login">
+    <!-- @види: session -->
     <desc>Окончати текућу радну <ref c="zzz">сесију</ref> под <ref c="zzz">вишекорисничким</ref> <ref c="zzz">оперативним системом</ref>, било при физичком напуштању или гашењу локалног <ref c="computer">рачунара</ref>, било при прекиду <ref c="zzz">везе</ref> са <ref c="zzz">удаљеним</ref>.</desc>
     <!-- @упути: session multiuser operatingsystem connection remote -->
 
@@ -106,8 +106,8 @@
 
 <concept id="loginscreen"
          related="displaymanager login">
-    <desc>Графичко <ref c="zzz">сучеље</ref> које корисницима представља <ref c="displaymanager">~управник пријавом|kde:менаџер пријављивања~</ref>, где се уносе подаци о <ref c="zzz">налогу</ref> потребни за <ref c="login">пријављивање</ref> на систем.</desc>
-    <!-- @упути: userinterface account -->
+    <desc>Графичко <ref c="zzz">сучеље</ref> које корисницима представља <ref c="displaymanager">~управник пријавом|kde:менаџер пријављивања~</ref>, где се уносе подаци о <ref c="account">налогу</ref> потребни за <ref c="login">пријављивање</ref> на систем.</desc>
+    <!-- @упути: userinterface -->
 
     <term lang="en" gr="is">login screen</term>
     <term gr="is">пријавни екран</term>

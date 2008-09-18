@@ -18,9 +18,9 @@
     <!-- @упути: emailaddress -->
 
     <term lang="en" gr="is">mailing list</term>
-    <term env="id" gr="is">дописно друштво</term>
-    <term env="kde uk" gr="is">поштанска листа</term>
-    <term env="id" gr="is">дописна листа</term>
+    <term env="fed moz ooo" gr="is">дописно друштво</term>
+    <term env="kde ooo uk" gr="is">поштанска листа</term>
+    <term env="fed gnm" gr="is">дописна листа</term>
     <term env="id" gr="is">списак прималаца</term>
 
     <details root="wpen" rel="Mailing_lists"/>

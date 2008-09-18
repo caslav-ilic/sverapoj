@@ -81,8 +81,8 @@
 </concept>
 
 <concept id="displaymanager"
-         related="login loginscreen">
-    <!-- @види: account session -->
+         related="account login loginscreen">
+    <!-- @види: session -->
     <desc>Графички <ref c="application">програм</ref> за <ref c="login">пријављивање</ref>, који кориснику тражи да унесе <ref c="zzz">корисничко име</ref> и <ref c="password">лозинку</ref> како би га пропустио на <ref c="desktop">~радну површину|kde:површ~</ref>.</desc>
     <!-- @упути: username  -->
 
