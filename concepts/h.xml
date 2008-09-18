@@ -91,4 +91,23 @@
     <term env="gnm kde moz ooo uk" gr="i">историјат</term>
 </concept>
 
+<concept id="host">
+    <!-- @види: ip_address hostname -->
+    <desc><ref c="zzz">Чвор</ref> у <ref c="network">мрежи</ref> који може да складишти податке, игра улогу <ref c="server">сервера</ref> или <ref c="client">клијента</ref>, и поседује јединствену адресу. Обично је то <ref c="computer">рачунар</ref> опште намене, за разлику од наменских ~чворова~ попут <ref c="zzz">усмеривача</ref> или ~мрежног~ <ref c="zzz">штампача</ref>.</desc>
+    <!-- @упути: node router printer -->
+
+    <term lang="en" gr="i">host</term>
+    <eterm env="fed" gr="i">
+        <nom>домаћин</nom>
+        <decl gr="akujd">домаћина</decl>
+    </eterm>
+    <eterm env="gnm kde ooo uk" gr="i">
+        <nom>домаћин</nom>
+        <decl gr="akujd">домаћин</decl>
+    </eterm>
+    <term env="gnm moz" gr="i">рачунар</term>
+
+    <details root="wpen" rel="Network_host"/>
+</concept>
+
 </concepts>

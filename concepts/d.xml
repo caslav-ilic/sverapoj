@@ -66,6 +66,19 @@
     <details root="wpen" rel="Desktop_environment"/>
 </concept>
 
+<concept id="dialog">
+    <!-- @види: configurationdialog -->
+    <desc><ref c="zzz">Прозор</ref> који <ref c="application">програм</ref> издаје како би корисника обавестио о нечему, затражио даља упутства, или омогућио обављање неке усредсређене и краткотрајне радње, попут избора <ref c="file">~датотеке|kde:фајла~</ref> или <ref c="configure">подешавања</ref>.</desc>
+    <!-- @упути: window -->
+
+    <term lang="en" gr="i">dialog</term>
+    <term env="fed gnm ooo uk" gr="i">прозорче</term>
+    <term env="fed kde" gr="i">дијалог</term>
+    <term env="moz" gr="i">прозор</term>
+
+    <details root="wpen" rel="Dialog_box"/>
+</concept>
+
 <concept id="directory" related="file">
     <!-- @види: directorytree -->
     <desc>Ниво организације података изнад <ref c="file">~датотека|kde:фајлова~</ref>, на којем се више њих групише у одређену тематску целину, заведену под неким именом. Груписање може бити по типу података (нпр. збирка слика, текстова, музике), временско-просторном догађају (садржаји са путовања, извештај о пројекту), и слично. Такође, неколико оваквих група може бити обухваћено једном надгрупом, и тако даље, чиме се успоставља <ref c="zzz">~стабло фасцикли|moz unx:стабло директоријума~</ref>.</desc>

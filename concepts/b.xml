@@ -116,8 +116,8 @@
 
 <concept id="browse_button"
          related="browse">
-    <desc>Текст на <ref c="zzz">дугмету</ref> којим се отвара <ref c="zzz">дијалог</ref> са <ref c="zzz">~стаблом фасцикли|moz unx:стаблом директоријума~</ref>, у циљу <ref c="zzz">избора</ref> ~једне одређене|kde:једног одређеног~ <ref c="file">~датотеке|kde:фајла~</ref> или <ref c="directory">~фасцикле|moz:директоријума~</ref>.</desc>
-    <!-- @упути: button dialog select directorytree -->
+    <desc>Текст на <ref c="zzz">дугмету</ref> којим се отвара <ref c="dialog">~прозорче|kde:дијалог|moz:прозор~</ref> са <ref c="zzz">~стаблом фасцикли|moz unx:стаблом директоријума~</ref>, у циљу <ref c="zzz">избора</ref> ~једне одређене|kde:једног одређеног~ <ref c="file">~датотеке|kde:фајла~</ref> или <ref c="directory">~фасцикле|moz:директоријума~</ref>.</desc>
+    <!-- @упути: button select directorytree -->
 
     <term lang="en" gr="g">Browse</term>
     <term env="fed gnm ooo uk" gr="g">Разгледај</term>
