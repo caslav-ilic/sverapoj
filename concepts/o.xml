@@ -13,8 +13,21 @@
     <details root="wpen" rel="Oblique_type"/>
 </concept>
 
+<concept id="offline"
+         related="online">
+    <desc>Стање супротно оном <ref c="online">~на мрежи|kde:на вези~</ref>. Односи се или на објекат који се може налазити у оба стања (нпр. <ref c="computer">рачунар</ref> који се повремено везује на <ref c="network">мрежу</ref>), или на било шта што није доступно ~на мрежи|kde:на вези~ иако би у принципу могло бити (нпр. папирна документација).</desc>
+
+    <term lang="en" gr="p">offline</term>
+    <term env="fed gnm moz ooo uk" gr="pres">ван мреже</term>
+    <term env="gnm moz" gr="p">неповезан</term>
+    <term env="kde" gr="pres">ван везе</term>
+    <term env="id" gr="p">офлајн</term>
+
+    <details root="wpen" rel="Online_and_offline"/>
+</concept>
+
 <concept id="online"
-         related="online2 online3">
+         related="offline online2 online3">
     <desc>Који је доступан на <ref c="zzz">удаљеном</ref> <ref c="computer">рачунару</ref> у мрежи, којем се може приступити преко мреже, који се може користити кроз мрежу. Најчешће, али не обавезно, мрежа на коју се мисли је <ref c="zzz">Интернет</ref>; на пример, продавница књига преко Интернета, карта града са тражењем улица, или вести које се редовно <ref c="zzz">ажурирају</ref>.</desc>
     <!-- @упути: remote update -->
 
@@ -28,8 +41,8 @@
 </concept>
 
 <concept id="online2"
-         related="online online3">
-    <!-- @види: offline -->
+         related="offline online online3">
+    <!-- @види: offline2 -->
     <desc>Оно стање у којем машина ради, притом чинећи део већег система повезаних јединица у којем једне опслужују друге. Машина је овде поменута у општем смислу: то може бити <ref c="computer">рачунар</ref> или какав други уређај, али и комад <ref c="software">софтвера</ref> када је сам по себи значајна карика система. Нпр. радно стање <ref c="server">сервера</ref> на <ref c="zzz">Интернету</ref>.</desc>
     <!-- @упути: internet -->
 
@@ -39,7 +52,7 @@
 
 <concept id="online3"
          related="online online2">
-    <!-- @види: offline -->
+    <!-- @види: offline3 -->
     <desc>Својство садржаја да му се може тренутно приступити путем <ref c="computer">рачунара</ref> или другог <ref c="zzz">информатичког</ref> средства; насупрот традиционалним носачима података, попут штампаних књига и приручника. Овакви су нпр. текстови помоћи у <ref c="application">програмима</ref>, којима се приступа из програма самих и читају на <ref c="zzz">монитору</ref>.</desc>
     <!-- @упути: informtech monitor -->
 
