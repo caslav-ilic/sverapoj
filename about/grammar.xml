@@ -57,6 +57,16 @@
     <shortname>пре.с.</shortname>
 </gramm>
 
+<gramm id="pri">
+    <name>прилог</name>
+    <shortname>при.</shortname>
+</gramm>
+
+<gramm id="pris">
+    <name>прилошка синтагма</name>
+    <shortname>при.с.</shortname>
+</gramm>
+
 <gramm id="nommn">
     <name>множина</name>
     <shortname>мн.</shortname>
