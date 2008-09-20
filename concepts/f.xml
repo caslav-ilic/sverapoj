@@ -23,6 +23,19 @@
     <details root="wpen" rel="Computer_file"/>
 </concept>
 
+<concept id="filename">
+    <desc><ref c="string">Ниска</ref> под којом се <ref c="file">~датотека|kde:фајл~</ref> води у <ref c="filesystem">~систему датотека|kde:фајл систему~</ref>, ради <ref c="zzz">приступања</ref> и <ref c="zzz">тражења</ref> кроз <ref c="zzz">~стабло фасцикли|moz unx:стабло директоријума~</ref>. Обично се састоји од <ref c="zzz">основног имена</ref> праћеног тачком и <ref c="zzz">наставком</ref>, мада ~наставак~ може изостати: <em>recnik.pdf</em> (или <em>речник.pdf</em>), <em>emacs</em>. Тачан скуп дозвољених <ref c="character">знакова</ref> и највећа дужина зависе од комбинације <ref c="zzz">оперативног система</ref> и ~система датотека|kde:фајл система~, и начина на који су <ref c="configure">подешени</ref>.</desc>
+    <!-- @упути: access search directorytree basename extension2 operatingsystem -->
+
+    <term lang="en" gr="i">filename</term>
+    <term lang="en" gr="is">file name</term>
+    <term gr="is">име датотеке</term>
+    <term env="kde" gr="is">име фајла</term>
+    <term env="id" gr="is">назив датотеке</term>
+
+    <details root="wpen" rel="Filename"/>
+</concept>
+
 <concept id="filemanager"
          related="konqueror">
     <!-- @види: dolphin krusader nautilus thunar -->
