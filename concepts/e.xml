@@ -63,9 +63,9 @@
 
 <concept id="email"
          related="mailinglist">
-    <!-- @види: emailmessage emailaddress emailclient attachment -->
-    <desc>Начин комуникације у оквиру <ref c="computer">рачунарских</ref> <ref c="network">мрежа</ref> где корисници једни другима шаљу (претежно) текстуалне поруке. Написана и <ref c="zzz">адресирана</ref>, порука се предаје наменском <ref c="server">серверу</ref>, одакле путује кроз мрежу до одредишта; испорука је обично брза, реда секунди или минута, али се никакав рок не гарантује. Прималац може бити једна или више одређених особа, или <ref c="mailinglist">поштанска листа</ref>. Корисници поруке пишу, шаљу, примају и читају посебним <ref c="application">програмом</ref> (<ref c="zzz">~клијентом електронске поште|kde:клијентом е-поште~</ref>), или кроз <ref c="webbrowser">~веб читач|kde:веб прегледач~</ref>.</desc>
-    <!-- @упути: emailaddress emailclient -->
+    <!-- @види: emailmessage emailclient attachment -->
+    <desc>Начин комуникације у оквиру <ref c="computer">рачунарских</ref> <ref c="network">мрежа</ref> где корисници једни другима шаљу (претежно) текстуалне поруке. Написана и <ref c="emailaddress">адресирана</ref>, порука се предаје наменском <ref c="server">серверу</ref>, одакле путује кроз мрежу до одредишта; испорука је обично брза, реда секунди или минута, али се никакав рок не гарантује. Прималац може бити једна или више одређених особа, или <ref c="mailinglist">поштанска листа</ref>. Корисници поруке пишу, шаљу, примају и читају посебним <ref c="application">програмом</ref> (<ref c="zzz">~клијентом електронске поште|kde:клијентом е-поште~</ref>), или кроз <ref c="webbrowser">~веб читач|kde:веб прегледач~</ref>.</desc>
+    <!-- @упути: emailclient -->
 
     <term lang="en" gr="i">email</term>
     <term env="id" gr="i">епошта</term>
@@ -75,6 +75,20 @@
     <term env="id" gr="i">имејл</term>
 
     <details root="wpsr" rel="Електронска_пошта"/>
+</concept>
+
+<concept id="emailaddress">
+    <desc><ref c="string">Ниска</ref> која једнозначно одређује појединца или организацију примаоца <ref c="zzz">~поруке е-поште|moz:поруке ел. поште~</ref>. Састоји се од <ref c="zzz">корисничког имена</ref>, знака <em>@</em>, и <ref c="zzz">домена</ref> којем припада: <em>pperic@nedodjija.net</em>. Скуп дозвољених <ref c="character">знакова</ref> чини подскуп <ref c="zzz">аскија</ref>, али у будућности може доћи до проширења.</desc>
+    <!-- @види: emailmessage username domain ascii -->
+
+    <term lang="en" gr="is">email address</term>
+    <term env="fed gnm kde ooo uk" gr="is">адреса е-поште</term>
+    <term env="gnm moz" gr="is">електронска адреса</term>
+    <term env="moz" gr="is">ел. адреса</term>
+    <term env="moz" gr="is">адреса ел. поште</term>
+    <term env="ooo" gr="is">е-адреса</term>
+
+    <details root="wpen" rel="E-mail_address"/>
 </concept>
 
 <concept id="extension"
