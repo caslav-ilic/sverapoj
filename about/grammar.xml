@@ -87,6 +87,11 @@
     <shortname>аку.</shortname>
 </gramm>
 
+<gramm id="skr">
+    <name>скраћено</name>
+    <shortname>скр.</shortname>
+</gramm>
+
 <gramm id="mnem">
     <name>са графичким мнемоником</name>
     <shortname>мнем.</shortname>
