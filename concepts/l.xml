@@ -10,6 +10,18 @@
     <term env="kde" gr="i">етикета</term>
 </concept>
 
+<concept id="layout">
+    <!-- @види: keyboardlayout look -->
+    <desc>Међусобни просторни положај појединачних елемената у склопу веће целине. Делова <ref c="zzz">стране</ref> с текстом, <ref c="widget">~виџета|gnm:елемената|fed:графичких додатака~</ref> у <ref c="zzz">корисничком сучељу</ref>, <ref c="zzz">тастера</ref> на <ref c="zzz">тастатури</ref>, итд.</desc>
+    <!-- @упути: page userinterface key keyboard -->
+
+    <term lang="en" gr="i">layout</term>
+    <term env="fed" gr="i">нацрт</term>
+    <term env="fed gnm kde moz ooo uk" gr="i">распоред</term>
+    <term env="gnm moz ooo" gr="i">изглед</term>
+    <term env="ooo" gr="i">размештај</term>
+</concept>
+
 <concept id="line">
     <!-- @види: paragraph -->
     <desc>Непрекинути водоравни сегмент текста на штампаној <ref c="zzz">страни</ref> или екрану <ref c="zzz">монитора</ref> (нпр. у <ref c="texteditor">уређивачу текста</ref>). Често се користи као јединица количине текстуалних података, посебно <ref c="zzz">изворног ко̑да</ref>.</desc>
