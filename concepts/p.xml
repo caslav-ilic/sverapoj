@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
+<concept id="panel">
+    <desc>Правоугаона област у <ref c="zzz">корисничком сучељу</ref> у коју се смештају <ref c="widget">~виџети|gnm:елементи|fed:графички додаци~</ref> разнородних типова и намена. На пример, такве области на <ref c="desktop">~радној површи|kde:површи~</ref> могу садржати <ref c="taskbar">~траку задатака|gnm:списак прозора~</ref>, <ref c="systemtray">~системску касету|gnm:обавештајну зону~</ref>, <ref c="zzz">мени програма</ref>, итд.</desc>
+    <!-- @упути: userinterface applicationmenu -->
+
+    <term lang="en" gr="i">panel</term>
+    <term gr="i">панел</term>
+</concept>
+
 <concept id="passphrase">
     <desc>Подужа <ref c="password">лозинка</ref>, која се састоји од више речи. Уводи се у случајевима када је потребна већа <ref c="zzz">безбедност</ref> него што је пружа обична ~лозинка~, нпр. за заштиту <ref c="zzz">приватног кључа</ref> за <ref c="encrypt">шифровање</ref>.</desc>
     <!-- @упути: security privatekey -->
