@@ -70,6 +70,17 @@
     <term env="gnm" gr="i">стубац</term>
 </concept>
 
+<concept id="column_page">
+    <desc>Усправни блок текста на <ref c="zzz">страни</ref> која је подељена у два или више таквих блокова. ~Стране~ се овако деле када би иначе текст био преширок за удобно читање, или где је важно густо сложити садржај и омогућити његов брз преглед (нпр. у дневним новинама).</desc>
+    <!-- @упути: page -->
+
+    <term lang="en" gr="i">column</term>
+    <term env="gnm pr" gr="i">колона</term>
+    <term env="gnm" gr="i">стубац</term>
+
+    <details root="wpen" rel="Column_(typography)"/>
+</concept>
+
 <concept id="command">
     <desc>Утврђени исказ којим се <ref c="computer">рачунар</ref> покреће на извршавање одређене радње. Корисник га може издати нпр. путем <ref c="icon">~иконе|moz:сличице~</ref> или ставке <ref c="zzz">менија</ref> у графичком <ref c="zzz">сучељу</ref>, или уносом текста у <ref c="commandline">командној линији</ref> <ref c="shell">~љуске|kde:шкољке~</ref>. Секундарно га ~рачунар~ може проследити другом рачунару, када су повезани у <ref c="network">мрежу</ref>.</desc>
     <!-- @упути: menu userinterface -->
@@ -149,17 +160,6 @@
     <term env="gnm moz" gr="i">избор</term>
     <term env="gnm moz" gr="i">изборник</term>
     <term env="gnm kde uk" gr="i">бирач</term>
-</concept>
-
-<concept id="column_page">
-    <desc>Усправни блок текста на <ref c="zzz">страни</ref> која је подељена у два или више таквих блокова. ~Стране~ се овако деле када би иначе текст био преширок за удобно читање, или где је важно густо сложити садржај и омогућити његов брз преглед (нпр. у дневним новинама).</desc>
-    <!-- @упути: page -->
-
-    <term lang="en" gr="i">column</term>
-    <term env="gnm pr" gr="i">колона</term>
-    <term env="gnm" gr="i">стубац</term>
-
-    <details root="wpen" rel="Column_(typography)"/>
 </concept>
 
 <concept id="character" topic="prog"
