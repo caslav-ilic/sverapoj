@@ -26,8 +26,7 @@
 </concept>
 
 <concept id="mode">
-    <desc>Једно одређено стање понашања, изгледа или одзива, међу неколико могућих. На пример, рад <ref c="online">~на мрежи|kde:на вези~</ref> или <ref c="offline">~ван мреже|kde:ван везе~</ref>, приказ <ref c="file">~датотека|kde:фајлова~</ref> у виду <ref c="icon">~икона|moz:сличица~</ref> или <ref c="zzz">списка</ref> с детаљима.</desc>
-    <!-- @упути: list -->
+    <desc>Једно одређено стање понашања, изгледа или одзива, међу неколико могућих. На пример, рад <ref c="online">~на мрежи|kde:на вези~</ref> или <ref c="offline">~ван мреже|kde:ван везе~</ref>, приказ <ref c="file">~датотека|kde:фајлова~</ref> у виду <ref c="icon">~икона|moz:сличица~</ref> или <ref c="list">~списка|ooo:листе~</ref> с детаљима.</desc>
 
     <term lang="en" gr="i">mode</term>
     <term env="fed gnm kde ooo uk" gr="i">режим</term>

@@ -32,6 +32,33 @@
     <term env="fed gnm moz ooo" gr="i">линија</term>
 </concept>
 
+<concept id="list">
+    <!-- @види: commaseparated  -->
+    <desc>Уређени попис једнородних ставки у водоравном (једна за другом) или усправном (једна испод друге) облику, мање формалан од <ref c="table">табеле</ref>.</desc>
+
+    <term lang="en" gr="i">list</term>
+    <term env="fed gnm kde moz uk" gr="i">списак</term>
+    <term env="fed ooo" gr="i">листа</term>
+</concept>
+
+<concept id="list2">
+    <!-- @види: linkedlist -->
+    <desc>Динамичка и уређена збирка података који се често могу <ref c="zzz">мењати</ref>, премештати један у односу на други, додавати или уклањати.</desc>
+    <!-- @упути: modify -->
+
+    <term lang="en" gr="i">list</term>
+    <term gr="i">листа</term>
+</concept>
+
+<concept id="list3">
+    <desc>Представити ставке у облику <ref c="list">~списка|ooo:листе~</ref>.</desc>
+
+    <term lang="en" gr="g">list</term>
+    <term env="fed gnm moz" gr="i">навести</term>
+    <term env="fed ooo" gr="i">излистати</term>
+    <term env="kde moz ooo uk" gr="i">набројати</term>
+</concept>
+
 <concept id="littleendian"
          related="bigendian endianness">
     <desc><ref c="endianness">Крајност</ref> при којој се <ref c="zzz">вишебајтни</ref> бројеви записују тако што <ref c="zzz">бајт</ref> <ref c="zzz">највеће тежине</ref> стоји на најнижој адреси.</desc>
