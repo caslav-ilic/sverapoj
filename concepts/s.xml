@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
+<concept id="save">
+    <!-- @види: autosave load open record -->
+    <desc>Уписати податке који постоје само у <ref c="zzz">радној меморији</ref> у <ref c="file">~датотеку|kde:фајл~</ref> на трајном <ref c="zzz">складишном медијуму</ref>, како би се могли <ref c="zzz">повратити</ref> после <ref c="quit">~изласка из|kde:напуштања|moz:краја рада с~</ref> <ref  c="application">~програма|moz:програмом~</ref> у коме су настали или <ref c="zzz">гашења</ref> <ref c="computer">рачунара</ref>, или се пренети с једног ~рачунара~ на други.</desc>
+    <!-- @упути: storagemedia restore shutdown -->
+
+    <term lang="en" gr="g">save</term>
+    <term gr="g">сачувати</term>
+    <term env="id" gr="g">снимити</term>
+</concept>
+
+<concept id="saving">
+    <desc>Поступак којим се постиже да подаци буду <ref c="save">сачувани</ref>.</desc>
+
+    <term lang="en" gr="i">saving</term>
+    <term gr="i">чување</term>
+    <term env="kde" gr="i">уписивање</term>
+    <term env="id" gr="i">снимање</term>
+
+    <comment>Претресање израза: <link url="http://groups.google.com/group/sorta/browse_thread/thread/098736b2a89f54fb?hl=sr">Сорта</link>.</comment>
+</concept>
+
 <concept id="scrollbar">
     <!-- @види: scroll -->
     <desc><ref c="widget">~Виџет|gnm:Елемент|fed:Графички додатак~</ref> за показивање положаја и кретање кроз документ превише велики да би цео стао на екран. Дугуљастог облика, садржи <ref c="zzz">клизач</ref> који показује текући положај у документу, и који корисник може померати <ref c="zzz">мишем</ref> ради кретања кроз документ. Може бити усправне или водоравне оријентације, према томе да ли је садржај виши или шири од екрана, или и једно и друго.</desc>
