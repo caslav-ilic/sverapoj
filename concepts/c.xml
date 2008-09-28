@@ -103,7 +103,7 @@
 </concept>
 
 <concept id="configuration"
-         related="configurationfile configure">
+         related="configurationdialog configurationfile configure">
     <desc>Скуп <ref c="setting">поставки</ref> <ref c="application">програма</ref>, који корисник може да мења како би <ref c="customize">прилагодио</ref> изглед и понашање ~програма~ сопственим потребама.</desc>
 
     <term lang="en" gr="i">configuration</term>
@@ -125,6 +125,17 @@
     <term env="fed" gr="is">конфигурацијска датотека</term>
 
     <details root="wpen" rel="Configuration_file"/>
+</concept>
+
+<concept id="configurationdialog"
+         related="configuration configure">
+    <desc>Одељак <ref c="application">програма</ref> који служи за <ref c="configure">подешавање</ref>, представљен као посебан <ref c="zzz">прозор</ref> са пододељцима (нпр. по <ref c="tab">~језичцима|gnm:листовима~</ref>) за различите категорије <ref c="setting">поставки</ref>.</desc>
+    <!-- @упути: window -->
+
+    <term lang="en" gr="is">configuration dialog</term>
+    <term env="fed gnm ooo uk" gr="is">прозорче за подешавање</term>
+    <term env="kde" gr="is">дијалог за подешавање</term>
+    <term env="moz" gr="is">прозор за подешавање</term>
 </concept>
 
 <concept id="configure"

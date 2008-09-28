@@ -66,8 +66,8 @@
     <details root="wpen" rel="Desktop_environment"/>
 </concept>
 
-<concept id="dialog">
-    <!-- @види: configurationdialog -->
+<concept id="dialog"
+         related="configurationdialog">
     <desc><ref c="zzz">Прозор</ref> који <ref c="application">програм</ref> издаје како би корисника обавестио о нечему, затражио даља упутства, или омогућио обављање неке усредсређене и краткотрајне радње, попут избора <ref c="file">~датотеке|kde:фајла~</ref> или <ref c="configure">подешавања</ref>.</desc>
     <!-- @упути: window -->
 
