@@ -11,6 +11,30 @@
     <term gr="i">читач</term>
 </concept>
 
+<concept id="regularexpression" topic="prog">
+    <desc>Врста <ref c="pattern">~образаца|ooo:узорака~</ref> за <ref c="zzz">поклапање</ref> текста, тачно дефинисане <ref c="zzz">синтаксе</ref> у којој се неки <ref c="character">знакови</ref> ~поклапају~ дословно, док други одређујући начин, врсту и број стварних ~знакова~ који ће бити ~поклопљени~. Често се користе за <ref c="zzz">напредну</ref> <ref c="zzz">претрагу</ref> текста у <ref c="application">програмима</ref>, нпр. у <ref c="texteditor">уређивачима текста</ref>. Постоји неколико подврста, различитих по детаљима ~синтаксе~ и <ref c="zzz">могућностима</ref> ~поклапања~ које пружају.</desc>
+    <!-- @упути: match syntax advanced search feature -->
+
+    <eterm lang="en" gr="is">
+        <nom>regular expression</nom>
+        <decl gr="skr">regex</decl>
+        <decl gr="skr">regexp</decl>
+    </eterm>
+    <eterm env="fed" gr="is">
+        <nom>регуларни израз</nom>
+        <decl gr="skr">regex</decl>
+    </eterm>
+    <eterm env="gnm moz ooo uk" gr="is">
+        <nom>регуларни израз</nom>
+    </eterm>
+    <eterm env="kde" gr="is">
+        <nom>регуларни израз</nom>
+        <decl gr="skr">региз</decl>
+    </eterm>
+
+    <details root="wpsr" rel="Регуларни_израз"/>
+</concept>
+
 <concept id="rename">
     <desc>Променити назив неког објекта, нпр. <ref c="file">~датотеке|kde:фајла~</ref> или <ref c="directory">~фасцикле|moz unx:директоријума~</ref>. Једна од уобичајених радњи у <ref c="browser">прегледачима</ref>.</desc>
 

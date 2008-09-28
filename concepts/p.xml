@@ -76,8 +76,9 @@
     <details root="wpen" rel="Cut,_copy,_and_paste"/>
 </concept>
 
-<concept id="pattern">
-    <!-- @види: glob regularexpression -->
+<concept id="pattern"
+         related="regularexpression">
+    <!-- @види: glob -->
     <desc><ref c="string">Ниска</ref> обичних и посебних <ref c="character">знакова</ref> помоћу које се <ref c="zzz">поклапају</ref> друге ~ниске~ и делови текста. Овакве ~ниске~ користе се, између осталог, за <ref c="zzz">претрагу</ref> и <ref c="zzz">издвајање</ref> текста, <ref c="zzz">бирање</ref> по имену појединих објеката из већег скупа (нпр. <ref c="file">~датотека|kde:фајлова~</ref>), проверу <ref c="zzz">ваљаности</ref> формалних ~ниски~ (нпр. адреса). Јављају се у различитим видовима, према саставу и функцији посебних ~знакова~ које могу садржати.</desc>
     <!-- @упути: match search extract select valid -->
 

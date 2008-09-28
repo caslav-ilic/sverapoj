@@ -60,8 +60,9 @@
     <details root="wpen" rel="GUI_widget"/>
 </concept>
 
-<concept id="wildcard">
-    <!-- @види: glob regularexpression -->
+<concept id="wildcard"
+         related="regularexpression">
+    <!-- @види: glob -->
     <desc>Посебан <ref c="character">знак</ref> у <ref c="pattern">обрасцима</ref> за <ref c="zzz">поклапање</ref> текста, којим се задаје ~поклапање~ једног, ниједног, или више стварних ~знакова~ у тексту. Често се користе у ~обрасцима~ за избор <ref c="file">~датотека|kde:фајлова~</ref> по имену.</desc>
     <!-- @упути: match -->
 
