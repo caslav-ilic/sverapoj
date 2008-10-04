@@ -66,14 +66,17 @@
     <details root="wpsr" rel="Датотечни_систем"/>
 </concept>
 
-<concept id="firefox"
-	 related="webbrowser mozilla">
-  <desc><ref c="browser">~Прегледач|gnm:Читач|moz:Читач|fed:Читач~</ref> ког је направила <ref c="mozilla">Мозила</ref>. </desc>
-  <term lang="en" gr="i">Firefox</term>
-  <term gr="i">фајерфокс</term>
-  <term env="moz" gr="i">фајерфокс</term>
+<concept id="firefox" topic="apps"
+         related="konqueror mozilla webbrowser">
+    <!-- @види: epiphany opera -->
+    <desc><ref c="webbrowser">~Веб читач|kde:Веб прегледач~</ref> који је направила <ref c="mozilla">Мозила</ref>. </desc>
 
-  <details root="wpsr" rel="Мозила_фајерфокс"/>
+    <term lang="en" gr="i">Firefox</term>
+    <term env="gnm fed ooo" gr="i">Firefox</term>
+    <term env="moz uk" gr="i">фајерфокс</term>
+    <term env="gnm kde" gr="i">Фајерфокс</term>
+
+    <details root="wpsr" rel="Мозила_фајерфокс"/>
 </concept>
 
 <concept id="font"

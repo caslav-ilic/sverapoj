@@ -74,15 +74,18 @@
     <details root="wpen" rel="Thumbnail"/>
 </concept>
 
-<concept id="thunderbird"
-	 related="webbrowser mozilla">
-  <desc>Читач <ref c="email">~е-поште|moz:ел. поште~</ref> ког је направила <ref c="mozilla">Мозила</ref>. </desc>
+<concept id="thunderbird" topic="apps"
+         related="webbrowser mozilla">
+    <!-- @види: kmail evolution -->
+    <desc><ref c="zzz">~Читач е-поште|moz:Читач ел. поште|kde:Клијент е-поште~</ref> који је направила <ref c="mozilla">Мозила</ref>.</desc>
+    <!-- @упути: emailclient -->
 
-  <term lang="en" gr="i">Thunderbird</term>
-  <term gr="i">тандерберд</term>
-  <term env="moz" gr="i">тандерберд</term>
+    <term lang="en" gr="i">Thunderbird</term>
+    <term env="fed gnm ooo" gr="i">Thunderbird</term>
+    <term env="moz uk" gr="i">тандерберд</term>
+    <term env="kde" gr="i">Тандерберд</term>
 
-  <details root="wpsr" rel="Мозила_фајерфокс"/>
+    <details root="wpsr" rel="Мозила_тандерберд"/>
 </concept>
 
 <concept id="toolbar">

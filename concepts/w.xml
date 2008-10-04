@@ -13,8 +13,8 @@
 </concept>
 
 <concept id="webbrowser"
-         related="konqueror">
-    <!-- @упути: firefox epiphany opera -->
+         related="firefox konqueror">
+    <!-- @упути: epiphany opera -->
     <desc><ref c="application">Програм</ref> помоћу којег се <ref c="browse">~прегледају|gnm ooo:разгледају~</ref> <ref c="zzz">веб стране</ref>, односно чита на њима дат текст и гледају слике, а уз <ref c="plugin">~прикључке|fed gnm ooo:додатке~</ref> и пуштају видео и аудио записи, извршавају ситније обраде и играју <ref c="zzz">игре</ref>. Омогућава кретање кроз ~веб стране~ на <ref c="zzz">Интернету</ref> путем <ref c="click">~кликтања|moz:притискања~</ref> на <ref c="zzz">везе</ref> на њима, памти посећене, и пружа кориснику разне начине да се лако наврати на њих.</desc>
     <!-- @види: webpage game internet link -->
 
