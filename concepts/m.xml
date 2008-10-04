@@ -36,4 +36,13 @@
     <comment by="ilic">Често је <ol lang="en">mode</ol> споредан део енглеског израза за неки одређенији појам, али сувишан у одговарајућем српском изразу, па се изоставља.</comment>
 </concept>
 
+<concept id="mozilla"
+	 related="firefox thunderbird">
+    <desc>Организација која развија слобдне програме за олакшано приступање странама и сервисима на Интернету.  Познати програми су, између осталих, <ref c="firefox">фајерфокс</ref> и <ref c="thunderbird">тандерберд</ref>.</desc>
+
+    <term lang="en" gr="is">Mozilla Foundation</term>
+    <term gr="is">Задужбина Мозила</term>
+    <term env="moz" gr="is">Мозилина задужбина</term>
+</concept>
+
 </concepts>
