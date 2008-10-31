@@ -82,8 +82,8 @@
 
 <concept id="bookmark">
     <!-- @види: favorites -->
-    <desc>Запамћен приступ одређеном ресурсу, најчешће <ref c="zzz">веб страни</ref> на <ref c="zzz">Интернету</ref>, али и другим <ref c="zzz">удаљеним</ref> одредиштима у <ref c="network">мрежи</ref> и локалним на <ref c="computer">рачунару</ref> (нпр. некој <ref c="directory">~фасцикли|moz unx:директоријуму~</ref>). Састоји се најпре од <ref c="url">~УРЛ-а|gnm moz ooo:адресе~</ref> и описа ресурса, али може носити још детаља.</desc>
-    <!-- @упути: webpage internet remote -->
+    <desc>Запамћен приступ одређеном ресурсу, најчешће <ref c="webpage">~веб страни|fed:веб страници~</ref> на <ref c="zzz">Интернету</ref>, али и другим <ref c="zzz">удаљеним</ref> одредиштима у <ref c="network">мрежи</ref> и локалним на <ref c="computer">рачунару</ref> (нпр. некој <ref c="directory">~фасцикли|moz unx:директоријуму~</ref>). Састоји се најпре од <ref c="url">~УРЛ-а|gnm moz ooo:адресе~</ref> и описа ресурса, али може носити још детаља.</desc>
+    <!-- @упути: internet remote -->
 
     <term lang="en" gr="i">bookmark</term>
     <term env="kde" gr="i">маркер</term>
