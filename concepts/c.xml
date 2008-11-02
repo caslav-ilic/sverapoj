@@ -61,6 +61,19 @@
     <details root="wpsr" rel="Шифра"/>
 </concept>
 
+<concept id="colorscheme">
+    <desc>Ограничена палета тачно дефинисаних боја, која одговара одређеној функционалној намени или естетском доживљају. У графичким <ref c="application">сучељима</ref> често се <ref c="widget">~виџетима|gnm:елементима|fed:графичким елементима~</ref> приписују симболичка имена боја, тако да корисник може по жељи изменити обојеност избором једне од палета које дефинишу боје за дотично ~сучеље~.</desc>
+    <!-- @упути: interface -->
+
+    <term lang="en" gr="is">color scheme</term>
+    <term env="fed gnm kde ooo uk" gr="is">шема боја</term>
+    <term env="fed" gr="is">палета боја</term>
+    <term env="gnm" gr="is">поставка боја</term>
+    <term env="ooo" gr="is">скуп боја</term>
+
+    <details root="wpen" rel="Color_scheme"/>
+</concept>
+
 <concept id="column"
          related="cell row">
     <desc>Усправни низ <ref c="cell">ћелија</ref> у графичкој <ref c="table">табели</ref>.</desc>
