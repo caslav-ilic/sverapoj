@@ -161,6 +161,17 @@
     <details root="wpen" rel="Space_(punctuation)"/>
 </concept>
 
+<concept id="splashscreen">
+    <desc>Слика која се појављује током покретања већих <ref c="application">програма</ref> (или <ref c="zzz">оперативног система</ref>), и нестаје пошто је ~програм~ спреман за употребу. Обично заузима мањи, средишњи део екрана. Служи како у естетске сврхе, тако и да би корисник био обавештен да је покретање у току. Може пружати и неке опште податке, попут <ref c="zzz">верзије</ref> ~програма~.</desc>
+    <!-- @упути: operatingsystem version -->
+
+    <term lang="en" gr="is">splash screen</term>
+    <term env="fed gnm kde uk">уводни екран</term>
+    <term env="gnm">поздравни екран</term>
+
+    <details root="wpen" rel="Splash_screen"/>
+</concept>
+
 <concept id="statusbar">
     <desc>Део графичког <ref c="zzz">сучеља</ref> који садржи показатеље изборног понашања <ref c="application">програма</ref>, наводи податке о документу на коме се ради, и где се издају поруке обавештења за корисника. Обично у виду дугуљастог водоравног потеза при дну <ref c="zzz">прозора</ref>.</desc>
     <!-- @упути: userinterface window -->
