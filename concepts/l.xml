@@ -95,6 +95,20 @@
     <details root="wpen" rel="Endianness" />
 </concept>
 
+<concept id="locationbar">
+    <desc>Дугуљасто водоравно поље за унос <ref c="url">УРЛ-ова</ref> које чини истакнут део <ref c="zzz">сучеља</ref>. Обично га дају <ref c="application">програми</ref> за <ref c="browse">~прегледање|gnm ooo:разгледање~</ref> садржаја (нпр. <ref c="webbrowser">~веб читач|kde:веб прегледач~</ref>), и често поред ручног уноса пружа ~једноставан|fed:једноставну~ <ref c="history">~историјат|fed:историју~</ref> и <ref c="zzz">самодопуну</ref> ~УРЛ-ова~.</desc>
+    <!-- @упути: interface autocompletion -->
+
+    <term lang="en" gr="is">location bar</term>
+    <term lang="en" env="id" gr="is">address bar</term>
+    <term lang="en" env="id" gr="is">URL bar</term>
+    <term env="gnm" gr="is">поље са адресом</term>
+    <term env="kde uk" gr="is">трака локације</term>
+    <term env="moz" gr="is">трака адресе</term>
+
+    <details root="wpen" rel="Address_bar"/>
+</concept>
+
 <concept id="log"
          related="log2">
     <desc>Хронолошки списак догађаја, где је сваки заведен са временом и кратким описом онога што се догодило. То могу бити системске поруке при <ref c="zzz">подизању</ref> <ref c="computer">рачунара</ref>, међусобне поруке учесника у <ref c="chat">~ћаскању|moz:разговору~</ref>, тренуци <ref c="login">пријављивања</ref> и <ref c="logout">одјављивања</ref> корисника̑, и слично.</desc>
