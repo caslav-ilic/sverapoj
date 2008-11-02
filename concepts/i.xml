@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
-<concept id="icon">
+<concept id="icon"
+         related="icontheme">
     <desc>У <ref c="zzz">корисничком сучељу</ref>, графичка представа одређене радње коју <ref c="application">програм</ref> може извршити, а корисник покреће <ref c="click2">~кликом|moz:притиском~</ref> <ref c="zzz">мишем</ref> на њу. Обично у виду слике омање величине, понекад праћене текстуалним описом испод или са стране.</desc>
     <!-- @упути: userinterface mouse -->
 
@@ -11,6 +12,16 @@
     <term env="gnm ooo" gr="i">иконица</term>
 
     <details root="wpen" rel="Icon_(computing)"/>
+</concept>
+
+<concept id="icontheme">
+    <desc>Заокружени скуп <ref c="icon">~икона|moz:сличица~</ref> одређеног графичког стила и тематске оријентације, којим се може сменити <ref c="default">подразумевани</ref> у појединачном <ref c="application">програму</ref>, или ~у целом|kde:на целој~ <ref c="desktop">~радном окружењу|kde:радној површи~</ref>. Разлике међу скуповима су најчешће естетске природе, али неки могу бити посебно прилагођени екранима с мало боја, условима смањене видљивости, итд.</desc>
+
+    <term lang="en" gr="is">icon theme</term>
+    <!-- изведено за: moz ooo -->
+    <term env="fed gnm kde ooo uk" gr="is">тема икона</term>
+    <term env="gnm" gr="is">тема за иконе</term>
+    <term env="moz" gr="is">тема сличица</term>
 </concept>
 
 <concept id="italic"
