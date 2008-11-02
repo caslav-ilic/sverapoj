@@ -131,6 +131,19 @@
     <details root="wpen" rel="Keyboard_shortcut"/>
 </concept>
 
+<concept id="sidebar">
+    <desc>Дугуљаста усправна област у графичком <ref c="zzz">сучељу</ref> која заузима целу висину <ref c="zzz">прозора</ref> с леве или десне стране главног садржаја, приказујући разне допунске податке: <ref c="zzz">~стабло датотека|kde:стабло фајлова~</ref>, <ref c="history">~историјат|fed:историју~</ref> <ref c="browse">~прегледања|gnm ooo:разгледања~</ref>, <ref c="bookmark">~обележиваче|kde:маркере|moz:забелешке~</ref>, итд.</desc>
+    <!-- @упути: interface window directorytree -->
+
+    <term lang="en" gr="i">sidebar</term>
+    <term env="fed kde moz uk" gr="is">бочна трака</term>
+    <term env="gnm" gr="is">бочна област</term>
+    <term env="gnm" gr="is">бочна површ</term>
+    <term env="gnm" gr="is">бочни оквир</term>
+
+    <details root="wpen" rel="Sidebar_(computing)"/>
+</concept>
+
 <concept id="software"
          related="application hardware">
     <!-- @види: game program -->
