@@ -58,6 +58,27 @@
     <details root="wpen" rel="Reset_(computing)"/>
 </concept>
 
+<concept id="rightclick"
+         related="leftclick middleclick rightclick2">
+    <desc>Притиснути десно дугме <ref c="zzz">миша</ref> или уређаја сличне намене ради активирања одређене радње у <ref c="application">програму</ref>.</desc>
+    <!-- @упути: mouse -->
+
+    <term lang="en" gr="gs">right click</term>
+    <eterm env="kde uk" gr="gs">
+        <nom>кликнути десним</nom>
+        <comment by="ilic">Док је именичко „десни клик“ јасно, код глагола би се „десно кликнути“ могло схватити као „кликнути десно“.</comment>
+    </eterm>
+</concept>
+
+<concept id="rightclick2"
+         related="leftclick2 middleclick2 rightclick">
+    <desc>Поступак или тренутак притиска на десно дугме <ref c="zzz">миша</ref> или уређаја сличне намене.</desc>
+    <!-- @упути: mouse -->
+
+    <term lang="en" gr="is">right click</term>
+    <term gr="is">десни клик</term>
+</concept>
+
 <concept id="row"
          related="cell column">
     <desc>Водоравни низ <ref c="cell">ћелија</ref> у графичкој <ref c="table">табели</ref>.</desc>

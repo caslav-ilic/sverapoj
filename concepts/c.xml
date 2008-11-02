@@ -199,8 +199,9 @@
     <details root="wpen" rel="Character_(computing)"/>
 </concept>
 
-<concept id="click">
-    <!-- @види: leftclick rightclick middleclick doubleclick tripleclick pointandclick -->
+<concept id="click"
+         related="leftclick rightclick middleclick">
+    <!-- @види: doubleclick tripleclick pointandclick -->
     <desc>Притиснути једно од <ref c="zzz">дугмади</ref> <ref c="zzz">миша</ref> или сличног уређаја, ради активирања <ref c="widget">~виџета|gnm:елемента|fed:графичког додатка~</ref> изнад којег се налази <ref c="pointer">~показивач|fed:курсор~</ref>, или неке друге радње. Тачан учинак најчешће зависи од дугмета које је употребљено, а понекад и од тога да ли је оно притиснуто више од једанпут у кратком временском периоду (нпр. с пола секунде размака).</desc>
     <!-- @упути: button2 mouse -->
 

@@ -25,6 +25,27 @@
     <details root="wpen" rel="Mailing_lists"/>
 </concept>
 
+<concept id="middleclick"
+         related="leftclick middleclick2 rightclick">
+    <desc>Притиснути средње дугме <ref c="zzz">миша</ref> или уређаја сличне намене ради активирања одређене радње у <ref c="application">програму</ref>.</desc>
+    <!-- @упути: mouse -->
+
+    <term lang="en" gr="gs">middle click</term>
+    <eterm env="kde uk" gr="gs">
+        <nom>кликнути средњим</nom>
+        <comment by="ilic">Глаголско „средње кликнути“ тешко се може схватити погрешно, али ради склада са <ref c="leftclick">кликтањем левим</ref> и <ref c="rightclick">десним</ref>.</comment>
+    </eterm>
+</concept>
+
+<concept id="middleclick2"
+         related="leftclick2 middleclick rightclick2">
+    <desc>Поступак или тренутак притиска на средње дугме <ref c="zzz">миша</ref> или уређаја сличне намене.</desc>
+    <!-- @упути: mouse -->
+
+    <term lang="en" gr="is">middle click</term>
+    <term gr="is">средњи клик</term>
+</concept>
+
 <concept id="mode">
     <desc>Једно одређено стање понашања, изгледа или одзива, међу неколико могућих. На пример, рад <ref c="online">~на мрежи|kde:на вези~</ref> или <ref c="offline">~ван мреже|kde:ван везе~</ref>, приказ <ref c="file">~датотека|kde:фајлова~</ref> у виду <ref c="icon">~икона|moz:сличица~</ref> или <ref c="list">~списка|ooo:листе~</ref> с детаљима.</desc>
 

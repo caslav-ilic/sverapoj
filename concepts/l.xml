@@ -22,6 +22,28 @@
     <term env="ooo" gr="i">размештај</term>
 </concept>
 
+<concept id="leftclick"
+         related="leftclick2 middleclick rightclick">
+    <desc>Притиснути лево дугме <ref c="zzz">миша</ref> или уређаја сличне намене ради активирања одређене радње у <ref c="application">програму</ref>.</desc>
+    <!-- @упути: mouse -->
+
+    <term lang="en" gr="gs">left click</term>
+    <eterm env="kde uk" gr="gs">
+        <nom>кликнути левим</nom>
+        <comment by="ilic">Док је именичко „леви клик“ јасно, код глагола би се „лево кликнути“ могло схватити као „кликнути лево“.</comment>
+    </eterm>
+</concept>
+
+<concept id="leftclick2"
+         related="leftclick middleclick2 rightclick2">
+    <desc>Поступак или тренутак притиска на лево дугме <ref c="zzz">миша</ref> или уређаја сличне намене.</desc>
+    <!-- @упути: mouse -->
+
+    <term lang="en" gr="is">left click</term>
+    <term gr="is">леви клик</term>
+</concept>
+
+
 <concept id="line">
     <!-- @види: paragraph -->
     <desc>Непрекинути водоравни сегмент текста на штампаној <ref c="zzz">страни</ref> или екрану <ref c="zzz">монитора</ref> (нпр. у <ref c="texteditor">уређивачу текста</ref>). Често се користи као јединица количине текстуалних података, посебно <ref c="zzz">изворног ко̑да</ref>.</desc>
