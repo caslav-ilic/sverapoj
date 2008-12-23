@@ -60,7 +60,7 @@
 <concept id="mozilla" topic="orgs"
          related="firefox thunderbird">
     <!-- @види: mozilla2 -->
-    <desc>Организација која развија слободне програме за олакшано приступање <ref c="webpage">~веб странама|fed:веб страницама~</ref> и <ref c="service">сервисима</ref> на Интернету.  Познати програми су, између осталих, <ref c="firefox">~фајерфокс|kde:Фајерфокс|fed gnm ooo:Firefox~</ref> и <ref c="thunderbird">~тандерберд|kde:Тандерберд|fed gnm ooo:Thunderbird~</ref>.</desc>
+    <desc>Организација која развија слободне програме за олакшано приступање <ref c="webpage">~веб страницама|moz:веб странама~</ref> и <ref c="service">сервисима</ref> на Интернету.  Познати програми су, између осталих, <ref c="firefox">~фајерфокс|kde:Фајерфокс|fed gnm ooo:Firefox~</ref> и <ref c="thunderbird">~тандерберд|kde:Тандерберд|fed gnm ooo:Thunderbird~</ref>.</desc>
 
     <term lang="en" gr="is">Mozilla Foundation</term>
     <term env="id" gr="is">Задужбина Мозила</term>
