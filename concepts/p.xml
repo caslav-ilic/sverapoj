@@ -137,6 +137,13 @@
     <term gr="i">показивач</term>
 </concept>
 
+<concept id="privatebrowsing"
+	 related="webbrowser">
+  <desc>Режим читања <ref c="webpage">~веб страница|gnm ooo:веб страна</ref> у којем <ref c="webbrowser">~веб читач|kde:веб прегледач</ref> не бележи <ref c="zzz">историјат</ref> прегледаних страна, <ref c="zzz">забелешке</ref>, историјат претраживања и друге податке који би касније могли да се употребе за утврђивање  сајтова<ref c="webpage">~веб страница|gnm ooo:веб страна</ref> које је корисник посетио.</desc>
+  <term lang="en" gr="i">private browsing</term>
+  <term env="moz uk">поверљиво читање</term>
+</concept>
+
 <concept id="proxy">
     <desc><ref c="server">Сервер</ref> који се понаша као <ref c="cache">~кеш|gnm:остава~</ref> за <ref c="webpage">~веб странице|moz:веб стране~</ref>. Намера је да буде близу <ref c="computer">рачунарима</ref> <ref c="client">клијентима</ref>, нпр. код <ref c="zzz">интернет</ref> <ref c="zzz">провајдера</ref>, тако да се често посећиване ~веб странице|moz:веб стране~ испоручују брже него да се сваки ~клијент~ непосредно обраћа стварном изворном ~серверу~. Понекад може и да <ref c="zzz">филтрира</ref> захтеве које обрађује и садржаје које пропушта.</desc>
     <!-- @упути: provider internet2 filter -->
