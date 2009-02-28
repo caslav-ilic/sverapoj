@@ -26,7 +26,7 @@
 
 <concept id="ioslave">
     <desc><ref c="software">Софтверски</ref> слој који <ref c="application">програмима</ref> пружа уједначено улазно-излазно <ref c="zzz">сучеље</ref> за приступ подацима на одређеном уређају, кроз <ref c="network">мрежни</ref> протокол, у <ref c="zzz">архиви</ref>, итд. Уместо да сваки ~програм~ засебно <ref c="zzz">изводи</ref> подршку за <ref c="zzz">читање</ref> разноврсних извора података и <ref c="zzz">писање</ref> у њих, довољно је да проследи <ref c="url">УРЛ</ref> ресурса једном од ових слојева.</desc>
-    <!-- @упути: archive implement interface type read write -->
+    <!-- @упути: archive implement interface read write -->
 
     <term lang="en" env="kde" gr="is">IO slave</term>
     <term lang="en" env="kde" gr="is">KIO slave</term>
