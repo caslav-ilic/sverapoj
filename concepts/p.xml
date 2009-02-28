@@ -101,8 +101,8 @@
 </concept>
 
 <concept id="plasma" topic="apps"
-         related="runner">
-    <!-- @види: plasmoid widget2 dataengine -->
+         related="dataengine runner">
+    <!-- @види: plasmoid widget2 -->
     <desc><ref c="default">Подразумевана</ref> <ref c="shell">~љуска|kde:шкољка~</ref> <ref c="desktop">~радне површине|gnm:радне површи|kde:површи~</ref> под <ref c="zzz">КДЕ-ом</ref> 4, с тежњом на визуелној лепоти и богатсву графичких ефеката. Омогућава лако и брзо писање <ref c="applet">~аплета|fed:програмчића|gnm ooo:програмчади~</ref> и <ref c="plugin">~прикључака|fed gnm ooo:додатака~</ref> складно уклопљених у целину ~радне површине|gnm:радне површи|kde:површи~.</desc>
     <!-- @упути: kde -->
 
