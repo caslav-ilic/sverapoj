@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
+<concept id="page"
+         related="webpage">
+    <desc>Претежно статичан текстуално-визуелни распоред садржаја на дводимензионалној позадини, који се чита и прегледа књишким редом, од врха ка дну и слева удесно. Може бити електронска припрема материјала за стварање физичких отисака, али и <ref c="zzz">самосвојни</ref> електронски израз, примарно намењен читању са екрана.</desc>
+    <!-- @упути: native -->
+
+    <term lang="en" gr="i">page</term>
+    <term gr="i" env="gnm fed kde ooo uk">страница</term>
+    <term gr="i" env="gnm moz">страна</term>
+
+    <comment>Претресање израза: <link url="http://sr.openoffice.org/servlets/ReadMsg?list=dev&amp;msgNo=504">1</link>, <link url="http://mail.kde.org/pipermail/kde-i18n-sr/2008-December/000174.html">2</link>.</comment>
+</concept>
+
 <concept id="panel">
     <desc>Правоугаона област у <ref c="zzz">корисничком сучељу</ref> у коју се смештају <ref c="widget">~виџети|gnm:елементи|fed:графички додаци~</ref> разнородних типова и намена. На пример, такве области на <ref c="desktop">~радној површи|kde:површи~</ref> могу садржати <ref c="taskbar">~траку задатака|gnm:списак прозора~</ref>, <ref c="systemtray">~системску касету|gnm:обавештајну зону~</ref>, <ref c="zzz">мени програма</ref>, итд.</desc>
     <!-- @упути: userinterface applicationmenu -->
