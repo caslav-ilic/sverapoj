@@ -101,4 +101,12 @@
     <details root="wpen" rel="Row_(database)"/>
 </concept>
 
+<concept id="runner">
+    <desc><ref c="plasma2">Плазма</ref> <ref c="plugin">~прикључак|fed gnm ooo:додатак~</ref> за контекстно-осетљиво извођење радњи над текстом који корисник уноси. То може бити извршавање <ref c="command">~наредбе|moz:команде~</ref> одређене унетим текстом, израчунавање математичких израза, претварање физичких јединица, отварање <ref c="webpage">~веб страница|moz:веб страна~</ref>, итд. У <ref c="zzz">КДЕ-у</ref> се ови ~прикључци|fed gnm ooo:додаци~ испољавају најпре у <ref c="dialog">~прозорчету|kde:дијалогу|moz:прозору~</ref> „Изврши ~наредбу|moz:команду~...“, али их може користити било који <ref c="zzz">КДЕ</ref> <ref c="application">програм</ref>.</desc>
+    <!-- @упути: kde kde2 -->
+
+    <term lang="en" env="kde" gr="i">runner</term>
+    <term env="kde" gr="i">извођач</term>
+</concept>
+
 </concepts>

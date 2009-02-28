@@ -100,12 +100,13 @@
     <term env="gnm ooo" gr="i">шаблон</term>
 </concept>
 
-<concept id="plasma">
-    <!-- @види: plasmoid widget2 runner dataengine -->
+<concept id="plasma" topic="apps"
+         related="runner">
+    <!-- @види: plasmoid widget2 dataengine -->
     <desc><ref c="default">Подразумевана</ref> <ref c="shell">~љуска|kde:шкољка~</ref> <ref c="desktop">~радне површине|gnm:радне површи|kde:површи~</ref> под <ref c="zzz">КДЕ-ом</ref> 4, с тежњом на визуелној лепоти и богатсву графичких ефеката. Омогућава лако и брзо писање <ref c="applet">~аплета|fed:програмчића|gnm ooo:програмчади~</ref> и <ref c="plugin">~прикључака|fed gnm ooo:додатака~</ref> складно уклопљених у целину ~радне површине|gnm:радне површи|kde:површи~.</desc>
     <!-- @упути: kde -->
 
-    <term env="kde" lang="en" gr="i">Plasma</term>
+    <term lang="en" env="kde" gr="i">Plasma</term>
     <term env="kde" gr="i">Плазма</term>
 
     <details root="wpen" rel="Plasma_(KDE)"/>
@@ -114,10 +115,8 @@
 <concept id="plasma2">
     <desc>Који је начињен над технологијама <ref c="plasma">Плазме</ref>, заснивајући на њима своју функционалност, појаву и уклапање у <ref c="desktop2">~радно окружење|kde:радну површ~</ref>.</desc>
 
-    <term env="kde" lang="en" gr="i">Plasma</term>
+    <term lang="en" env="kde" gr="i">Plasma</term>
     <term env="kde" gr="p">плазма</term>
-
-    <details root="wpen" rel="Plasma_(KDE)"/>
 </concept>
 
 <concept id="plugin"
