@@ -33,10 +33,11 @@
     <details root="wpen" rel="Applet"/>
 </concept>
 
-<concept id="application">
+<concept id="application"
+         related="tool2">
     <!-- @види: game program -->
     <desc>Заокружено парче <ref c="software">софтвера</ref> намењено крајњим корисницима, за обављање одређеног практичног задатка: управљање <ref c="file">~датотекама|kde:фајловима~</ref>, писање текстова, слушање музике, обрада слика, крстарење <ref c="zzz">Интернетом</ref>, итд. Најчешће, али не обавезно, корисник њиме саобраћа путем графичког <ref c="zzz">сучеља</ref>.</desc>
-    <!-- @упути: game userinterface internet -->
+    <!-- @упути: userinterface internet -->
 
     <term lang="en" gr="i">application</term>
     <term env="fed gnm kde moz ooo uk" gr="i">програм</term>
