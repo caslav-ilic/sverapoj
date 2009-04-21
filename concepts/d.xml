@@ -74,16 +74,20 @@
     <details root="wpen" rel="Desktop_environment"/>
 </concept>
 
-<concept id="developer">
-    <desc>Особа која пише рачунарске програме, у ужем смислу <ref c="zzz">програмер</ref>.</desc>
-    <!-- @упути: programmer -->
+<concept id="developer" topic="prog">
+    <desc><ref c="zzz">Програмер</ref> који се, поред непосредног писања <ref c="zzz">кода</ref>, бави и неким другим елементима израде и одржавања <ref c="application">програма</ref>. То могу бити <ref c="zzz">пројектовање</ref>, <ref c="zzz">тестирање</ref>, <ref c="zzz">документовање</ref>, <ref c="zzz">подршка</ref>, итд.</desc>
+    <!-- @упути: programmer code design test document2 support -->
 
-    <term lang="en" gr="i">developer</term>
+    <term lang="en" env="gnm fed pr" gr="i">developer</term>
+    <term lang="en" env="gnm fed" gr="i">programmer</term>
     <eterm env="moz" gr="i">
       <nom>развијач</nom>
-      <origin by="filmil.gmail.com">Појам измишљен зарад превода програма <ref c="firefox">фајерфокс</ref> на српски језик.</origin>
-      <comment by="filmil.gmail.com">Једнотомни Речник Матице Српске не бележи ово значење појма.</comment>
+      <origin by="filmil.gmail.com">Израз измишљен зарад превода програма <ref c="firefox">~фајерфокс|kde:Фајерфокс|fed gnm ooo:Firefox~</ref> на српски језик.</origin>
+      <comment by="filmil.gmail.com">Једнотомни Речник Матице Српске не бележи ово значење.</comment>
     </eterm>
+    <term env="gnm fed kde ooo uk" gr="i">програмер</term>
+
+    <details root="wpen" rel="Software_developer"/>
 </concept>
 
 <concept id="dialog"
