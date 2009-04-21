@@ -74,6 +74,18 @@
     <details root="wpen" rel="Desktop_environment"/>
 </concept>
 
+<concept id="developer">
+    <desc>Особа која пише рачунарске програме, у ужем смислу <ref c="zzz">програмер</ref>.</desc>
+    <!-- @упути: programmer -->
+
+    <term lang="en" gr="i">developer</term>
+    <eterm env="moz" gr="i">
+      <nom>развијач</nom>
+      <origin by="filmil.gmail.com">Појам измишљен зарад превода програма <ref c="firefox">фајерфокс</ref> на српски језик.</origin>
+      <comment by="filmil.gmail.com">Једнотомни Речник Матице Српске не бележи ово значење појма.</comment>
+    </eterm>
+</concept>
+
 <concept id="dialog"
          related="configurationdialog">
     <desc><ref c="zzz">Прозор</ref> који <ref c="application">програм</ref> издаје како би корисника обавестио о нечему, затражио даља упутства, или омогућио обављање неке усредсређене и краткотрајне радње, попут избора <ref c="file">~датотеке|kde:фајла~</ref> или <ref c="configure">подешавања</ref>.</desc>
