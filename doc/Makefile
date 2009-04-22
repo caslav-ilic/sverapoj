@@ -1,6 +1,6 @@
 # -*- Makefile -*-
 ALL_SOURCES:=$(wildcard *.docbook)
-ALL_TARGETS:=$(patsubst %.docbook,%.html,$(SOURCES))
+ALL_TARGETS:=$(patsubst %.docbook,%.html,$(ALL_SOURCES))
 
 all: $(ALL_TARGETS)
 
