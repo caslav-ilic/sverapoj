@@ -80,7 +80,7 @@
 <sect2 id="s-techne-repo">
     <title>Ризница</title>
 
-    <para>Главна гитовска ризница Појмовника налази се на <ulink url="http://gitorious.org/">Гиторијусу</ulink>, и може се <emphasis>клонирати</emphasis> овако:
+    <para>Главна гитовска ризница Појмовника налази се на <ulink url="http://gitorious.org/projects/sverapoj">Гиторијусу</ulink>, и може се <emphasis>клонирати</emphasis> овако:
     <programlisting><![CDATA[
 $ git clone git://gitorious.org/sverapoj/mainline.git sverapoj
 ]]></programlisting>
