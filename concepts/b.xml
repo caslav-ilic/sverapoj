@@ -62,8 +62,8 @@
 
     <term lang="en" gr="p">bitmap</term>
     <term env="kde" gr="p">битмапски</term>
-    <term env="fed ooo uk" gr="i">битмапирани</term>
-    <term env="fed" gr="i">битмап</term>
+    <term env="fed ooo uk" gr="p">битмапирани</term>
+    <term env="fed" gr="p">битмап</term>
 </concept>
 
 <concept id="bold"
