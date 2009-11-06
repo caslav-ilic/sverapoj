@@ -148,4 +148,15 @@
     <details root="wpen" rel="Tooltip"/>
 </concept>
 
+<concept id="trusted" topic="secur"
+         related="valid2 untrusted">
+    <desc>Коме се може веровати да ће очувати тајност података или потврдити  идентитете учесника у <ref c="encrypt">шифрованој</ref> комуникацији.</desc>
+
+    <term lang="en" gr="p">trusted</term>
+    <term env="uk fed gnm kde" gr="p">поуздан</term>
+    <term env="fed gnm ooo" gr="p">поверљив</term>
+    <term env="fed gnm moz ooo" gr="pres">од поверења</term>
+    <term env="moz" gr="p">проверен</term>
+</concept>
+
 </concepts>

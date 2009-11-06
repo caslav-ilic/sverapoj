@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
+<concept id="untrusted" topic="secur">
+    <desc>Који није <ref c="trusted">~поуздан|moz:од поверења|ooo:поверљив~</ref>.</desc>
+
+    <term env="uk fed gnm kde" gr="p">непоуздан</term>
+    <term env="fed gnm ooo" gr="p">неповерљив</term>
+    <term env="gnm moz" gr="pres">није од поверења</term>
+</concept>
+
 <concept id="url" topic="acrons">
     <desc><ref c="string">Ниска</ref> слова и других знакова којом се једнозначно одређује положај одређеног ресурса (<ref c="file">~датотеке|kde:фајла~</ref>, <ref c="website">~веб сајта|fed gnm:веб странице~</ref>, мрежног <ref c="zzz">штампача</ref>, и сл.) на самом <ref c="computer">рачунару</ref>, или локалној или широј <ref c="network">мрежи</ref> којој припада. Почиње <ref c="zzz">подниском</ref> која одређује начин приступања ресурсу, нпр. <em>http://</em> за ~веб сајт~ или <em>file://</em> за ~датотеку|kde:фајл~ на локалном рачунару, после које следи <ref c="zzz">путања</ref> до ресурса.</desc>
     <!-- @упути: substring printer path -->

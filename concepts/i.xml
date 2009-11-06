@@ -24,6 +24,14 @@
     <term env="moz" gr="is">тема сличица</term>
 </concept>
 
+<concept id="invalid2" topic="secur">
+    <desc>Који није <ref c="valid2">~важећи|kde:ваљан|ooo:исправан~</ref>.</desc>
+
+    <term env="uk gnm moz" gr="p">неважећи</term>
+    <term env="fed gnm ooo" gr="p">неисправан</term>
+    <term env="kde" gr="p">неваљан</term>
+</concept>
+
 <concept id="ioslave">
     <desc><ref c="software">Софтверски</ref> слој који <ref c="application">програмима</ref> пружа уједначено улазно-излазно <ref c="zzz">сучеље</ref> за приступ подацима на одређеном уређају, кроз <ref c="network">мрежни</ref> протокол, у <ref c="zzz">архиви</ref>, итд. Уместо да сваки ~програм~ засебно <ref c="zzz">изводи</ref> подршку за <ref c="zzz">читање</ref> разноврсних извора података и <ref c="zzz">писање</ref> у њих, довољно је да проследи <ref c="url">УРЛ</ref> ресурса једном од ових слојева.</desc>
     <!-- @упути: archive implement interface read write -->

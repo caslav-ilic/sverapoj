@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
+<concept id="valid2" topic="secur"
+         related="invalid2 trusted untrusted">
+    <!-- @види: key2 -->
+    <desc>Који на прописани начин представља идентитет учесника у <ref c="encrypt">шифрованој</ref> комуникацији.</desc>
+
+    <term env="uk fed gnm moz" gr="p">важећи</term>
+    <term env="kde" gr="p">ваљан</term>
+    <term env="ooo" gr="p">исправан</term>
+</concept>
+
 <concept id="view_menu" topic="stdui">
     <desc>У <ref c="application">програмима</ref>, наслов <ref c="zzz">менија</ref> чијим ставкама корисник утиче на податке које програм пружа у датом тренутку, или на визуелну представу документа на којем тренутно ради.</desc>
     <!-- @упути: menu -->
