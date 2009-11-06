@@ -6,6 +6,7 @@
     <!-- @види: key2 -->
     <desc>Који на прописани начин представља идентитет учесника у <ref c="encrypt">шифрованој</ref> комуникацији.</desc>
 
+    <term lang="en" gr="p">valid</term>
     <term env="uk fed gnm moz" gr="p">важећи</term>
     <term env="kde" gr="p">ваљан</term>
     <term env="ooo" gr="p">исправан</term>

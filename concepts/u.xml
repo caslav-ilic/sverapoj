@@ -4,6 +4,7 @@
 <concept id="untrusted" topic="secur">
     <desc>Који није <ref c="trusted">~поуздан|moz:од поверења|ooo:поверљив~</ref>.</desc>
 
+    <term lang="en" gr="p">untrusted</term>
     <term env="uk fed gnm kde" gr="p">непоуздан</term>
     <term env="fed gnm ooo" gr="p">неповерљив</term>
     <term env="gnm moz" gr="pres">није од поверења</term>
