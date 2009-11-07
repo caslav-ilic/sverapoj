@@ -8,6 +8,8 @@
     <term env="uk fed gnm kde" gr="p">непоуздан</term>
     <term env="fed gnm ooo" gr="p">неповерљив</term>
     <term env="gnm moz" gr="pres">није од поверења</term>
+
+    <comment>Претресање израза: <link url="http://groups.google.com/group/sorta/browse_thread/thread/ba861e2ec29b3f6c">Сорта</link>.</comment>
 </concept>
 
 <concept id="url" topic="acrons">

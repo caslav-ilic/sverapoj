@@ -157,6 +157,8 @@
     <term env="fed gnm ooo" gr="p">поверљив</term>
     <term env="fed gnm moz ooo" gr="pres">од поверења</term>
     <term env="moz" gr="p">проверен</term>
+
+    <comment>Претресање израза: <link url="http://groups.google.com/group/sorta/browse_thread/thread/ba861e2ec29b3f6c">Сорта</link>.</comment>
 </concept>
 
 </concepts>
