@@ -93,6 +93,48 @@
     <details root="wpen" rel="Internet_bookmark"/>
 </concept>
 
+<concept id="boot">
+    <desc>Ставити у погон сопственим напором, успоставити, покренути самим собом. На пример: <ref c="zzz">оперативни систем</ref> покреће и управља другим <ref c="application">програмима</ref>, али мора и да покрене самог себе; <ref c="zzz">компилатор</ref> гради друге ~програме~, али и нове <ref c="zzz">верзије</ref> самог себе.</desc>
+    <!-- @упути: operatingsystem compiler version -->
+
+    <term lang="en" gr="g">boot</term>
+    <term lang="en" env="id" gr="g">bootstrap</term>
+    <term env="uk fed gnm kde" gr="g">подићи</term>
+    <term env="fed gnm moz ooo" gr="g">покренути</term>
+    <term env="id" gr="g">бутовати</term>
+
+    <details root="wpen" rel="Bootstrapping_(computing)"/>
+    <comment>Претресање израза: <link url="http://groups.google.com/group/sorta/browse_thread/thread/efdbda0102402890">Сорта</link>.</comment>
+</concept>
+
+<concept id="boot2">
+    <desc>Помоћу кога се нешто <ref c="boot">~подиже|moz ooo:покреће~</ref>.</desc>
+
+    <term lang="en" gr="p">boot</term>
+    <term lang="en" env="id" gr="p">bootstrap</term>
+    <term env="uk kde" gr="p">подизни</term>
+    <term env="fed gnm" gr="p">покретачки</term>
+    <term env="id" gr="p">бут</term>
+
+    <details root="wpen" rel="Bootstrapping_(computing)"/>
+    <comment>Претресање израза: <link url="http://groups.google.com/group/sorta/browse_thread/thread/efdbda0102402890">Сорта</link>.</comment>
+</concept>
+
+<concept id="bootloader">
+    <desc><ref c="zzz">Програм</ref> ниског нивоа који започиње <ref c="boot">~подизање|moz ooo:покретање~</ref> <ref c="zzz">оперативног система</ref>, у садејству са <ref c="zzz">фирмвером</ref> <ref c="computer">рачунара</ref>. Обично кратког и ограниченог дејства, после чега ~оперативни систем~ сам наставља поступак.</desc>
+    <!-- @упути: program operatingsystem firmware -->
+
+    <term lang="en" env="uk fed" gr="is">boot loader</term>
+    <term lang="en" env="fed gnm kde" gr="i">bootloader</term>
+    <term env="uk kde" gr="is">подизни учитавач</term>
+    <term env="fed" gr="is">покретачки програм</term>
+    <term env="fed" gr="is">покретач система</term>
+    <term env="gnm" gr="is">подизач система</term>
+
+    <details root="wpen" rel="Booting"/>
+    <comment>Претресање израза: <link url="http://groups.google.com/group/sorta/browse_thread/thread/efdbda0102402890">Сорта</link>.</comment>
+</concept>
+
 <concept id="border">
     <!-- @види: frame -->
     <desc>Спољашњи делови, границе раванског објекта, попут <ref c="zzz">странице</ref> папира, <ref c="table">табеле</ref> или <ref c="zzz">прозора</ref> на <ref c="desktop">~радној површини|kde:површи~</ref>. Могу бити истакнути разним <ref c="zzz">попунама</ref>, јасно издвајајући објекат из околине, или невидљиви када се објекат жели складно уклопити у целину.</desc>
