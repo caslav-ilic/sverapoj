@@ -107,8 +107,8 @@
 <concept id="shell"
          related="commandline">
     <!-- @види: terminal console -->
-    <desc><ref c="software">Софтверски</ref> слој који кориснику пружа <ref c="zzz">сучеље</ref> за комуникацију и управљање радним слојем, попут функција <ref c="zzz">оперативног система</ref> и <ref c="filesystem">~система датотека|kde:фајл система~</ref>. Обично се мисли на слој текстуалног типа, где корисник <ref c="zzz">тастатуром</ref> уноси <ref c="zzz">наредбе</ref> које треба извршити, али може бити и <ref c="zzz">графичког</ref> типа.</desc>
-    <!-- @упути: userinterface operatingsystem keyboard gui mouse -->
+    <desc><ref c="software">Софтверски</ref> слој који кориснику пружа <ref c="interface">сучеље</ref> за комуникацију и управљање радним слојем, попут функција <ref c="zzz">оперативног система</ref> и <ref c="filesystem">~система датотека|kde:фајл система~</ref>. Обично се мисли на слој текстуалног типа, где корисник <ref c="zzz">тастатуром</ref> уноси <ref c="zzz">наредбе</ref> које треба извршити, али може бити и графичког типа.</desc>
+    <!-- @упути: operatingsystem keyboard mouse -->
 
     <term lang="en" gr="i">shell</term>
     <term env="fed gnm ooo uk" gr="i">љуска</term>
@@ -132,8 +132,8 @@
 </concept>
 
 <concept id="sidebar">
-    <desc>Дугуљаста усправна област у графичком <ref c="zzz">сучељу</ref> која заузима целу висину <ref c="zzz">прозора</ref> с леве или десне стране главног садржаја, приказујући разне допунске податке: <ref c="zzz">~стабло датотека|kde:стабло фајлова~</ref>, <ref c="history">~историјат|fed:историју~</ref> <ref c="browse">~прегледања|gnm ooo:разгледања~</ref>, <ref c="bookmark">~обележиваче|kde:маркере|moz:забелешке~</ref>, итд.</desc>
-    <!-- @упути: interface window directorytree -->
+    <desc>Дугуљаста усправна област у графичком <ref c="interface">сучељу</ref> која заузима целу висину <ref c="zzz">прозора</ref> с леве или десне стране главног садржаја, приказујући разне допунске податке: <ref c="zzz">~стабло датотека|kde:стабло фајлова~</ref>, <ref c="history">~историјат|fed:историју~</ref> <ref c="browse">~прегледања|gnm ooo:разгледања~</ref>, <ref c="bookmark">~обележиваче|kde:маркере|moz:забелешке~</ref>, итд.</desc>
+    <!-- @упути: window directorytree -->
 
     <term lang="en" gr="i">sidebar</term>
     <term env="fed kde moz uk" gr="is">бочна трака</term>
@@ -186,8 +186,8 @@
 </concept>
 
 <concept id="statusbar">
-    <desc>Део графичког <ref c="zzz">сучеља</ref> који садржи показатеље изборног понашања <ref c="application">програма</ref>, наводи податке о документу на коме се ради, и где се издају поруке обавештења за корисника. Обично у виду дугуљастог водоравног потеза при дну <ref c="zzz">прозора</ref>.</desc>
-    <!-- @упути: userinterface window -->
+    <desc>Део графичког <ref c="interface">сучеља</ref> који садржи показатеље изборног понашања <ref c="application">програма</ref>, наводи податке о документу на коме се ради, и где се издају поруке обавештења за корисника. Обично у виду дугуљастог водоравног потеза при дну <ref c="zzz">прозора</ref>.</desc>
+    <!-- @упути: window -->
 
     <term lang="en" env="gnm kde moz ooo uk" gr="is">status bar</term>
     <term lang="en" env="fed gnm kde" gr="i">statusbar</term>

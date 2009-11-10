@@ -2,8 +2,8 @@
 <concepts>
 
 <concept id="label">
-    <desc>Краћи текст који стоји уз неки објекат, одређујући његово име, положај или сврху. На пример, опис поља у <ref c="zzz">корисничком сучељу</ref>, или идентификатор реда у <ref c="zzz">изворном ко̑ду</ref>.</desc>
-    <!-- @упути: userinterface sourcecode -->
+    <desc>Краћи текст који стоји уз неки објекат, одређујући његово име, положај или сврху. На пример, опис поља у <ref c="interface">корисничком сучељу</ref>, или идентификатор реда у <ref c="zzz">изворном ко̑ду</ref>.</desc>
+    <!-- @упути: sourcecode -->
 
     <term lang="en" gr="i">label</term>
     <term gr="i">ознака</term>
@@ -12,8 +12,8 @@
 
 <concept id="layout">
     <!-- @види: keyboardlayout look -->
-    <desc>Међусобни просторни положај појединачних елемената у склопу веће целине. Делова <ref c="zzz">странице</ref> с текстом, <ref c="widget">~виџета|gnm:елемената|fed:графичких додатака~</ref> у <ref c="zzz">корисничком сучељу</ref>, <ref c="zzz">тастера</ref> на <ref c="zzz">тастатури</ref>, итд.</desc>
-    <!-- @упути: page userinterface key keyboard -->
+    <desc>Међусобни просторни положај појединачних елемената у склопу веће целине. Делова <ref c="zzz">странице</ref> с текстом, <ref c="widget">~виџета|gnm:елемената|fed:графичких додатака~</ref> у <ref c="interface">корисничком сучељу</ref>, <ref c="zzz">тастера</ref> на <ref c="zzz">тастатури</ref>, итд.</desc>
+    <!-- @упути: page key keyboard -->
 
     <term lang="en" gr="i">layout</term>
     <term env="fed" gr="i">нацрт</term>
@@ -96,8 +96,8 @@
 </concept>
 
 <concept id="locationbar">
-    <desc>Дугуљасто водоравно поље за унос <ref c="url">УРЛ-ова</ref> које чини истакнут део <ref c="zzz">сучеља</ref>. Обично га дају <ref c="application">програми</ref> за <ref c="browse">~прегледање|gnm ooo:разгледање~</ref> садржаја (нпр. <ref c="webbrowser">~веб читач|kde:веб прегледач~</ref>), и често поред ручног уноса пружа ~једноставан|fed:једноставну~ <ref c="history">~историјат|fed:историју~</ref> и <ref c="zzz">самодопуну</ref> ~УРЛ-ова~.</desc>
-    <!-- @упути: interface autocompletion -->
+    <desc>Дугуљасто водоравно поље за унос <ref c="url">УРЛ-ова</ref> које чини истакнут део <ref c="interface">сучеља</ref>. Обично га дају <ref c="application">програми</ref> за <ref c="browse">~прегледање|gnm ooo:разгледање~</ref> садржаја (нпр. <ref c="webbrowser">~веб читач|kde:веб прегледач~</ref>), и често поред ручног уноса пружа ~једноставан|fed:једноставну~ <ref c="history">~историјат|fed:историју~</ref> и <ref c="zzz">самодопуну</ref> ~УРЛ-ова~.</desc>
+    <!-- @упути: autocompletion -->
 
     <term lang="en" gr="is">location bar</term>
     <term lang="en" env="id" gr="is">address bar</term>
@@ -181,8 +181,7 @@
 
 <concept id="loginscreen"
          related="displaymanager login">
-    <desc>Графичко <ref c="zzz">сучеље</ref> које корисницима представља <ref c="displaymanager">~управник пријавом|kde:менаџер пријављивања~</ref>, где се уносе подаци о <ref c="account">налогу</ref> потребни за <ref c="login">пријављивање</ref> на систем.</desc>
-    <!-- @упути: userinterface -->
+    <desc>Графичко <ref c="interface">сучеље</ref> које корисницима представља <ref c="displaymanager">~управник пријавом|kde:менаџер пријављивања~</ref>, где се уносе подаци о <ref c="account">налогу</ref> потребни за <ref c="login">пријављивање</ref> на систем.</desc>
 
     <term lang="en" gr="is">login screen</term>
     <term gr="is">пријавни екран</term>

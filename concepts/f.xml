@@ -138,4 +138,14 @@
     <details root="wpen" rel="Form_(document)"/>
 </concept>
 
+<concept id="frontend">
+    <desc>Спољашње <ref c="interface">корисничко сучеље</ref> које заклања <ref c="zzz">самосвојно</ref> ~сучеље~ <ref c="application">програма</ref>, тако да кориснику омогући лакши рад с тим програмом. Типично се јавља као графичка надградња када је ~самосвојно~ ~сучеље~ текстуално.</desc>
+    <!-- @упути: native -->
+
+    <term lang="en" gr="i">frontend</term>
+    <term env="uk kde" gr="i">прочеље</term>
+
+    <comment>Претресање израза: <link url="http://groups.google.com/group/sorta/browse_thread/thread/a3064a21780d26be">Сорта</link>.</comment>
+</concept>
+
 </concepts>

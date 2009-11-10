@@ -3,8 +3,8 @@
 
 <concept id="icon"
          related="icontheme">
-    <desc>У <ref c="zzz">корисничком сучељу</ref>, графичка представа одређене радње коју <ref c="application">програм</ref> може извршити, а корисник покреће <ref c="click2">~кликом|moz:притиском~</ref> <ref c="zzz">мишем</ref> на њу. Обично у виду слике омање величине, понекад праћене текстуалним описом испод или са стране.</desc>
-    <!-- @упути: userinterface mouse -->
+    <desc>У <ref c="interface">корисничком сучељу</ref>, графичка представа одређене радње коју <ref c="application">програм</ref> може извршити, а корисник покреће <ref c="click2">~кликом|moz:притиском~</ref> <ref c="zzz">мишем</ref> на њу. Обично у виду слике омање величине, понекад праћене текстуалним описом испод или са стране.</desc>
+    <!-- @упути: mouse -->
 
     <term lang="en" gr="i">icon</term>
     <term env="fed gnm kde ooo uk" gr="i">икона</term>
@@ -24,6 +24,32 @@
     <term env="moz" gr="is">тема сличица</term>
 </concept>
 
+<concept id="interface"
+         related="frontend">
+    <desc>Склоп помоћу којега корисник општи са <ref c="application">програмом</ref>, издајући <ref c="command">~наредбе|moz:команде~</ref> и пратећи одзиве. Може бити различитих типова, нпр. текстуалног, графичког или гласовног, као и њихових комбинација. У графичком контексту, често га чини <ref c="zzz">прозор</ref> с распоређеним <ref c="widget">~виџетима|gnm:контролним елементима|fed:графичким додацима~</ref>.</desc>
+    <!-- @упути: window -->
+
+    <term lang="en" gr="i">interface</term>
+    <term lang="en" gr="is">user interface</term>
+    <term env="ooo pr" gr="i">сучеље</term>
+    <term env="ooo pr" gr="is">корисничко сучеље</term>
+    <term env="ooo" gr="i">корисничко окружење</term>
+
+    <details root="wpen" rel="User_interface"/>
+</concept>
+
+<concept id="interface2" topic="prog">
+    <desc>Скуп начина на које се комад <ref c="software">софтвера</ref> или <ref c="hardware">хардвера</ref> представља спољашњем свету, како би се њиме управљало и пратио његов рад. На пример, код програмске <ref c="zzz">библиотеке</ref> то може бити скуп <ref c="zzz">јавних</ref> <ref c="zzz">функција</ref>, а код <ref c="zzz">штампача</ref> скуп прикључака помоћу којих се везује с <ref c="computer">рачунаром</ref>.</desc>
+    <!-- @упути: library public function printer -->
+
+    <term lang="en" gr="i">interface</term>
+    <term env="kde uk" gr="i">сучеље</term>
+    <term env="fed gnm" gr="i">спрега</term>
+    <term env="gnm" gr="i">прикључак</term>
+
+    <details root="wpen" rel="Interface_(computer_science)"/>
+</concept>
+
 <concept id="invalid2" topic="secur">
     <desc>Који није <ref c="valid2">~важећи|kde:ваљан|ooo:исправан~</ref>.</desc>
 
@@ -34,8 +60,8 @@
 </concept>
 
 <concept id="ioslave">
-    <desc><ref c="software">Софтверски</ref> слој који <ref c="application">програмима</ref> пружа уједначено улазно-излазно <ref c="zzz">сучеље</ref> за приступ подацима на одређеном уређају, кроз <ref c="network">мрежни</ref> протокол, у <ref c="zzz">архиви</ref>, итд. Уместо да сваки ~програм~ засебно <ref c="zzz">изводи</ref> подршку за <ref c="zzz">читање</ref> разноврсних извора података и <ref c="zzz">писање</ref> у њих, довољно је да проследи <ref c="url">УРЛ</ref> ресурса једном од ових слојева.</desc>
-    <!-- @упути: archive implement interface read write -->
+    <desc><ref c="software">Софтверски</ref> слој који <ref c="application">програмима</ref> пружа ~уједначено|fed:уједначену|gnm:уједначен~ <ref c="interface2">~сучеље|fed:спрегу|gnm:прикључак~</ref> за приступ подацима из разноврсних извора: на складишним уређајима, кроз <ref c="network">мрежне</ref> протоколе, у <ref c="zzz">архивама</ref>, итд. Уместо да ~програм~ <ref c="zzz">изводи</ref> сопствену подршку за <ref c="zzz">читање</ref> и <ref c="zzz">писање</ref> ових извора, довољно је да проследи <ref c="url">УРЛ</ref> ресурса једном од ових слојева.</desc>
+    <!-- @упути: archive implement read write -->
 
     <term lang="en" env="kde" gr="is">IO slave</term>
     <term lang="en" env="kde" gr="is">KIO slave</term>
