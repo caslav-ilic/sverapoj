@@ -189,8 +189,10 @@
     <desc>Део графичког <ref c="interface">сучеља</ref> који садржи показатеље изборног понашања <ref c="application">програма</ref>, наводи податке о документу на коме се ради, и где се издају поруке обавештења за корисника. Обично у виду дугуљастог водоравног потеза при дну <ref c="zzz">прозора</ref>.</desc>
     <!-- @упути: window -->
 
-    <term lang="en" env="gnm kde moz ooo uk" gr="is">status bar</term>
-    <term lang="en" env="fed gnm kde" gr="i">statusbar</term>
+    <eterm lang="en" gr="is">
+        <nom>status bar</nom>
+        <decl gr="i">statusbar</decl>
+    </eterm>
     <term lang="en" env="id" gr="i">status line</term>
     <term env="gnm" gr="is">линија са стањем</term>
     <term env="gnm ooo" gr="is">статусна линија</term>
