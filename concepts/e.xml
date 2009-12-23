@@ -12,19 +12,19 @@
 </concept>
 
 <concept id="embed">
-    <desc>Учинити нешто <ref c="embedded">~уграђеним|kde:угњежденим~</ref>.</desc>
+    <desc>Учинити нешто <ref c="embedded">~уграђеним|kde:угнежђеним~</ref>.</desc>
 
     <term lang="en" gr="g">embed</term>
     <term env="fed uk" gr="g">уградити</term>
-    <term env="kde" gr="g">угњездити</term>
+    <term env="kde" gr="g">угнездити</term>
 </concept>
 
 <concept id="embeddable">
-    <desc>Који се може <ref c="embed">~уградити|kde:угњездити~</ref>.</desc>
+    <desc>Који се може <ref c="embed">~уградити|kde:угнездити~</ref>.</desc>
 
     <term lang="en" gr="p">embeddable</term>
     <term env="fed uk" gr="p">уградив</term>
-    <term env="kde" gr="p">угњездив</term>
+    <term env="kde" gr="p">угнездив</term>
 </concept>
 
 <concept id="embedded">
@@ -34,7 +34,7 @@
 
     <term lang="en" gr="p">embedded</term>
     <term env="fed gnm moz ooo uk" gr="p">уграђен</term>
-    <term env="gnm kde" gr="p">угњежден</term>
+    <term env="gnm kde" gr="p">угнежђен</term>
 </concept>
 
 <concept id="encoding">
