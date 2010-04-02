@@ -86,8 +86,7 @@
     <!-- @упути: internet remote -->
 
     <term lang="en" gr="i">bookmark</term>
-    <term env="kde" gr="i">маркер</term>
-    <term env="fed gnm ooo uk" gr="i">обележивач</term>
+    <term env="pr" gr="i">обележивач</term>
     <term env="moz" gr="i">забелешка</term>
 
     <details root="wpen" rel="Internet_bookmark"/>
