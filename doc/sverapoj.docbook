@@ -100,14 +100,9 @@ $ git diff --color-words <остале-опције> | less -r
     <title>Обрада</title>
 
     <para>Посебно скројене скрипте за обраду диверглоса, ИксМЛ-а којим је писан Појмовник, такође се држе у гитовској ризници, али засебној од Појмовникове:
-    <itemizedlist>
-    <listitem>
-        <para><literal>git://nedohodnik.dyndns.org/divergloss.git</literal> (Часлава Илића)</para>
-    </listitem>
-    <listitem>
-        <para><literal>git://cowfarm.no-ip.org:9003/divergloss.git</literal> (Филипа Милетића)</para>
-    </listitem>
-    </itemizedlist>
+    <programlisting><![CDATA[
+$ git clone git://gitorious.org/divergloss/mainline.git
+]]></programlisting>
     Пошто се клонира, потребно је изградити српски превод и поставити путању до извршних датотека:
     <programlisting><![CDATA[
 $ git clone <адреса>
