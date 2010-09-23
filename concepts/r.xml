@@ -36,11 +36,53 @@
 </concept>
 
 <concept id="rename">
-    <desc>Променити назив неког објекта, нпр. <ref c="file">~датотеке|kde:фајла~</ref> или <ref c="directory">~фасцикле|moz unx:директоријума~</ref>. Једна од уобичајених радњи у <ref c="browser">прегледачима</ref>.</desc>
+    <desc>Променити назив неког објекта, нпр. <ref c="file">~датотеке|kde:фајла~</ref> или <ref c="directory">~фасцикле|moz unx:директоријума~</ref>. Једна од уобичајених радњи у <ref c="browser">~прегледачима|moz ooo:читачима~</ref>.</desc>
 
     <term lang="en" gr="g">rename</term>
     <term gr="g">преименовати</term>
     <term env="ooo" gr="gs">променити име</term>
+</concept>
+
+<concept id="render">
+    <desc>Обрадити скуп дискретних графичких инструкција тако да се добије дводимензионални приказ састављен од <ref c="zzz">пиксела</ref>. На пример, од <ref c="font">фонта</ref> дефинисаног кривама ствара се <ref c="bitmap2">~битмапирана|kde:битмапска~</ref> верзија за приказ на екрану, од <ref c="webpage">~веб странице|moz:веб стране~</ref> дефинисане <ref c="zzz">ХТМЛ-ом</ref> ствара се приказ у <ref c="browser">~прегледачу|moz ooo:читачу~</ref>, од тродимензионалне <ref c="zzz">сцене</ref> дефинисане полигонима ствара се дводимензионална слика или анимација.</desc>
+    <!-- @упути: html pixel scene -->
+
+    <term lang="en" gr="g">render</term>
+    <term env="kde gnm ooo uk" gr="g">рендеровати</term>
+    <term env="gnm" gr="g">исцртавати</term>
+
+    <details root="wpen" rel="Rendering_(computer_graphics)"/>
+    <comment>Претресање израза: <link url="http://groups.google.com/group/sorta/browse_thread/thread/4fe3b2036348a442">Сорта</link>.</comment>
+</concept>
+
+<concept id="render2">
+    <desc>Који изводи <ref c="render">рендеровање</ref> или се користи у том поступку.</desc>
+
+    <term lang="en" gr="p">render</term>
+    <term env="kde uk" gr="p">рендерски</term>
+</concept>
+
+<concept id="render3">
+    <desc>Који је постао <ref c="render">рендеровањем</ref>.</desc>
+
+    <term lang="en" gr="p">rendered</term>
+    <term env="kde uk" gr="p">рендеровани</term>
+</concept>
+
+<concept id="render4">
+    <desc>Крајњи резултат поступка <ref c="render">рендеровања</ref>.</desc>
+
+    <term lang="en" gr="i">rendering</term>
+    <term env="kde uk" gr="i">рендеринг</term>
+</concept>
+
+<concept id="renderer">
+    <desc><ref c="application">Програм</ref> или <ref c="zzz">мотор</ref> за <ref c="render">рендеровање</ref>.</desc>
+    <!-- @упути: engine -->
+
+    <term lang="en" gr="i">renderer</term>
+    <term env="kde gnm uk" gr="i">рендерер</term>
+    <term env="id" gr="i">исцртавач</term>
 </concept>
 
 <concept id="reset">
