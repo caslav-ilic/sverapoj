@@ -38,9 +38,9 @@
 
 <concept id="webbrowser"
          related="firefox konqueror">
-    <!-- @упути: epiphany opera -->
-    <desc><ref c="application">Програм</ref> помоћу којег се <ref c="browse">~прегледају|gnm ooo:разгледају~</ref> <ref c="webpage">~веб странице|moz:веб стране~</ref>, односно чита на њима дат текст и гледају слике, а уз <ref c="plugin">~прикључке|fed gnm ooo:додатке~</ref> и пуштају видео и аудио записи, извршавају ситније обраде и играју <ref c="zzz">игре</ref>. Омогућава кретање кроз ~веб странице|moz:веб стране~ на <ref c="zzz">Интернету</ref> путем <ref c="click">~кликтања|moz:притискања~</ref> на <ref c="zzz">везе</ref> на њима, памти посећене, и пружа кориснику разне начине да се лако наврати на њих.</desc>
-    <!-- @види: game internet link -->
+    <!-- @види: epiphany opera -->
+    <desc><ref c="application">Програм</ref> помоћу којег се <ref c="browse">~прегледају|gnm ooo:разгледају~</ref> <ref c="webpage">~веб странице|moz:веб стране~</ref>, односно чита на њима дат текст и гледају слике, а уз <ref c="plugin">~прикључке|fed gnm ooo:додатке~</ref> и пуштају видео и аудио записи, извршавају ситније обраде и играју <ref c="game">игре</ref>. Омогућава кретање кроз ~веб странице|moz:веб стране~ на <ref c="zzz">Интернету</ref> путем <ref c="click">~кликтања|moz:притискања~</ref> на <ref c="zzz">везе</ref> на њима, памти посећене, и пружа кориснику разне начине да се лако наврати на њих.</desc>
+    <!-- @упути: internet link -->
 
     <term lang="en" gr="is">web browser</term>
     <term env="fed gnm moz ooo uk" gr="is">веб читач</term>

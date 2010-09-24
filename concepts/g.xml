@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
+<concept id="game"
+         related="gamer">
+    <!-- @види: level -->
+    <desc><ref c="application">Програм</ref> забавног, друштвеног, спортског, уметничког или образовног карактера, у којем корисник улаже своје физичке и психичке способности да би остварио задати циљ. То може бити победа над противником, откривање развоја приче, остваривање естетске замисли, и друго. Слично романима и филмовима, деле се у различите жанрове, према начину <ref c="zzz">извођења</ref>.</desc>
+    <!-- @упути: gameplay -->
+
+    <term lang="en" gr="i">game</term>
+    <term gr="i">игра</term>
+    <eterm gr="i" env="id">
+        <nom>игрица</nom>
+        <comment by="ilic">И даље често у лаичкој употреби, иако су <ref c="computer">рачунарске</ref> ~игре~ пре више деценија постигле сложеност која укида смисленост деминутива.</comment>
+    </eterm>
+
+    <details root="wpsr" rel="Рачунарска_игра"/>
+</concept>
+
+<concept id="game2">
+    <desc>Један пролазак кроз <ref c="game">игру</ref> делимично или потпуно спортског карактера, у којој се надмећу <ref c="gamer">играч</ref> и <ref c="computer">рачунар</ref>, више ~играча~ против ~рачунаром~, или више ~играча~ међусобно. Свакој страни се на неки начин обрачунава <ref c="zzz">резултат</ref>, који доводи до победе једне од њих или нерешеног исхода.</desc>
+    <!-- @упути: score -->
+
+    <term lang="en" gr="i">game</term>
+    <term gr="i">партија</term>
+</concept>
+
+<concept id="game3">
+    <desc>Скуп података о тренутном стању <ref c="game">игре</ref> који се може <ref c="save">сачувати</ref> (нпр. пред <ref c="quit">напуштање</ref> ~игре~), тако да се у неком каснијем тренутку може <ref c="zzz">учитати</ref> и играње наставити од истог места.</desc>
+
+    <term lang="en" gr="i">game</term>
+    <term lang="en" gr="i">saved game</term>
+    <term gr="i">позиција</term>
+
+    <details root="wpen" rel="Saved_game"/>
+</concept>
+
+<concept id="gamer">
+    <!-- @види: casualgamer -->
+    <desc>Онај коме је хоби играње <ref c="game">игара</ref>.</desc>
+
+    <term lang="en" gr="i">gamer</term>
+    <term gr="i">играч</term>
+
+    <details root="wpen" rel="Gamer"/>
+</concept>
+
 <concept id="gnu" topic="acrons">
     <desc>Дефинишући пројекат <ref c="zzz">слободног софтвера</ref>, којег је 1983. започео <ref c="zzz">Ричард Столман</ref> с циљем развоја комплетног слободног <ref c="zzz">оперативног система</ref>. До данашњих дана, под његовом капом израђено је и одржава се мноштво системског и корисничког <ref c="software">софтвера</ref>, који чини кичму оперативног система <ref c="zzz">Гну-Линукс</ref>, али се користи и на многим другим системима.</desc>
     <!-- @упути: richardstallman gnugpl freesoftware gnulinux operatingsystem -->

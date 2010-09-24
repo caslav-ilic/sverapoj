@@ -145,10 +145,10 @@
 </concept>
 
 <concept id="software"
-         related="application hardware">
-    <!-- @види: game program -->
-    <desc>Нематеријална надградња <ref c="hardware">хардвера</ref>, која чини <ref c="computer">рачунар</ref> употребљивим за различите намене. Чине је: <ref c="zzz">оперативни системи</ref>, <ref c="driver">~драјвери|fed gnm:управљачки програми~</ref>, системске алатке, <ref c="application">кориснички програми</ref>, <ref c="zzz">игре</ref>, итд.</desc>
-    <!-- @упути: operatingsystem game -->
+         related="application hardware game">
+    <!-- @види: program -->
+    <desc>Нематеријална надградња <ref c="hardware">хардвера</ref>, која чини <ref c="computer">рачунар</ref> употребљивим за различите намене. Чине је: <ref c="zzz">оперативни системи</ref>, <ref c="driver">~драјвери|fed gnm:управљачки програми~</ref>, системске алатке, <ref c="application">кориснички програми</ref>, <ref c="game">игре</ref>, итд.</desc>
+    <!-- @упути: operatingsystem -->
 
     <term lang="en" gr="i">software</term>
     <eterm gr="i">
