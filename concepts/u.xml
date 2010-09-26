@@ -12,6 +12,31 @@
     <comment>Претресање израза: <link url="http://groups.google.com/group/sorta/browse_thread/thread/ba861e2ec29b3f6c">Сорта</link>.</comment>
 </concept>
 
+<concept id="upload"
+         related="upload2">
+    <desc>Начинити <ref c="zzz">копију</ref> <ref c="file">~датотеке|kde:фајла~</ref> са локалног <ref c="computer">рачунара</ref> негде у <ref c="network">мрежи</ref>, тако да буде трајно или привремено, слободно или ограничено, доступна за <ref c="download">преузимање</ref>.</desc>
+    <!-- @упути: copy2 -->
+
+    <term lang="en" gr="g">upload</term>
+    <term env="kde ooo uk" gr="g">отпремити</term>
+    <term env="fed moz" gr="g">поставити</term>
+    <term env="fed gnm moz ooo" gr="g">послати</term>
+    <term env="id" gr="g">окачити</term>
+
+    <details root="wpen" rel="Uploading_and_downloading"/>
+    <comment>Претресање израза: <link url="http://groups.google.com/group/sorta/browse_thread/thread/9bc4317e642fb803">Сорта</link>.</comment>
+</concept>
+
+<concept id="upload2"
+         related="download2">
+    <desc>Заокружен пакет <ref c="file">~датотека|kde:фајлова~</ref> намењен <ref c="upload">~отпремању|fed moz gnm:слању~</ref>.</desc>
+
+    <term lang="en" gr="i">upload</term>
+    <term env="kde ooo uk" gr="i">отпремање</term>
+    <term env="fed gnm" gr="i">слање</term>
+    <term env="id" gr="i">качење</term>
+</concept>
+
 <concept id="url" topic="acrons">
     <desc><ref c="string">Ниска</ref> слова и других знакова којом се једнозначно одређује положај одређеног ресурса (<ref c="file">~датотеке|kde:фајла~</ref>, <ref c="website">~веб сајта|fed gnm:веб странице~</ref>, мрежног <ref c="zzz">штампача</ref>, и сл.) на самом <ref c="computer">рачунару</ref>, или локалној или широј <ref c="network">мрежи</ref> којој припада. Почиње <ref c="zzz">подниском</ref> која одређује начин приступања ресурсу, нпр. <em>http://</em> за ~веб сајт~ или <em>file://</em> за ~датотеку|kde:фајл~ на локалном рачунару, после које следи <ref c="zzz">путања</ref> до ресурса.</desc>
     <!-- @упути: substring printer path -->

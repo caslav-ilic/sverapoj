@@ -133,8 +133,7 @@
 </concept>
 
 <concept id="download"
-         related="download2">
-    <!-- @види: upload -->
+         related="download2 upload">
     <desc>Од <ref c="file">~датотека|kde:фајлова~</ref> изворно смештених негде у <ref c="network">мрежи</ref> (посебно на <ref c="zzz">Интернету</ref>) начинити <ref c="zzz">копије</ref> на локалном <ref c="computer">рачунару</ref>. Традиционални ~мрежни~ извори су <ref c="server">сервери</ref> (нпр. <ref c="zzz">ФТП</ref>), а у новије време и <ref c="zzz">п2п</ref> мреже (попут <ref c="zzz">битторента</ref>).</desc>
     <!-- @упути: internet copy2 ftp p2p torrent -->
 
@@ -147,16 +146,28 @@
 </concept>
 
 <concept id="download2"
-         related="download">
-    <!-- @види: upload2 -->
-    <desc>Оно што се <ref c="download">~преузима|moz:прима~</ref>, или ток такве радње.</desc>
+         related="upload2">
+    <desc>Заокружен пакет <ref c="file">~датотека|kde:фајлова~</ref> на располагању за <ref c="download">~преузимање|fed moz gnm:примање~</ref>.</desc>
 
     <term lang="en" gr="i">download</term>
     <term gr="i">преузимање</term>
     <term env="moz" gr="i">пријем</term>
     <term env="id" gr="i">скидање</term>
+</concept>
 
-    <details root="wpen" rel="Uploading_and_downloading"/>
+<concept id="drive"
+         related="save">
+    <!-- @види: floppy harddisk load -->
+    <desc>Уређај којим се подаци читају са трајног <ref c="zzz">складишног медијума</ref> или уписују на њега. Медијуми могу бити нераздвојиви саставни део уређаја (нпр. плоче <ref c="zzz">хард-диска</ref>), или <ref c="zzz">изменљиви</ref> (нпр. <ref c="zzz">ЦД-ови</ref>).</desc>
+    <!-- @упути: storagemedia removable harddisk cd -->
+
+    <term lang="en" gr="i">drive</term>
+    <term env="kde uk" gr="i">јединица</term>
+    <term env="fed gnm ooo" gr="i">уређај</term>
+    <term env="fed gnm ooo" gr="i">диск</term>
+    <term env="id" gr="i">драјв</term>
+
+    <comment>Претресање израза: <link url="http://groups.google.com/group/sorta/browse_thread/thread/53518fc6514397fe">Сорта</link>.</comment>
 </concept>
 
 <concept id="driver">
