@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
+<concept id="backend"
+         related="plugin">
+    <desc>Обавезан додатак <ref c="application">програму</ref> којим се остварује нека ~његова~ основна функционалност, и који дејствује невидљиво за корисника. Типичан пример је <ref c="zzz">мотор</ref> <ref c="zzz">базе података</ref> у ~програмима~ који одржавају унутрашњи скуп података. Некада је могуће изабрати између више оваквих додатака, али тако да је у сваком тренутку тачно један од њих у употреби.</desc>
+    <!-- @упути: engine database -->
+
+    <term lang="en" gr="i">backend</term>
+    <term env="fed kde uk" gr="i">позадина</term>
+    <term env="fed" gr="i">зачеље</term>
+    <term env="fed gnm" gr="is">позадински процес</term>
+    <term env="gnm" gr="is">позадински мотор</term>
+    <term env="gnm" gr="is">део нижег нивоа</term>
+    <term env="gnm" gr="i">подлога</term>
+
+    <comment>Претресање израза: <link url="http://groups.google.com/group/sorta/browse_thread/thread/a3064a21780d26be">Сорта</link>.</comment>
+</concept>
+
 <concept id="backup"
          related="backup2">
     <desc><ref c="zzz">Копија</ref> података која се повремено прави и <ref c="zzz">складишти</ref> по страни, за случај да дође до губитка или нежељених измена над тим подацима. Често у виду <ref c="zzz">архиве</ref> начињене од <ref c="zzz">~стабла фасцикли|moz unx:стабла директоријума~</ref> изворних података.</desc>
