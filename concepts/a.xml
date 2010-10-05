@@ -29,6 +29,13 @@
     <term gr="i">додатак</term>
 </concept>
 
+<concept id="advanced">
+    <desc>Који је детаљнији, прилагодљивији, способнији у односу на просек или какву другу установљену основу.</desc>
+
+    <term lang="en" gr="p">advanced</term>
+    <term gr="p">напредан</term>
+</concept>
+
 <concept id="applet"
          related="plugin">
     <desc>Парче <ref c="software">софтвера</ref> које се уграђује и извршава у окриљу каквог већег <ref c="application">програма</ref>, на чије се услуге ослања ради остваривања сопствене функционалности. На пример, овако може бити изведена <ref c="game">игра</ref> којој се приступа кроз <ref c="webbrowser">~веб читач|kde:веб прегледач~</ref>.</desc>

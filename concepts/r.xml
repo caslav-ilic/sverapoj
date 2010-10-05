@@ -12,8 +12,8 @@
 </concept>
 
 <concept id="regularexpression" topic="prog">
-    <desc>Врста <ref c="pattern">~образаца|ooo:узорака~</ref> за <ref c="zzz">поклапање</ref> текста, тачно дефинисане <ref c="zzz">синтаксе</ref> у којој се неки <ref c="character">знакови</ref> ~поклапају~ дословно, док други одређујући начин, врсту и број стварних ~знакова~ који ће бити ~поклопљени~. Често се користе за <ref c="zzz">напредну</ref> <ref c="zzz">претрагу</ref> текста у <ref c="application">програмима</ref>, нпр. у <ref c="texteditor">уређивачима текста</ref>. Постоји неколико подврста, различитих по детаљима ~синтаксе~ и <ref c="zzz">могућностима</ref> ~поклапања~ које пружају.</desc>
-    <!-- @упути: match syntax advanced search feature -->
+    <desc>Врста <ref c="pattern">~образаца|ooo:узорака~</ref> за <ref c="zzz">поклапање</ref> текста, тачно дефинисане <ref c="zzz">синтаксе</ref> у којој се неки <ref c="character">знакови</ref> ~поклапају~ дословно, док други одређујући начин, врсту и број стварних ~знакова~ који ће бити ~поклопљени~. Често се користе за <ref c="advanced">напредну</ref> <ref c="zzz">претрагу</ref> текста у <ref c="application">програмима</ref>, нпр. у <ref c="texteditor">уређивачима текста</ref>. Постоји неколико подврста, различитих по детаљима ~синтаксе~ и <ref c="zzz">могућностима</ref> ~поклапања~ које пружају.</desc>
+    <!-- @упути: match syntax search feature -->
 
     <eterm lang="en" gr="is">
         <nom>regular expression</nom>
