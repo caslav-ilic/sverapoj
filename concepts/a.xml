@@ -12,6 +12,15 @@
     <details root="wpen" rel="User_(computing)"/>
 </concept>
 
+<concept id="action">
+    <desc>Скуп корака које <ref c="application">програм</ref> или корисник предузме ради остварања одређеног циља.</desc>
+
+    <term lang="en" gr="i">action</term>
+    <term env="fed gnm kde ooo uk" gr="i">радња</term>
+    <term env="fed gnm ooo" gr="i">акција</term>
+    <term env="moz" gr="i">дејство</term>
+</concept>
+
 <concept id="addon">
     <desc>Несамостални <ref c="software">софтвер</ref> или статични садржај који се додаје <ref c="application">програму</ref> ради допуне функционалности, измене понашања, преправки изгледа, итд. Обухвата <ref c="plugin" >прикључке</ref>, <ref c="extension" >проширења</ref>, <ref c="icontheme">~теме икона|moz:теме сличица~</ref>, <ref c="wallpaper">~тапете|gnm:позадине~</ref>, итд.</desc>
 
