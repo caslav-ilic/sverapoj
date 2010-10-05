@@ -36,6 +36,26 @@
     <term gr="p">напредан</term>
 </concept>
 
+<concept id="alignment">
+    <!-- @види: justified leftaligned rightaligned centered -->
+    <desc>Просторни однос <ref c="line">редова</ref> текста и <ref c="zzz">маргина</ref> <ref c="page">странице</ref>, одређен расподелом <ref c="whitespace">~празнина|fed moz:размака|ooo:бланко знакова~</ref> на крајевима и у унутрашњости ~редова~.</desc>
+    <!-- @упути: margin -->
+
+    <term lang="en" gr="i">alignment</term>
+    <term gr="i">поравнање</term>
+    <term env="moz" gr="i">уравнање</term>
+
+    <details root="wpen" rel="Typographic_alignment"/>
+</concept>
+
+<concept id="aligned">
+    <desc>Који има одређено <ref c="alignment">поравнање</ref>.</desc>
+
+    <term lang="en" gr="p">aligned</term>
+    <term gr="p">поравнат</term>
+    <term env="moz" gr="p">уравнат</term>
+</concept>
+
 <concept id="applet"
          related="plugin">
     <desc>Парче <ref c="software">софтвера</ref> које се уграђује и извршава у окриљу каквог већег <ref c="application">програма</ref>, на чије се услуге ослања ради остваривања сопствене функционалности. На пример, овако може бити изведена <ref c="game">игра</ref> којој се приступа кроз <ref c="webbrowser">~веб читач|kde:веб прегледач~</ref>.</desc>
