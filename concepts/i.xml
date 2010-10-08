@@ -60,8 +60,8 @@
 </concept>
 
 <concept id="ioslave">
-    <desc><ref c="software">Софтверски</ref> слој који <ref c="application">програмима</ref> пружа ~уједначено|fed:уједначену|gnm:уједначен~ <ref c="interface2">~сучеље|fed:спрегу|gnm:прикључак~</ref> за приступ подацима из разноврсних извора: на складишним уређајима, кроз <ref c="network">мрежне</ref> протоколе, у <ref c="zzz">архивама</ref>, итд. Уместо да ~програм~ <ref c="zzz">изводи</ref> сопствену подршку за <ref c="zzz">читање</ref> и <ref c="zzz">писање</ref> ових извора, довољно је да проследи <ref c="url">УРЛ</ref> ресурса једном од ових слојева.</desc>
-    <!-- @упути: archive implement read write -->
+    <desc><ref c="software">Софтверски</ref> слој који <ref c="application">програмима</ref> пружа ~уједначено|fed:уједначену|gnm:уједначен~ <ref c="interface2">~сучеље|fed:спрегу|gnm:прикључак~</ref> за приступ подацима из разноврсних извора: на складишним уређајима, кроз <ref c="network">мрежне</ref> протоколе, у <ref c="archive">архивама</ref>, итд. Уместо да ~програм~ <ref c="zzz">изводи</ref> сопствену подршку за <ref c="zzz">читање</ref> и <ref c="zzz">писање</ref> ових извора, довољно је да проследи <ref c="url">УРЛ</ref> ресурса једном од ових слојева.</desc>
+    <!-- @упути: implement read write -->
 
     <eterm lang="en" env="kde" gr="i">
         <nom>ioslave</nom>

@@ -19,8 +19,8 @@
 
 <concept id="backup"
          related="backup2">
-    <desc><ref c="zzz">Копија</ref> података која се повремено прави и <ref c="zzz">складишти</ref> по страни, за случај да дође до губитка или нежељених измена над тим подацима. Често у виду <ref c="zzz">архиве</ref> начињене од <ref c="zzz">~стабла фасцикли|moz unx:стабла директоријума~</ref> изворних података.</desc>
-    <!-- @упути: copy2 store image2 archive directorytree -->
+    <desc><ref c="zzz">Копија</ref> података која се повремено прави и <ref c="zzz">складишти</ref> по страни, за случај да дође до губитка или нежељених измена над тим подацима. Често у виду <ref c="archive">архиве</ref> начињене од <ref c="zzz">~стабла фасцикли|moz unx:стабла директоријума~</ref> изворних података.</desc>
+    <!-- @упути: copy2 store image2 directorytree -->
 
     <term lang="en" gr="i">backup</term>
     <term env="fed gnm kde uk" gr="i">резерва</term>

@@ -81,6 +81,27 @@
     <details root="wpen" rel="Application_software"/>
 </concept>
 
+<concept id="archive"
+         related="archiver">
+    <desc><ref c="file">~Датотека|kde:Фајл~</ref> ~која|kde:који~ садржи више других ~датотека|kde:фајлова~, тако да се могу лакше преносити (нпр. <ref c="download">~преузимати|moz:примати~</ref> и <ref c="download">~отпремати|fed moz gnm:слати~</ref>) или трајно <ref c="zzz">складиштити</ref> (нпр. као <ref c="backup">~резерва|moz ooo:резервна копија~</ref>). Обично поседује известан степен <ref c="zzz">компресије</ref>.</desc>
+    <!-- @упути: store format compress -->
+
+    <term lang="en" gr="i">archive</term>
+    <term gr="i">архива</term>
+
+    <details root="wpen" rel="Archive_file"/>
+</concept>
+
+<concept id="archiver">
+    <desc><ref c="application">Програм</ref> који <ref c="zzz">пакује</ref> <ref c="file">~датотеке|kde:фајлове~</ref> у <ref c="archive">архиве</ref> и <ref c="zzz">распакује</ref> их из њих. Између осталог, овакви ~програми~ разликују се и по томе којим <ref c="zzz">форматима</ref> ~архива~ могу да <ref c="zzz">рукују</ref>.</desc>
+    <!-- @упути: pack unpack format handle -->
+
+    <term lang="en" gr="i">archiver</term>
+    <term env="kde uk" gr="i">архивар</term>
+
+    <details root="wpen" rel="File_archiver"/>
+</concept>
+
 <concept id="authenticate">
     <desc>Извршити <ref c="authentication">~аутентификацију|gnm ooo:пријаву~</ref>, обично за добијање извесних <ref c="authorization">овлашћења</ref>.</desc>
 
