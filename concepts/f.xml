@@ -1,6 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
+<concept id="fade">
+    <desc>Смењивање слика или музичких нумера тако што ~се|gnm ooo:~ једна прво <ref c="fadeout">~утопи|gnm:избледи|ooo:нестане~</ref>, а затим ~|ooo:се~ друга <ref c="fadein">~изрони|ooo:појави~</ref>.</desc>
+
+    <term lang="en" gr="g">fade</term>
+    <term lang="en" gr="gs">cross-fade</term>
+    <term env="kde uk" gr="g">претопити</term>
+    <term env="ooo" gr="g">унакрсно прелазити</term>
+</concept>
+
+<concept id="fadein"
+         related="fade fadeout">
+    <desc>Постепено појављивање слике из почетне једнобојне позадине (често црне, нпр. у <ref c="game">играма</ref>), или појачавање звука из почетне тишине (нпр. у <ref c="zzz">плејерима</ref>).</desc>
+    <!-- @упути: player -->
+
+    <term lang="en" gr="gs">fade in</term>
+    <term env="kde uk" gr="g">изронити</term>
+    <term env="ooo" gr="g">појавити се</term>
+</concept>
+
+<concept id="fadeout"
+         related="fade fadein">
+    <desc>Постепено нестајање слике у једнобојној позадини (често црној, нпр. у <ref c="game">играма</ref>), или стишавање звука до тишине (нпр. у <ref c="zzz">плејерима</ref>).</desc>
+    <!-- @упути: player -->
+
+    <term lang="en" gr="g">fade</term>
+    <term lang="en" gr="gs">fade out</term>
+    <term lang="en" gr="gs">fade to black</term>
+    <term env="kde uk" gr="g">утопити</term>
+    <term env="gnm ooo" gr="g">избледети</term>
+    <term env="ooo" gr="g">потамнити</term>
+    <term env="ooo" gr="g">нестати</term>
+    <term env="ooo" gr="g">ишчезнути</term>
+</concept>
+
 <concept id="feature">
     <!-- @види: bug -->
     <desc>Заокружена и јасно одређена особина коју <ref c="application">програм</ref> поседује, радња коју може извести, или захтев који испуњава.</desc>
