@@ -7,7 +7,7 @@
     <term lang="en" gr="g">fade</term>
     <term lang="en" gr="gs">cross-fade</term>
     <term env="kde uk" gr="g">претопити</term>
-    <term env="ooo" gr="g">унакрсно прелазити</term>
+    <term env="ooo" gr="gs">унакрсно прелазити</term>
 </concept>
 
 <concept id="fadein"
