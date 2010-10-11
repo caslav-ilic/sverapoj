@@ -56,6 +56,34 @@
     <term env="moz" gr="p">уравнат</term>
 </concept>
 
+<concept id="annotate">
+    <desc>Опремити нешто <ref c="annotation">~тумачењима|gnm ooo:забелешкама~</ref>.</desc>
+
+    <term lang="en" gr="g">annotate</term>
+    <term env="kde uk" gr="g">протумачити</term>
+    <term env="gnm ooo" gr="gs">додати забелешке</term>
+</concept>
+
+<concept id="annotated">
+    <desc>Који је опремљен <ref c="annotation">~тумачењима|gnm ooo:забелешкама~</ref>.</desc>
+
+    <term lang="en" gr="p">annotated</term>
+    <term env="kde uk" gr="pres">с тумачењима</term>
+    <term env="gnm ooo" gr="pres">са забелешкама</term>
+</concept>
+
+<concept id="annotation"
+          related="annotate annotated">
+    <desc>Текст накнадно придружен неком објекту (попут <ref c="zzz">пасуса</ref> или <ref c="file">~датотеке|kde:фајла~</ref>) којим се разјашњава сврха, значење, порекло, важност или каква друга особина тог објекта.</desc>
+    <!-- @види: paragraph -->
+
+    <term lang="en" gr="i">annotation</term>
+    <term env="gnm" gr="i">прибелешка</term>
+    <term env="gnm ooo" gr="i">забелешка</term>
+    <term env="kde uk" gr="i">тумачење</term>
+    <term env="ooo" gr="i">напомена</term>
+</concept>
+
 <concept id="applet"
          related="plugin">
     <desc>Парче <ref c="software">софтвера</ref> које се уграђује и извршава у окриљу каквог већег <ref c="application">програма</ref>, на чије се услуге ослања ради остваривања сопствене функционалности. На пример, овако може бити изведена <ref c="game">игра</ref> којој се приступа кроз <ref c="webbrowser">~веб читач|kde:веб прегледач~</ref>.</desc>
