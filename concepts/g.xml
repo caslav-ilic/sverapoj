@@ -69,7 +69,7 @@
 
 <concept id="gcc" topic="acrons"
          related="gnu">
-    <desc><ref c="gnu">~ГНУ|kde:Гнуова~</ref> збирка <ref c="zzz">~преводилаца|kde:компилатора̑~</ref>, која подржава више <ref c="zzz">програмских језика</ref>: <ref c="zzz">~Це|kde:Ц~</ref>, <ref c="zzz">~Це++|kde:Ц++~</ref>, <ref c="java">јава</ref>, <ref c="zzz">фортран</ref>, итд. Врло распрострањена, доступна је на више <ref c="computer">рачунарских</ref> платформи него иједан други <ref c="zzz">софтвер</ref> исте намене.</desc>
+    <desc><ref c="gnu">~ГНУ|kde:Гнуова~</ref> <ref c="collection">збирка</ref> <ref c="zzz">~преводилаца|kde:компилатора̑~</ref>, која подржава више <ref c="zzz">програмских језика</ref>: <ref c="zzz">~Це|kde:Ц~</ref>, <ref c="zzz">~Це++|kde:Ц++~</ref>, <ref c="java">јава</ref>, <ref c="zzz">фортран</ref>, итд. Врло распрострањена, доступна је на више <ref c="computer">рачунарских</ref> платформи него иједан други <ref c="zzz">софтвер</ref> исте намене.</desc>
     <!-- @упути: programminglanguage compiler c_lang cpp fortran -->
 
     <term lang="en" gr="i">GCC</term>
