@@ -24,6 +24,15 @@
 
 </concept>
 
+<concept id="caption">
+    <desc>Текст придружен издвојеном графичком елементу на <ref c="page">страници</ref>, попут <ref c="zzz">графика</ref> или <ref c="table">табеле</ref>, који може садржати назив тог елемента, кратко објашњење, <ref c="zzz">тумачења</ref> поделемената, итд.</desc>
+    <!-- @упути: chart annotation -->
+
+    <term lang="en" gr="i">caption</term>
+    <term env="gnm moz ooo uk" gr="i">наслов</term>
+    <term env="kde" gr="i">натпис</term>
+</concept>
+
 <concept id="cell"
          related="column row">
     <desc>Најнижи ниво поделе у <ref c="table">табели</ref>, који носи стварне податке. Обично су то бројеви, речи, или краћи текстови.</desc>
