@@ -161,8 +161,9 @@
     <term env="gnm moz">оквир</term>
 </concept>
 
-<concept id="brightness">
-    <!-- @види: contrast gamma -->
+<concept id="brightness"
+         related="contrast">
+    <!-- @види: gamma -->
     <desc>Визуелни утисак о количини светлости коју рефлектује нека површина, на пример <ref c="zzz">екран</ref> <ref c="zzz">монитора</ref>.</desc>
     <!-- @упути: screen monitor -->
 
