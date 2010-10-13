@@ -190,4 +190,33 @@
     <details root="wpen" rel="Proxy_server"/>
 </concept>
 
+<concept id="puzzle"
+         related="puzzle3">
+    <desc>Мисаони проблем који захтева домишљатост и креативност да би се решио, често вештачки конструисан у забавно-образовне сврхе. Омиљени елемент рачунарских <ref c="zzz">игара</ref>.</desc>
+
+    <term lang="en" gr="i">puzzle</term>
+    <term gr="i">загонетка</term>
+</concept>
+
+<concept id="puzzle2">
+    <desc>Главоломка у којој треба уклопити <ref c="zzz">насумично</ref> промешане делове у почетну целину. Може бити дводимензионална, попут слике растављене на <ref c="zzz">плочице</ref> које треба склопити на табли, или тродимензионална, у виду разноликих механичких направа са покретним деловима.</desc>
+    <!-- @упути: random tile -->
+
+    <term lang="en" gr="i">puzzle</term>
+    <term gr="i">слагалица</term>
+
+    <details root="wpen" rel="Tiling_puzzle"/>
+    <details root="wpen" rel="Mechanical_puzzle"/>
+</concept>
+
+<concept id="puzzle3">
+    <desc>Жанр <ref c="game">игара</ref> у којима <ref c="zzz">играч</ref> мора изнова да анализира проблеме и синтетизује решења како би могао да напредује. Може бити и <ref c="zzz">аркадног</ref> карактера, тако да поред размишљања захтева и моторну координацију.</desc>
+    <!-- @упути: player arcade -->
+
+    <term lang="en" gr="p">puzzle</term>
+    <term gr="p">логички</term>
+
+    <details root="wpen" rel="Puzzle_video_game"/>
+</concept>
+
 </concepts>
