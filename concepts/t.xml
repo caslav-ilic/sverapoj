@@ -61,6 +61,51 @@
     <details root="wpen" rel="Text_editor"/>
 </concept>
 
+<concept id="thread"
+         related="mailinglist">
+    <!-- @види: forum -->
+    <desc>Уређени след <ref c="zzz">порука</ref> у дискусији <ref c="online">~на мрежи|kde:на вези~</ref> које се надовезују једна на другу пратећи одређену <ref c="zzz">тему</ref>. След може бити нарушен појединим ~порукама~ <ref c="zzz">ван теме</ref>, а у дужим дискусијама може доћи до рачвања на подтеме.</desc>
+    <!-- @упути: post topic offtopic -->
+
+    <term lang="en" gr="i">thread</term>
+    <term env="gnm moz kde uk" gr="i">нит</term>
+    <term env="gnm" gr="i">низ</term>
+    <term env="gnm" gr="i">расправа</term>
+    <term env="gnm" gr="i">тема</term>
+    <term env="id" gr="i">ланац</term>
+
+    <details root="wpen" rel="Conversation_threading"/>
+</concept>
+
+<concept id="threaded">
+    <desc>Онај скуп <ref c="zzz">порука</ref> који је разврстан у <ref c="thread">нити</ref>.</desc>
+    <!-- @упути: post -->
+
+    <term lang="en" gr="p">threaded</term>
+    <term env="gnm" gr="pres">по темама</term>
+    <term env="gnm" gr="pres">с низањем</term>
+    <term env="kde uk" gr="p">унизан</term>
+    <term env="moz" gr="pres">по нитима</term>
+</concept>
+
+<concept id="thread2" topic="prog">
+    <!-- @види: fork2 -->
+    <desc>Део <ref c="zzz">процеса</ref> који се извршава <ref c="zzz">напоредо</ref> са другим таквим деловима, тако да сви имају приступ истој, заједничкој <ref c="zzz">меморији</ref> тог ~процеса~.</desc>
+    <!-- @упути: process concurrent ram -->
+
+    <term lang="en" gr="i">thread</term>
+    <term gr="i">нит</term>
+
+    <details root="wpsr" rel="Нит_(рачунарство)"/>
+</concept>
+
+<concept id="threaded2" topic="prog">
+    <desc>Који се извршава у <ref c="thread2">нитима</ref> или је намењен стварању и руковању ~нитима~.</desc>
+
+    <term lang="en" gr="p">threaded</term>
+    <term gr="p">нитни</term>
+</concept>
+
 <concept id="thumbnail">
     <desc>Мала графичка представа одређеног садржаја, најчешће слика у галерији на <ref c="webpage">~веб страници|moz:веб страни~</ref> на <ref c="zzz">Интернету</ref> или локално у <ref c="zzz">прегледачу слика</ref>; такође може одсликавати садржај неких типова <ref c="file">~датотека|kde:фајлова~</ref> у <ref c="zzz">~прегледачу датотека|kde:прегледачу фајлова~</ref>, када је постављен на <ref c="zzz">приказ икона</ref>. Служи да омогући кориснику брзо уочавање занимљивог или налажење траженог садржаја, и то посебно кад је потребно незанемарљиво време да се он у целокупности прикаже (нпр. <ref c="download">~преузме|moz:прими~</ref> са Интернета).</desc>
     <!-- @упути: internet imagebrowser filebrowser iconview -->

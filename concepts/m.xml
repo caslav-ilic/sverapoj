@@ -69,4 +69,12 @@
     <details root="wpen" rel="Mozilla"/>
 </concept>
 
+<concept id="multithreaded" topic="prog">
+    <desc>Онај <ref c="application">програм</ref> чији се <ref c="zzz">процеси</ref> састоје од две или више <ref c="thread2">нити</ref>.</desc>
+    <!-- @упути: process -->
+
+    <term lang="en" gr="p">multithreaded</term>
+    <term gr="p">вишенитни</term>
+</concept>
+
 </concepts>
