@@ -132,6 +132,28 @@
     <details root="wpsr" rel="Мозила_тандерберд"/>
 </concept>
 
+<concept id="timeout">
+    <desc>Најдуже време које ће <ref c="application">програм</ref> чекати на одзив другог ~програма~, <ref c="zzz">система</ref> или <ref c="zzz">удаљеног</ref> <ref c="computer">рачунара</ref>, после издавања одређеног захтева. Ако одзив не стигне, захтев се обуставља.</desc>
+    <!-- @упути: operatingsystem remote -->
+
+    <term lang="en" gr="i">timeout</term>
+    <term env="fed" gr="i">време чекања</term>
+    <term env="gnm" gr="i">временски рок</term>
+    <term env="gnm" gr="i">време прекорачења</term>
+    <term env="kde uk" gr="i">прековреме</term>
+
+    <details root="wpen" rel="Timeout_(computing)"/>
+</concept>
+
+<concept id="timeout_g">
+    <desc>Обуставити <ref c="action">~радњу|moz:дејство~</ref> због истека <ref c="timeout">~прековремена|fed:времена чекања|gnm:временског рока~</ref>.</desc>
+
+    <term lang="en" gr="i">time out</term>
+    <term env="gnm kde uk" gr="pomr">истекло време …</term>
+    <term env="gnm kde uk" gr="pomr">истекло је време за …</term>
+    <term env="moz" gr="g">истећи</term>
+</concept>
+
 <concept id="tool">
     <desc>Функционални део <ref c="application">програма</ref> намењен извршавању једне уске, заокружене радње над подацима. Активира се дугметом на <ref c="toolbar">~траци алатки|fed:палети са алатима|gnm ooo:палети алатки|moz:алатној траци~</ref>, ставком менија, <ref c="shortcut">~пречицом|moz:скраћеницом~</ref> с <ref c="zzz">тастатуре</ref>, и сл. Кориснику се често представља у виду <ref c="pointer">~показивача|fed:курсора~</ref> одређеног облика, или засебног <ref c="dialog">~прозорчића|kde:дијалога|moz:прозора~</ref>.</desc>
     <!-- @упути: keyboard -->
