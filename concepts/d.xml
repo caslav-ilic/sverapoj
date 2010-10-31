@@ -2,7 +2,7 @@
 <concepts>
 
 <concept id="dataengine">
-    <desc><ref c="plasma2">Плазма</ref> <ref c="plugin">~прикључак|fed gnm ooo:додатак~</ref> за добављање одређеног типа података, понекад и њихову визуелизацију. Обично се користе у ~плазма~ <ref c="zzz">виџетима</ref>, нпр. за надзор стања батерије на <ref c="zzz">лаптопу</ref>, извештај о временској прогнози, <ref c="zzz">претрагу</ref> извора на <ref c="zzz">Интернету</ref>, итд.</desc>
+    <desc><ref c="plasma_p">Плазма</ref> <ref c="plugin">~прикључак|fed gnm ooo:додатак~</ref> за добављање одређеног типа података, понекад и њихову визуелизацију. Обично се користе у ~плазма~ <ref c="zzz">виџетима</ref>, нпр. за надзор стања батерије на <ref c="zzz">лаптопу</ref>, извештај о временској прогнози, <ref c="zzz">претрагу</ref> извора на <ref c="zzz">Интернету</ref>, итд.</desc>
     <!-- @упути: widget2 laptop internet search -->
 
     <term lang="en" env="kde" gr="is">data engine</term>
@@ -133,7 +133,7 @@
 </concept>
 
 <concept id="download"
-         related="download2 upload">
+         related="download_i upload">
     <desc>Од <ref c="file">~датотека|kde:фајлова~</ref> изворно смештених негде у <ref c="network">мрежи</ref> (посебно на <ref c="zzz">Интернету</ref>) начинити <ref c="zzz">копије</ref> на локалном <ref c="computer">рачунару</ref>. Традиционални ~мрежни~ извори су <ref c="server">сервери</ref> (нпр. <ref c="zzz">ФТП</ref>), а у новије време и <ref c="zzz">п2п</ref> мреже (попут <ref c="zzz">битторента</ref>).</desc>
     <!-- @упути: internet copy2 ftp p2p torrent -->
 
@@ -145,8 +145,8 @@
     <details root="wpen" rel="Uploading_and_downloading"/>
 </concept>
 
-<concept id="download2"
-         related="upload2">
+<concept id="download_i"
+         related="upload_i">
     <desc>Заокружен пакет <ref c="file">~датотека|kde:фајлова~</ref> на располагању за <ref c="download">~преузимање|fed moz gnm:примање~</ref>.</desc>
 
     <term lang="en" gr="i">download</term>

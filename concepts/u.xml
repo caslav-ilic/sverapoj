@@ -13,7 +13,7 @@
 </concept>
 
 <concept id="upload"
-         related="upload2">
+         related="upload_i">
     <desc>Начинити <ref c="zzz">копију</ref> <ref c="file">~датотеке|kde:фајла~</ref> са локалног <ref c="computer">рачунара</ref> негде у <ref c="network">мрежи</ref>, тако да буде трајно или привремено, слободно или ограничено, доступна за <ref c="download">преузимање</ref>.</desc>
     <!-- @упути: copy2 -->
 
@@ -27,8 +27,8 @@
     <comment>Претресање израза: <link url="http://groups.google.com/group/sorta/browse_thread/thread/9bc4317e642fb803">Сорта</link>.</comment>
 </concept>
 
-<concept id="upload2"
-         related="download2">
+<concept id="upload_i"
+         related="download_i">
     <desc>Заокружен пакет <ref c="file">~датотека|kde:фајлова~</ref> намењен <ref c="upload">~отпремању|fed moz gnm:слању~</ref>.</desc>
 
     <term lang="en" gr="i">upload</term>

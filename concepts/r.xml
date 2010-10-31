@@ -55,21 +55,21 @@
     <comment>Претресање израза: <link url="http://groups.google.com/group/sorta/browse_thread/thread/4fe3b2036348a442">Сорта</link>.</comment>
 </concept>
 
-<concept id="render2">
+<concept id="render_p">
     <desc>Који изводи <ref c="render">рендеровање</ref> или се користи у том поступку.</desc>
 
     <term lang="en" gr="p">render</term>
     <term env="kde uk" gr="p">рендерски</term>
 </concept>
 
-<concept id="render3">
+<concept id="render_pb">
     <desc>Који је постао <ref c="render">рендеровањем</ref>.</desc>
 
     <term lang="en" gr="p">rendered</term>
     <term env="kde uk" gr="p">рендеровани</term>
 </concept>
 
-<concept id="render4">
+<concept id="render_i">
     <desc>Крајњи резултат поступка <ref c="render">рендеровања</ref>.</desc>
 
     <term lang="en" gr="i">rendering</term>
@@ -101,7 +101,7 @@
 </concept>
 
 <concept id="rightclick"
-         related="leftclick middleclick rightclick2">
+         related="leftclick middleclick rightclick_i">
     <desc>Притиснути десно дугме <ref c="zzz">миша</ref> или уређаја сличне намене ради активирања одређене радње у <ref c="application">програму</ref>.</desc>
     <!-- @упути: mouse -->
 
@@ -112,8 +112,8 @@
     </eterm>
 </concept>
 
-<concept id="rightclick2"
-         related="leftclick2 middleclick2 rightclick">
+<concept id="rightclick_i"
+         related="leftclick_i middleclick_i rightclick">
     <desc>Поступак или тренутак притиска на десно дугме <ref c="zzz">миша</ref> или уређаја сличне намене.</desc>
     <!-- @упути: mouse -->
 
@@ -144,7 +144,7 @@
 </concept>
 
 <concept id="runner">
-    <desc><ref c="plasma2">Плазма</ref> <ref c="plugin">~прикључак|fed gnm ooo:додатак~</ref> за контекстно-осетљиво извођење радњи над текстом који корисник уноси. То може бити извршавање <ref c="command">~наредбе|moz:команде~</ref> одређене унетим текстом, израчунавање математичких израза, претварање физичких јединица, отварање <ref c="webpage">~веб страница|moz:веб страна~</ref>, итд. У <ref c="zzz">КДЕ-у</ref> се ови ~прикључци|fed gnm ooo:додаци~ испољавају најпре у <ref c="dialog">~прозорчету|kde:дијалогу|moz:прозору~</ref> „Изврши ~наредбу|moz:команду~...“, али их може користити било који <ref c="zzz">КДЕ</ref> <ref c="application">програм</ref>.</desc>
+    <desc><ref c="plasma_p">Плазма</ref> <ref c="plugin">~прикључак|fed gnm ooo:додатак~</ref> за контекстно-осетљиво извођење радњи над текстом који корисник уноси. То може бити извршавање <ref c="command">~наредбе|moz:команде~</ref> одређене унетим текстом, израчунавање математичких израза, претварање физичких јединица, отварање <ref c="webpage">~веб страница|moz:веб страна~</ref>, итд. У <ref c="zzz">КДЕ-у</ref> се ови ~прикључци|fed gnm ooo:додаци~ испољавају најпре у <ref c="dialog">~прозорчету|kde:дијалогу|moz:прозору~</ref> „Изврши ~наредбу|moz:команду~...“, али их може користити било који <ref c="zzz">КДЕ</ref> <ref c="application">програм</ref>.</desc>
     <!-- @упути: kde kde2 -->
 
     <term lang="en" env="kde" gr="i">runner</term>

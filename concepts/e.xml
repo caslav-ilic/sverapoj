@@ -65,7 +65,7 @@
     <details root="wpen" rel="Encryption"/>
 </concept>
 
-<concept id="encryption2">
+<concept id="encryption_p">
     <!-- @види: key2 -->
     <desc>Који је намењен <ref c="encrypt">шифровању</ref> података, уређај, <ref c="software">софтвер</ref> или <ref c="zzz">алгоритам</ref> којим се оно изводи.</desc>
     <!-- @упути: algorithm -->
@@ -119,7 +119,7 @@
 
 <concept id="extension"
          related="addon plugin">
-    <desc>Комад <ref c="software">софтвера</ref> који се по жељи корисника додаје у већи <ref c="application">програм</ref>, како би <em>допунио</em> или <em>изменио</em> могућности ~програма~. На пример, кориснику се може не допадати <ref c="default">подразумевани</ref> начин <ref c="download2">~преузимања|moz:пријема~</ref> <ref c="file">~датотека|kde:фајлова~</ref> у оквиру <ref c="webbrowser">~веб читача|kde:веб прегледача~</ref>, па га на овај начин заменити другим.</desc>
+    <desc>Комад <ref c="software">софтвера</ref> који се по жељи корисника додаје у већи <ref c="application">програм</ref>, како би <em>допунио</em> или <em>изменио</em> могућности ~програма~. На пример, кориснику се може не допадати <ref c="default">подразумевани</ref> начин <ref c="download_i">~преузимања|moz:пријема~</ref> <ref c="file">~датотека|kde:фајлова~</ref> у оквиру <ref c="webbrowser">~веб читача|kde:веб прегледача~</ref>, па га на овај начин заменити другим.</desc>
 
     <term lang="en" gr="i">plugin</term>
     <term lang="en" env="moz" gr="i">extension</term>

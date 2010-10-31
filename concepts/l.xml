@@ -23,7 +23,7 @@
 </concept>
 
 <concept id="leftclick"
-         related="leftclick2 middleclick rightclick">
+         related="leftclick_i middleclick rightclick">
     <desc>Притиснути лево дугме <ref c="zzz">миша</ref> или уређаја сличне намене ради активирања одређене радње у <ref c="application">програму</ref>.</desc>
     <!-- @упути: mouse -->
 
@@ -34,8 +34,8 @@
     </eterm>
 </concept>
 
-<concept id="leftclick2"
-         related="leftclick middleclick2 rightclick2">
+<concept id="leftclick_i"
+         related="leftclick middleclick_i rightclick_i">
     <desc>Поступак или тренутак притиска на лево дугме <ref c="zzz">миша</ref> или уређаја сличне намене.</desc>
     <!-- @упути: mouse -->
 
@@ -63,6 +63,15 @@
     <term env="fed ooo" gr="i">листа</term>
 </concept>
 
+<concept id="list_g">
+    <desc>Представити ставке у облику <ref c="list">~списка|ooo:листе~</ref>.</desc>
+
+    <term lang="en" gr="g">list</term>
+    <term env="fed gnm moz" gr="i">навести</term>
+    <term env="fed ooo" gr="i">излистати</term>
+    <term env="kde moz ooo uk" gr="i">набројати</term>
+</concept>
+
 <concept id="list2">
     <!-- @види: linkedlist -->
     <desc>Динамичка и уређена збирка података који се често могу <ref c="zzz">мењати</ref>, премештати један у односу на други, додавати или уклањати.</desc>
@@ -70,15 +79,6 @@
 
     <term lang="en" gr="i">list</term>
     <term gr="i">листа</term>
-</concept>
-
-<concept id="list3">
-    <desc>Представити ставке у облику <ref c="list">~списка|ooo:листе~</ref>.</desc>
-
-    <term lang="en" gr="g">list</term>
-    <term env="fed gnm moz" gr="i">навести</term>
-    <term env="fed ooo" gr="i">излистати</term>
-    <term env="kde moz ooo uk" gr="i">набројати</term>
 </concept>
 
 <concept id="littleendian"
@@ -110,7 +110,7 @@
 </concept>
 
 <concept id="log"
-         related="log2">
+         related="log_g">
     <desc>Хронолошки списак догађаја, где је сваки заведен са временом и кратким описом онога што се догодило. То могу бити системске поруке при <ref c="zzz">подизању</ref> <ref c="computer">рачунара</ref>, међусобне поруке учесника у <ref c="chat">~ћаскању|moz:разговору~</ref>, тренуци <ref c="login">пријављивања</ref> и <ref c="logout">одјављивања</ref> корисника̑, и слично.</desc>
     <!-- @упути: startup -->
 
@@ -122,7 +122,7 @@
     <details root="wpen" rel="Data_log"/>
 </concept>
 
-<concept id="log2"
+<concept id="log_g"
          related="log">
     <desc>Пратити одвијање извесног процеса и заводити битне моменте у <ref c="log">~дневник|ooo:евиденцију~</ref> догађаја.</desc>
 
@@ -147,7 +147,7 @@
     <details root="wpen" rel="Logging_(computer_security)"/>
 </concept>
 
-<concept id="login2"
+<concept id="login_p"
          related="login displaymanager">
     <desc>Који се односи на <ref c="login">пријављивање</ref>, нпр. путем којег се корисници пријављују, или којим се управља ~пријављеним~ корисницима.</desc>
 
@@ -170,7 +170,7 @@
     <details root="wpen" rel="Logging_(computer_security)"/>
 </concept>
 
-<concept id="logout2"
+<concept id="logout_p"
          related="logout">
     <desc>Који се односи на <ref c="logout">одјављивање</ref>, нпр. помоћу којег се корисници одјављују.</desc>
 

@@ -241,7 +241,7 @@
     <details root="wpen" rel="Character_(computing)"/>
 </concept>
 
-<concept id="character2"
+<concept id="character_p"
          related="character">
     <desc>Који се тиче <ref c="character">знакова</ref>, који је од њих састављен или њима намењен.</desc>
 
@@ -269,7 +269,7 @@
     <details root="wpen" rel="Point-and-click"/>
 </concept>
 
-<concept id="click2">
+<concept id="click_i">
     <desc>Поступак или тренутак <ref c="click">~кликтања|moz:притискања~</ref> <ref c="zzz">мишем</ref>.</desc>
     <!-- @упути: mouse -->
 

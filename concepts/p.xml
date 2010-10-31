@@ -112,7 +112,7 @@
     <details root="wpen" rel="Plasma_(KDE)"/>
 </concept>
 
-<concept id="plasma2">
+<concept id="plasma_p">
     <desc>Који је начињен над технологијама <ref c="plasma">Плазме</ref>, заснивајући на њима своју функционалност, појаву и уклапање у <ref c="desktop2">~радно окружење|kde:радну површ~</ref>.</desc>
 
     <term lang="en" env="kde" gr="i">Plasma</term>

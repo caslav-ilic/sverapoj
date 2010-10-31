@@ -26,7 +26,7 @@
 </concept>
 
 <concept id="middleclick"
-         related="leftclick middleclick2 rightclick">
+         related="leftclick middleclick_i rightclick">
     <desc>Притиснути средње дугме <ref c="zzz">миша</ref> или уређаја сличне намене ради активирања одређене радње у <ref c="application">програму</ref>.</desc>
     <!-- @упути: mouse -->
 
@@ -37,8 +37,8 @@
     </eterm>
 </concept>
 
-<concept id="middleclick2"
-         related="leftclick2 middleclick rightclick2">
+<concept id="middleclick_i"
+         related="leftclick_i middleclick rightclick_i">
     <desc>Поступак или тренутак притиска на средње дугме <ref c="zzz">миша</ref> или уређаја сличне намене.</desc>
     <!-- @упути: mouse -->
 

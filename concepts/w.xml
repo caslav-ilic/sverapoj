@@ -27,7 +27,7 @@
     <details root="wpen" rel="World_Wide_Web"/>
 </concept>
 
-<concept id="web2">
+<concept id="web_p">
     <desc>Који се налази на <ref c="web">~Вебу|gnm:Интернету~</ref>, или је намењен прегледању и сакупљању података са ~Веба|gnm:Интернета~.</desc>
 
     <term lang="en" gr="p">web</term>
