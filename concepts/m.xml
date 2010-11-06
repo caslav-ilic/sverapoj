@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concepts>
 
-<concept id="manager"
-         related="filemanager">
-    <!-- @види: windowmanager packagemanager downloadmanager -->
-    <desc><ref c="application">Програм</ref> или део програма који служи за руковање објектима једног одређеног типа, што могу бити: <ref c="file">~датотеке|kde:фајлови~</ref>, слике, <ref c="zzz">прозори</ref>, <ref c="zzz">пакети</ref>, итд. Под руковањем се подразумева <ref c="zzz">копирање</ref>, <ref c="zzz">премештање</ref>, <ref c="zzz">брисање</ref>, <ref c="zzz">преименовање</ref>, <ref c="zzz">инсталирање</ref>, <ref c="zzz">деинсталирање</ref>, итд., али обично не и мењање самог садржаја објеката.</desc>
-    <!-- @упути: package window copy2 move delete install rename deinstall -->
-
-    <term lang="en" gr="i">manager</term>
-    <term env="fed gnm moz" gr="i">управљач</term>
-    <term env="fed gnm moz ooo uk" gr="i">управник</term>
-    <term env="kde moz ooo" gr="i">менаџер</term>
-</concept>
-
 <concept id="mailinglist">
     <desc>Начин групне комуникације путем <ref c="email">~е-поште|moz:ел. поште~</ref>, при коме сви учесници у расправи поруке шаљу на једну исту <ref c="emailaddress">~адресу е-поште|moz:адресу ел. поште~</ref>.  ~Е-пошта|moz:Ел. пошта~ која стигне на ту адресу се затим аутоматски прослеђује свим учесницима у расправи.</desc>
 
@@ -23,6 +11,18 @@
     <term env="id" gr="is">списак прималаца</term>
 
     <details root="wpen" rel="Mailing_lists"/>
+</concept>
+
+<concept id="manager"
+         related="filemanager">
+    <!-- @види: windowmanager packagemanager downloadmanager -->
+    <desc><ref c="application">Програм</ref> или део програма који служи за руковање објектима једног одређеног типа, што могу бити: <ref c="file">~датотеке|kde:фајлови~</ref>, слике, <ref c="zzz">прозори</ref>, <ref c="zzz">пакети</ref>, итд. Под руковањем се подразумева <ref c="zzz">копирање</ref>, <ref c="zzz">премештање</ref>, <ref c="zzz">брисање</ref>, <ref c="zzz">преименовање</ref>, <ref c="zzz">инсталирање</ref>, <ref c="zzz">деинсталирање</ref>, итд., али обично не и мењање самог садржаја објеката.</desc>
+    <!-- @упути: package window copy2 move delete install rename deinstall -->
+
+    <term lang="en" gr="i">manager</term>
+    <term env="fed gnm moz" gr="i">управљач</term>
+    <term env="fed gnm moz ooo uk" gr="i">управник</term>
+    <term env="kde moz ooo" gr="i">менаџер</term>
 </concept>
 
 <concept id="middleclick"
