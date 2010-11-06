@@ -25,6 +25,19 @@
     <term env="kde moz ooo" gr="i">менаџер</term>
 </concept>
 
+<concept id="manpage"
+         related="infopage">
+    <desc>Основни облик <ref c="software">софтверске</ref> документације под <ref c="zzz">оперативним системима</ref> типа <ref c="zzz">уникс</ref>. Посебно погодан за брзо ишчитавање о <ref c="command">~наредбама|moz:командама~</ref> <ref c="shell">~љуске|kde:шкољке~</ref> непосредно у <ref c="zzz">терминалу</ref>, где се позива извршавањем <em>man &lt;наредба&gt;</em>.</desc>
+    <!-- @упути: operatingsystem unix terminal -->
+
+    <term lang="en" gr="i">man page</term>
+    <term env="fed" gr="i">man страница</term>
+    <term env="gnm" gr="i">man страна</term>
+    <term env="kde uk" gr="i">упутна страница</term>
+
+    <details root="wpen" rel="Man_page"/>
+</concept>
+
 <concept id="middleclick"
          related="leftclick middleclick_i rightclick">
     <desc>Притиснути средње дугме <ref c="zzz">миша</ref> или уређаја сличне намене ради активирања одређене радње у <ref c="application">програму</ref>.</desc>

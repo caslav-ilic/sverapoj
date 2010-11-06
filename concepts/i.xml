@@ -24,6 +24,18 @@
     <term env="moz" gr="is">тема сличица</term>
 </concept>
 
+<concept id="infopage">
+    <!-- @види: texinfo -->
+    <desc>Облик <ref c="software">софтверске</ref> документације налик на <ref c="manpage">~упутне странице|fed:man странице|gnm:man стране~</ref>, али са богатијим организационим и типографским могућностима.</desc>
+
+    <term lang="en" gr="i">info page</term>
+    <term env="gnm" gr="i">info страна</term>
+    <term env="gnm" gr="i">инфо страна</term>
+    <term env="kde uk" gr="i">инфо страница</term>
+
+    <details root="wpen" rel="Info_(Unix)"/>
+</concept>
+
 <concept id="interface"
          related="frontend">
     <desc>Склоп помоћу којега корисник општи са <ref c="application">програмом</ref>, издајући <ref c="command">~наредбе|moz:команде~</ref> и пратећи одзиве. Може бити различитих типова, нпр. текстуалног, графичког или гласовног, као и њихових комбинација. У графичком контексту, често га чини <ref c="zzz">прозор</ref> с распоређеним <ref c="widget">~виџетима|gnm:контролним елементима|fed:графичким додацима~</ref>.</desc>
