@@ -339,6 +339,16 @@
     <details root="wpsr" rel="Рачунар"/>
 </concept>
 
+<concept id="contributor"
+         related="developer">
+    <desc>Особа која учествује у развоју неког комада <ref c="software">софтвера</ref> тиме што додаје нови или прерађује постојећи <ref c="source">изворни</ref> материјал.</desc>
+
+    <term lang="en" gr="i">contributor</term>
+    <term env="fed gnm kde uk" gr="i">доприносилац</term>
+    <term env="fed gnm" gr="i">сарадник</term>
+    <term env="moz" gr="i">приложник</term>
+</concept>
+
 <concept id="copy"
          related="clipboard cut paste">
     <desc>Учинити да текст или други садржај из једног документа постане доступан кроз <ref c="clipboard">~fed gnm uk:списак исечака|kde:клипборд|moz:бележницу|ooo:оставу~</ref>.</desc>
