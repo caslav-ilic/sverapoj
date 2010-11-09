@@ -164,6 +164,47 @@
     <details root="wpsr" rel="Софтвер"/>
 </concept>
 
+<concept id="source" topic="prog">
+    <desc>Укупност <ref c="file">~датотека|kde:фајлова~</ref>, и њихово распоређење у <ref c="zzz">~стабло фасцикли|moz unx:стабло директоријума~</ref>, из које се <ref c="zzz">гради</ref> неки комад <ref c="software">софтвера</ref>. Чини је у основи <ref c="sourcecode">изворни код</ref>, а затим и графика, звукови, документација, итд.</desc>
+    <!-- @упути: directorytree build -->
+
+    <term lang="en" gr="i">source</term>
+    <term gr="i">извор</term>
+</concept>
+
+<concept id="source_p" topic="prog">
+    <desc>Који је део <ref c="source">извора</ref> или садржи елементе ~извора~, посебно <ref c="sourcecode">изворни код</ref>.</desc>
+
+    <term lang="en" gr="p">source</term>
+    <term gr="p">изворни</term>
+</concept>
+
+<concept id="source2">
+    <!-- @види: destination -->
+    <desc>Место са којег се подаци читају у неком поступку над <ref c="filesystem">~системом датотека|kde:фајл системом~</ref>.</desc>
+
+    <term lang="en" gr="i">source</term>
+    <term gr="i">извор</term>
+</concept>
+
+<concept id="sourcecode" topic="prog"
+         related="source">
+    <!-- @види: binary -->
+    <desc><ref c="code">Ко̂д</ref> којим је потпуно дефинисан и из којег се <ref c="zzz">гради</ref> неки комад <ref c="software">софтвера</ref>.</desc>
+    <!-- @упути: build -->
+
+    <eterm lang="en" gr="is">
+        <nom>source code</nom>
+        <decl gr="i">source</decl>
+    </eterm>
+    <eterm gr="is">
+        <nom>изворни код</nom>
+        <decl gr="i">код</decl>
+    </eterm>
+
+    <details root="wpsr" rel="Изворни_код"/>
+</concept>
+
 <concept id="space">
     <!-- @види: tab2 -->
     <desc>Основни <ref c="character">знак</ref> за раздвајање речи у тексту, који између њих визуелно оставља празан простор приближне ширине од пола до једног просечног слова. Најчешће употребљаван међу <ref c="whitespace">~празнинама|ooo:бланко знаковима~</ref>.</desc>
@@ -220,8 +261,8 @@
 </concept>
 
 <concept id="syntaxhighlighting">
-    <desc>Визуелно разликовање синтаксичких елемената у тексту са формалном структуром, попут <ref c="zzz">изворног ко̑да</ref>, <ref c="zzz">текста с обележавањем</ref>, програмских <ref c="configuration">~подешавања|kde:постава~</ref>, итд. Обично присутно у <ref c="texteditor">уређивачима текста</ref>, у виду придавања различитих боја и стилова <ref c="font">фонта</ref> елементима синтаксе, одређених типом <ref c="file">~датотеке|kde:фајла~</ref> ~која|kde:који~ се посматра.</desc>
-    <!-- @упути: sourcecode markup -->
+    <desc>Визуелно разликовање синтаксичких елемената у тексту са формалном структуром, попут <ref c="sourcecode">изворног кода</ref>, <ref c="zzz">текста с обележавањем</ref>, програмских <ref c="configuration">~подешавања|kde:постава~</ref>, итд. Обично присутно у <ref c="texteditor">уређивачима текста</ref>, у виду придавања различитих боја и стилова <ref c="font">фонта</ref> елементима синтаксе, одређених типом <ref c="file">~датотеке|kde:фајла~</ref> ~која|kde:који~ се посматра.</desc>
+    <!-- @упути: markup -->
 
     <term lang="en" gr="is">syntax highlighting</term>
     <term gr="is">истицање синтаксе</term>

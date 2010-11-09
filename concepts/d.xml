@@ -75,8 +75,8 @@
 </concept>
 
 <concept id="developer" topic="prog">
-    <desc><ref c="zzz">Програмер</ref> који се, поред непосредног писања <ref c="zzz">кода</ref>, бави и неким другим елементима израде и одржавања <ref c="application">програма</ref>. То могу бити <ref c="zzz">пројектовање</ref>, <ref c="zzz">тестирање</ref>, <ref c="zzz">документовање</ref>, <ref c="zzz">подршка</ref>, итд.</desc>
-    <!-- @упути: programmer code design test document2 support -->
+    <desc><ref c="zzz">Програмер</ref> који се, поред непосредног писања <ref c="code">кода</ref>, бави и неким другим елементима израде и одржавања <ref c="application">програма</ref>. То могу бити <ref c="zzz">пројектовање</ref>, <ref c="zzz">тестирање</ref>, <ref c="zzz">документовање</ref>, <ref c="zzz">подршка</ref>, итд.</desc>
+    <!-- @упути: programmer design test document2 support -->
 
     <term lang="en" env="gnm fed pr" gr="i">developer</term>
     <term lang="en" env="gnm fed" gr="i">programmer</term>

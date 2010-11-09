@@ -42,8 +42,8 @@
 
 <concept id="header3" topic="prog"
          related="headerfile">
-    <desc>Део <ref c="zzz">ко̑да</ref> који ~декларише~ објекте, као што су <ref c="zzz">функције</ref> и <ref c="zzz">класе</ref>, у <ref c="zzz">програмским језицима</ref> који праве разлику између <ref c="zzz">декларације</ref> и <ref c="zzz">дефиниције</ref> објекта (нпр. <ref c="zzz">~Цe|kde:Ц~</ref>).</desc>
-    <!-- @упути: programminglanguage declaration definition code c_lang -->
+    <desc>Део <ref c="code">кода</ref> који ~декларише~ објекте, као што су <ref c="zzz">функције</ref> и <ref c="zzz">класе</ref>, у <ref c="zzz">програмским језицима</ref> који праве разлику између <ref c="zzz">декларације</ref> и <ref c="zzz">дефиниције</ref> објекта (нпр. <ref c="zzz">~Цe|kde:Ц~</ref>).</desc>
+    <!-- @упути: programminglanguage declaration definition c_lang -->
 
     <term lang="en" gr="i">header</term>
     <term gr="i">заглавље</term>
@@ -59,8 +59,8 @@
 <concept id="headerfile" topic="prog"
          related="header3">
     <!-- @види: implementationfile -->
-    <desc><ref c="file">~Датотека|kde:Фајл~</ref> ~која|kde:који~ садржи <ref c="zzz">декларације</ref> у <ref c="zzz">програмском ко̑ду</ref>. Посебном директивом се <ref c="zzz">укључује</ref> у друге ~датотеке|kde:фајлове~ у којима су те ~декларације~ потребне.</desc>
-    <!-- @упути: declaration code include -->
+    <desc><ref c="file">~Датотека|kde:Фајл~</ref> ~која|kde:који~ садржи <ref c="zzz">декларације</ref> у <ref c="code">програмском коду</ref>. Посебном директивом се <ref c="zzz">укључује</ref> у друге ~датотеке|kde:фајлове~ у којима су те ~декларације~ потребне.</desc>
+    <!-- @упути: declaration include -->
 
     <term lang="en" gr="is">header file</term>
     <term env="fed gnm uk" gr="is">датотека заглавља</term>
