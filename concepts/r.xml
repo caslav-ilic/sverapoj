@@ -85,6 +85,28 @@
     <term env="id" gr="i">исцртавач</term>
 </concept>
 
+<concept id="repository">
+   <desc>Место одакле се на аутоматизован начин могу добавити и <ref c="zzz">инсталирати</ref> разни <ref c="application">програми</ref>, како по први пут тако и касније ради <ref c="zzz">надоградње</ref>. Обично се налази негде на <ref c="network">мрежи</ref> и важи само за одређени <ref c="zzz">оперативни систем</ref>.</desc>
+    <!-- @упути: install upgrade operatingsystem -->
+
+   <term lang="en" gr="i">repository</term>
+   <term env="fed kde uk" gr="i">ризница</term>
+   <term env="fed" gr="i">спремиште</term>
+   <term env="fed" gr="i">репозиторијум</term>
+   <term env="gnm" gr="i">складиште</term>
+
+   <details root="wpen" rel="Software_repository"/>
+</concept>
+
+<concept id="repository2" topic="prog">
+    <desc><ref c="directory">~Фасцикла|moz:Директоријум~</ref> у ~којој|moz:којем~ <ref c="zzz">СУВ</ref> одржава <ref c="zzz">~стабло фасцикли|moz unx:стабло директоријума~</ref> неког <ref c="source">извора</ref>. Често је омогућен приступ кроз <ref c="network">мрежу</ref>, тако да ~СУВ~ <ref c="zzz">поступке</ref> могу обављати и подесни <ref c="client">клијенти</ref> на <ref c="zzz">удаљеним</ref> <ref c="computer">рачунарима</ref>.</desc>
+    <!-- @упути: vcs directorytree remote operation -->
+
+   <term lang="en" gr="i">repository</term>
+   <term env="fed kde uk" gr="i">ризница</term>
+   <term env="gnm" gr="i">складиште</term>
+</concept>
+
 <concept id="reset">
     <!-- @види: restart reload -->
     <desc>Из тренутног стања пребацити објекат у неко почетно, <ref c="default">подразумевано</ref>, чисто од временом накупљеног историјата радњи или грешака. Може се учинити над делом садржаја неког документа (нпр. стиловима у тексту), <ref c="application">програмима</ref> и њиховим <ref c="configuration">~подешавањем|kde:поставама~</ref>, или пак целим <ref c="zzz">оперативним системом</ref> уз поновно покретање <ref c="computer">рачунара</ref>.</desc>
