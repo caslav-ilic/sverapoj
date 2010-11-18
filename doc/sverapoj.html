@@ -13,13 +13,13 @@
 <div class="titlepage">
 <div>
 <div>
-<h2 class="title"><a name="id276521" id="id276521"></a>Израда Сверачунарског појмовника</h2>
+<h2 class="title"><a name="id459062" id="id459062"></a>Израда Сверачунарског појмовника</h2>
 </div>
 <div>
 <p class="copyright">Ауторска права © 2008 Часлав Илић</p>
 </div>
 <div>
-<div class="legalnotice" title="Правна напомена"><a name="id276544" id="id276544"></a>
+<div class="legalnotice" title="Правна напомена"><a name="id459092" id="id459092"></a>
 <p>Копирање, дељење и/или мењање овог документа дозвољено је под условима Гнуове Лиценце слободне документације, верзија 1.2.</p>
 </div>
 </div>
@@ -31,10 +31,10 @@
 </tr>
 <tr>
 <td align="left"></td>
-<td align="left">14. мај 2010.</td>
+<td align="left">18. новембар 2010.</td>
 </tr>
 <tr>
-<td align="left" colspan="2">Последња измена (ризничка рев. b784621c06fc37b6b7b9036d50d3d7f6d9a371fa).</td>
+<td align="left" colspan="2">Последња измена (ризничка рев. d13f3d842d224444f221efb6bf35417336327b6b).</td>
 </tr>
 <tr>
 <td align="left"></td>
@@ -164,23 +164,29 @@ $ dgproc/po/update-po.sh compile # градња превода
 $ export PATH=$PWD/dgproc:$PATH
 </pre>
 <p>после чега су скрипте спремне за извршавање. Како се неретко допуњује новим могућностима и исправкама, повремено ову ризницу треба освежити (<code class="literal">git pull</code>), уз понављање корака градње превода.</p>
-<p>Главна скрипта за обраду појмовника позива се наредбом <span class="command"><strong>dgproc.py</strong></span>. У најосновнијем облику, ова се наредба над појмовником извршава овако:</p>
+<p>Да се скрипте не би увек ручно позивале, за најчешће потребе написани су справљачки циљеви који се извршавају са:</p>
+<pre class="programlisting">
+$ cd &lt;ризница-Појмовника&gt;
+$ make &lt;циљ&gt;
+</pre>
+<p>Списак свих дефинисаних циљева добија се извршавањем <span class="command"><strong>make</strong></span> без аргумената (или с циљем <code class="literal">help</code>). Најосновнији циљ је <code class="literal">check</code>, за проверу техничке ваљаности целокупног Појмовника, који уредници извршавају пре сваке предаје у ризницу. Други користан циљ је <code class="literal">dvg-html</code>, којим се гради општи ХТМЛ поглед у директоријуму <code class="filename">dvg-html/</code> (задато је да се овај директоријум игнорише у СУВ поступцима, тако да не смета да стоји у локалној копији ризнице).</p>
+<p>Радње које нису дефинисане справљачким правилима могу се ручно извршити главном скриптом за обраду Појмовника, <span class="command"><strong>dgproc.py</strong></span>. У најосновнијем облику, она се извршава овако:</p>
 <pre class="programlisting">
 $ cd &lt;ризница-Појмовника&gt;
 $ dgproc.py top.xml
 </pre>
-<p>(датотека <code class="filename">top.xml</code> прикупља све остале у Појмовнику; о структури ризнице Појмовника у <a class="link" href="#s-struct-tree" title="3.2.&nbsp;Ризничко стабло">посебном одељку</a>). Ова наредба ће учини само једно: проверити ваљаност Појмовника, пријављујући све пронађене грешке. Уредници је извршавају када су нешто мењали, како би оверили техничку исправност измена.</p>
-<p>У проширеном облику, наредба <span class="command"><strong>dgproc.py</strong></span> провлачи појмовник кроз <span class="emphasis"><em>сита</em></span> разноразних намена, од којих свако прима одређене параметре. На пример, провлачењем кроз сито <code class="literal">html</code> гради се општи ХТМЛ поглед који стоји у поддиректоријуму <code class="filename">html/</code> ризнице:</p>
+<p>(датотека <code class="filename">top.xml</code> обједињује све остале које чине тело Појмовника; структура ризнице описана је у <a class="link" href="#s-struct-tree" title="3.2.&nbsp;Ризничко стабло">засебном одељку</a>). Ова наредба ће само проверити техничку ваљаност Појмовника, као што то чини <code class="literal">make check</code> (али можда мање детаљно).</p>
+<p>У проширеном облику, <span class="command"><strong>dgproc.py</strong></span> провлачи појмовник кроз <span class="emphasis"><em>сита</em></span> различитих намена, од којих свако прихвата одређене параметре. На пример, провлачењем кроз сито <code class="literal">html</code> гради се општи ХТМЛ поглед:</p>
 <pre class="programlisting">
-$ dgproc.py html top.xml -sbase:html/
+$ dgproc.py html top.xml -sbase:test-html/
 </pre>
-<p>Први параметар је назив сита, други збирна датотека појмовника, а параметри ситу шаљу се опцијом <code class="literal">-s&lt;парам&gt;:&lt;вредност&gt;</code>; овде <code class="literal">base:html/</code> каже у ком директоријуму треба саградити ХТМЛ поглед. Да би се начинио ХТМЛ поглед специјализован нпр. за окружење КДЕ, требало би издати:</p>
+<p>Први параметар је назив сита, други збирна датотека Појмовника, а затим следе параметри сита, који се задају опцијом <code class="literal">-s&lt;парам&gt;:&lt;вредност&gt;</code>. Овде <code class="literal">base:test-html/</code> каже у ком директоријуму треба саградити ХТМЛ поглед. Да би се начинио ХТМЛ поглед специјализован за неко окружење, нпр. КДЕ, треба издати:</p>
 <pre class="programlisting">
-$ dgproc.py html top.xml -senv:kde -sbase:html-kde/
+$ dgproc.py html top.xml -senv:kde -sbase:test-html-kde/
 </pre>
-<p>где је <code class="literal">kde</code> један од кључева окружења̂ дефинисаних у Појмовнику. А сасвим другачији поглед, на пример ПО датотека за одређено окружење, добија се овако:</p>
+<p>где је <code class="literal">kde</code> један од кључева окружења̂ дефинисаних у Појмовнику. А сасвим другачији поглед, на пример ПО датотека за једно окружење, добија се овако:</p>
 <pre class="programlisting">
-$ dgproc.py po top.xml -senv:kde -solang:en -stlang:sr -sfile:kde.po
+$ dgproc.py po top.xml -senv:kde -solang:en -stlang:sr -sfile:test-kde.po
 </pre>
 <p>Детаљна документација за <span class="command"><strong>dgproc.py</strong></span> и расположива сита може се наћи у њеној ризници — како корисничка, тако и развојна за писање нових сита.</p>
 </div>
