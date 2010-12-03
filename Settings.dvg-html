@@ -4,5 +4,5 @@ SIEVES:=html
 SIEVEFLAGS:=-sbase:$(TARGET)
 
 help:
-	@echo -e "\tmake dvg-html\t\tизградња појмовника у ХТМЛу"
+	@echo -e "\tmake dvg-html\t\tгради појмовник у ХТМЛ-у"
 	@echo -e "\t\t\t\t(потребно је да је инсталиран dgproc.py)"

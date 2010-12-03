@@ -3,7 +3,10 @@
 all: html
 
 help:
-	@echo -e "\tmake doc\t\tправи документацију у директоријуму doc/"
+	@echo -e "\tmake all\t\tгради све доступне формате документације"
+	@echo -e "\tmake html\t\tгради ХТМЛ документацију"
+	@echo -e "\tmake clean\t\tуклања све изграђене формате документације"
+	@echo -e "\tmake help\t\tисписује ову помоћ"
 
 html: sverapoj.docbook
 	rm -rf html && mkdir html
@@ -23,4 +26,3 @@ cat $< | sed "s/@date@/$$date/" | sed "s/@vcsrev@/$$vcsrev/" > $<.tmp
 
 clean:
 	rm -rf html *.tmp
-

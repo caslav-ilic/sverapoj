@@ -19,11 +19,14 @@ DVG_TARGETS:=$(patsubst Settings.%,%,$(DVG_SETTINGS_FILES))
 help:
 	@echo -e "Доступни циљеви:\n"
 	@echo -e "\tРежијски циљеви:\n"
-	@echo -e "\tmake all\t\tизграђује све доступне формате"
-	@echo -e "\tmake check\t\tпровера исправности појмовника"
+	@echo -e "\tmake all\t\tгради све доступне формате појмовника"
+	@echo -e "\tmake check\t\tпроверава исправност појмовника"
 	@echo -e "\tmake clean\t\tуклања генерисане датотеке"
-	@echo -e "\tmake help\t\tиспис ове помоћи"
-	@make -s -C doc help
+	@echo -e "\tmake doc\t\tгради документацију (make all у doc/)"
+	@echo -e "\tmake www\t\tгради поједине формате појмовника"
+	@echo -e "\t\t\t\tи документације и синхронизује веб сајт"
+	@echo -e "\t\t\t\t(неопходан алијас www-sverapoj у постави ССХ-а)"
+	@echo -e "\tmake help\t\tисписује ову помоћ"
 	@echo -e "\n\tИзградња појмовника:\n"
 	@for a in $(DVG_SETTINGS_FILES); do make -s -f $$a help; done
 
@@ -40,3 +43,10 @@ clean:
 
 dvg-%: $(TOP_XML) $(DEPS)
 	INCLUDEMAKE="Settings.$@" make -f Makefile.common common
+
+www: dvg-html doc
+	mkdir www-tmp
+	ln -s ../dvg-html www-tmp/gloss
+	ln -s ../doc/html www-tmp/doc
+	rsync -raLv --delete www-tmp/ www-sverapoj:sverapoj.nedohodnik.net/
+	rm -rf www-tmp
