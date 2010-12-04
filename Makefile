@@ -49,5 +49,7 @@ www: dvg-html doc
 	ln -s ../dvg-html www-tmp/gloss
 	ln -s ../doc/html www-tmp/doc
 	touch -d 2010-12-04 www-tmp/favicon.gif www-tmp/favicon.ico
+	echo '<?php header("Location: http://sverapoj.nedohodnik.net/gloss/");?>' > www-tmp/index.php
+	touch -d 2010-12-04 www-tmp/index.php
 	rsync -raLv --delete www-tmp/ www-sverapoj:sverapoj.nedohodnik.net/
 	rm -rf www-tmp
