@@ -45,4 +45,15 @@
     <details root="wpen" rel="Virtual_desktop"/>
 </concept>
 
+<concept id="volume2"
+         related="filesystem">
+    <!-- @види: storage partition -->
+    <desc>Место за чување података у оквиру једног <ref c="filesystem">система датотека</ref>. Најчешће обухвата само један физички <ref c="zzz">медијум</ref> или <ref c="zzz">партицију</ref>, али као логичка организација сметшања података може да обухвати и више медијума.</desc>
+
+    <term env="id">простор</term>
+    <term env="id">јединица</term>
+
+    <details root="wpen" rel="Volume_(computing)"/>
+</concept>
+
 </concepts>
