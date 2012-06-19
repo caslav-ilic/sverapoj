@@ -43,12 +43,11 @@
     <!-- @упути: internet link -->
 
     <term lang="en" gr="is">web browser</term>
-    <term env="fed gnm moz ooo uk" gr="is">веб читач</term>
+    <term env="fed gnm moz uk" gr="is">веб читач</term>
     <term env="fed gnm" gr="is">читач веба</term>
-    <term env="fed kde moz" gr="is">веб прегледач</term>
+    <term env="fed kde ooo moz" gr="is">веб прегледач</term>
     <term env="gnm" gr="is">веб прегледник</term>
     <term env="gnm" gr="is">прегледник интернета</term>
-    <term env="ooo" gr="is">интернет прегледник</term>
     <term env="id" gr="is">веб браузер</term>
 
     <details root="wpsr" rel="Браузер"/>

@@ -205,10 +205,10 @@
     <!-- @упути: internet filebrowser directorytree -->
 
     <term lang="en" gr="i">browser</term>
-    <term env="fed gnm moz ooo" gr="i">читач</term>
-    <term env="fed gnm kde uk" gr="i">прегледач</term>
+    <term env="fed gnm moz" gr="i">читач</term>
+    <term env="fed gnm kde ooo uk" gr="i">прегледач</term>
     <term env="fed" gr="i">претраживач</term>
-    <term env="gnm" gr="i">разгледач</term>
+    <term env="gnm ooo" gr="i">разгледач</term>
     <term env="id" gr="i">браузер</term>
 
     <comment>Многа окружења не користе јединствену реч за овај појам, већ различите речи у оквиру синтагме према потпојму (нпр. „веб читач“, али „разгледач датотека“).</comment>
