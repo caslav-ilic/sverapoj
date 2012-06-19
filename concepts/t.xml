@@ -6,8 +6,9 @@
     <desc><ref c="widget">~Виџет|gnm:Елемент|fed:Графички додатак~</ref> за пребацивање између отворених докумената у <ref c="application">програму</ref> (нпр. <ref c="webpage">~веб страница|moz:веб страна~</ref> у <ref c="webbrowser">~веб читачу|kde:веб прегледачу~</ref>), као и за груписање других <ref c="widget">~виџета|gnm:елемената|fed:графичких додатака~</ref> у логичке целине (нпр. сродних <ref c="setting">поставки</ref> у <ref c="configurationdialog">~прозорчету|kde:дијалогу|moz:прозору~ за подешавање</ref>).</desc>
 
     <term lang="en" gr="i">tab</term>
-    <term env="gnm pr" gr="i">језичак</term>
+    <term env="gnm moz pr" gr="i">језичак</term>
     <term env="gnm" gr="i">лист</term>
+    <term env="ooo" gr="i">картица</term>
 
     <details root="wpen" rel="Tab_(GUI)"/>
 </concept>
