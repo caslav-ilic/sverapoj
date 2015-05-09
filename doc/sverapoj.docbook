@@ -80,9 +80,9 @@
 <sect2 id="s-techne-repo">
     <title>Ризница</title>
 
-    <para>Главна гитовска ризница Појмовника налази се на <ulink url="http://gitorious.org/projects/sverapoj">Гиторијусу</ulink>, и може се <emphasis>клонирати</emphasis> овако:
+    <para>Главна гитовска ризница Појмовника налази се на <ulink url="https://github.com/caslav-ilic/sverapoj">Гитхабу</ulink>, и може се <emphasis>клонирати</emphasis> овако:
     <programlisting><![CDATA[
-$ git clone git://gitorious.org/sverapoj/mainline.git sverapoj
+$ git clone https://github.com/caslav-ilic/sverapoj.git
 ]]></programlisting>
     Ова наредба ће саградити локалну ризницу у директоријуму <filename>sverapoj/</filename>, са целокупним садржајем и историјатом измена, после чега се може приступити уређивању Појмовника.</para>
 
@@ -101,7 +101,7 @@ $ git diff --color-words <остале-опције> | less -r
 
     <para>Посебно скројене скрипте за обраду диверглоса, ИксМЛ-а којим је писан Појмовник, такође се држе у гитовској ризници, али засебној од Појмовникове:
     <programlisting><![CDATA[
-$ git clone git://gitorious.org/divergloss/mainline.git
+$ git clone https://github.com/caslav-ilic/sverapoj.git
 ]]></programlisting>
     Пошто се клонира, потребно је изградити српски превод и поставити путању до извршних датотека:
     <programlisting><![CDATA[
