@@ -19,8 +19,9 @@
 
     <term lang="en" gr="is">icon theme</term>
     <!-- изведено за: moz ooo -->
-    <term env="fed gnm kde ooo uk" gr="is">тема икона</term>
+    <term env="fed gnm ooo uk" gr="is">тема икона</term>
     <term env="gnm" gr="is">тема за иконе</term>
+    <term env="kde" gr="is">тема иконица</term>
     <term env="moz" gr="is">тема сличица</term>
 </concept>
 
