@@ -7,9 +7,9 @@
     <!-- @упути: mouse -->
 
     <term lang="en" gr="i">icon</term>
-    <term env="fed gnm kde ooo uk" gr="i">икона</term>
+    <term env="fed gnm ooo uk" gr="i">икона</term>
     <term env="moz" gr="i">сличица</term>
-    <term env="gnm ooo" gr="i">иконица</term>
+    <term env="gnm kde ooo" gr="i">иконица</term>
 
     <details root="wpen" rel="Icon_(computing)"/>
 </concept>
